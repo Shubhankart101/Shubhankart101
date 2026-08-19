@@ -43,13 +43,13 @@ Azure DevOps Engineer and Technical Lead with 8+ years of experience designing, 
 
 ## CORE COMPETENCIES
 
-DevOps Engineering | Azure DevOps | CI/CD Pipelines | Release Engineering | Infrastructure as Code | Cloud Infrastructure | Cloud Automation | Configuration Management | Ansible Automation | Terraform | Continuous Integration | Continuous Delivery | Continuous Testing | Deployment Automation | Production Support | Incident Management | Level 3 Escalation | Root Cause Analysis | Monitoring and Observability | Security and Governance | Customer-Facing Technical Delivery | Agile Delivery | ITIL Service Management
+DevOps Engineering | Azure DevOps | GitLab CI/CD | CI/CD Pipelines | Release Engineering | Infrastructure as Code | Cloud Infrastructure | Cloud Automation | Configuration Management | Ansible Automation | Terraform | Continuous Integration | Continuous Delivery | Continuous Testing | Deployment Automation | Production Support | Incident Management | Level 3 Escalation | Root Cause Analysis | Monitoring and Observability | Security and Governance | Customer-Facing Technical Delivery | Agile Delivery | ITIL Service Management
 
 ## TECHNICAL SKILLS
 
 - **Cloud Platforms:** Microsoft Azure, Amazon Web Services (AWS), hybrid cloud, cloud migration, cloud operations
 - **Microsoft Azure:** Azure DevOps, Azure Monitor, Application Insights, Azure Key Vault, Azure infrastructure operations, Azure platform engineering
-- **CI/CD and DevOps Tools:** Azure DevOps Pipelines, GitHub Actions, GitLab CI/CD, continuous integration, continuous delivery, release pipelines, automated testing
+- **CI/CD and DevOps Tools:** Azure DevOps Pipelines, GitHub Actions, GitLab CI/CD, GitLab runners, continuous integration, continuous delivery, release pipelines, automated testing
 - **Infrastructure as Code:** Terraform, ARM templates, AWS CloudFormation, reusable modules, provisioning, environment automation, infrastructure lifecycle management
 - **Configuration Management:** Ansible, enterprise shared roles, playbooks, role generation, standardized configuration
 - **Programming and Scripting:** Python, Bash, PowerShell, Shell scripting

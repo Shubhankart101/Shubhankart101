@@ -4,7 +4,7 @@
 
 I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansible, cloud automation, and production-focused engineering.
 
-**8+ years · Azure · AWS · Azure DevOps · GitHub Actions · Terraform · Ansible · Docker · Kubernetes**
+**8+ years · Azure · AWS · Azure DevOps · GitHub Actions · GitLab CI/CD · Terraform · Ansible · Docker · Kubernetes**
 
 <p align="center">
 	<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=63B3ED&center=true&vCenter=true&width=760&lines=Cloud+delivery+that+works+in+the+real+world;Infrastructure+as+code+%7C+CI%2FCD+%7C+automation;Building+toward+Microsoft+Forward+Deployment+Engineering" alt="Typing animation">
@@ -109,6 +109,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 	<a href="https://www.terraform.io/"><img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"></a>
 	<a href="https://www.ansible.com/"><img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible"></a>
 	<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
+	<a href="https://about.gitlab.com/"><img src="https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI/CD"></a>
 	<a href="https://azure.microsoft.com/products/devops"><img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps"></a>
 	<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
 	<a href="https://kubernetes.io/"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>

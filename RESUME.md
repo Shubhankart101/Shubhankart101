@@ -6,7 +6,25 @@
 
 New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 
-[LinkedIn](https://www.linkedin.com/in/shubhankarthapliyal) | [GitHub](https://github.com/Shubhankart101) | [X](https://x.com/Shubhankar71721)
+[![Email](https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhankar.thapliyal@gmail.com)
+[![Call](https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white)](tel:+919760624933)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Shubhankar71721)
+
+<details open>
+<summary><strong>Resume contents</strong></summary>
+
+- [Professional Summary](#professional-summary)
+- [Core Competencies](#core-competencies)
+- [Technical Skills](#technical-skills)
+- [Professional Experience](#professional-experience)
+- [Certifications](#certifications)
+- [Education](#education)
+- [Selected Projects](#selected-projects)
+- [Professional Target](#professional-target)
+
+</details>
 
 ## PROFESSIONAL SUMMARY
 
@@ -96,11 +114,25 @@ CBSE, English | 2011
 
 ## SELECTED PROJECTS
 
-- **DevTrack:** Python and Django issue-tracking API with REST-style endpoints, JSON persistence, automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console. [Repository](https://github.com/Shubhankart101/DevTrack)
-- **EventHub:** Recently updated Python repository for event-driven application experimentation. [Repository](https://github.com/Shubhankart101/EventHub)
-- **WEB_API_L3:** C# Web API project focused on advanced service and API design. [Repository](https://github.com/Shubhankart101/WEB_API_L3)
-- **WEB_API_L1:** C# Web API project focused on foundational service engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L1)
-- **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L2)
+- **DevTrack:** Python and Django issue-tracking API with REST-style endpoints, JSON persistence, automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console.
+
+	[![View repository](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
+
+- **EventHub:** Recently updated Python repository for event-driven application experimentation.
+
+	[![View repository](https://img.shields.io/badge/View%20repository-EventHub-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/EventHub)
+
+- **WEB_API_L3:** C# Web API project focused on advanced service and API design.
+
+	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L3-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L3)
+
+- **WEB_API_L1:** C# Web API project focused on foundational service engineering.
+
+	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L1-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L1)
+
+- **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering.
+
+	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L2-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L2)
 
 ## PROFESSIONAL TARGET
 

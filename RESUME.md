@@ -1,5 +1,9 @@
 # Shubhankar Thapliyal
 
+<p align="center">
+	<img src="profile_image.jpg" width="220" alt="Shubhankar Thapliyal profile photo">
+</p>
+
 New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 
 [LinkedIn](https://www.linkedin.com/in/shubhankarthapliyal) | [GitHub](https://github.com/Shubhankart101) | [X](https://x.com/Shubhankar71721)

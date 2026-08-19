@@ -78,13 +78,6 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 	<a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"></a>
 </p>
 
-## GitHub Snapshot
-
-<p>
-	<img src="https://github-readme-stats.vercel.app/api?username=Shubhankart101&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics" height="170">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubhankart101&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" height="170">
-</p>
-
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)

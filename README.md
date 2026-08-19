@@ -70,21 +70,29 @@ I am currently progressing toward becoming a certified Microsoft Forward Deploym
 - HashiCorp Certified: Terraform Associate (003)
 - Microsoft Certified: Agentic AI Business Solutions Architect
 
-## Featured Project
+## Top Projects
 
-### DevTrack
+### 1. DevTrack - API and Delivery Platform
 
-A Django-based issue-tracking API with:
+A Django-based issue-tracking API with automated testing, GitHub Actions pipelines, Terraform-managed Azure infrastructure, and a local Swagger-style API console.
 
-- REST-style reporter and issue endpoints
-- JSON-backed persistence
-- Automated tests and validation
-- GitHub Actions workflows for pull-request checks and extended scenarios
-- Terraform modules for Azure Web App infrastructure
-- Optional Azure-hosted GitHub Actions runner infrastructure
-- A local Swagger-style API console for request and JSON response testing
+[Explore DevTrack](https://github.com/Shubhankart101/DevTrack)
 
-[Explore the DevTrack project](https://github.com/Shubhankart101/DevTrack)
+### 2. Enterprise Ansible Automation Platform
+
+Enterprise-grade shared Ansible roles and automation standards for consistent configuration management across Azure and AWS environments.
+
+### 3. GenAI-Powered Ansible Generator
+
+An enterprise automation platform that accelerates the creation of compliant Ansible playbooks and roles while supporting organizational standards.
+
+### 4. Hybrid Cloud Infrastructure Automation
+
+Terraform- and Ansible-driven infrastructure lifecycle automation across Microsoft Azure and AWS, focused on repeatable provisioning, governance, and operational consistency.
+
+### 5. CI/CD and Release Engineering Platform
+
+Azure DevOps, GitHub Actions, and GitLab CI/CD pipelines for continuous testing, secure deployment, automation-asset delivery, and improved release efficiency.
 
 ## How I Approach Engineering
 

@@ -75,20 +75,13 @@ flowchart LR
 
 ## 🚀 Featured Repositories
 
-```mermaid
-flowchart TD
-	P[Featured engineering work]
-	P --> D[DevTrack<br/>Python + Django + Azure]
-	P --> H[EventHub<br/>Python + GitHub Pages]
-	P --> L3[WEB_API_L3<br/>C# + .NET]
-	P --> L1[WEB_API_L1<br/>C# + .NET]
-	P --> L2[WEB_API_L2<br/>C# + .NET]
-	click D "https://github.com/Shubhankart101/DevTrack" "Open DevTrack"
-	click H "https://github.com/Shubhankart101/EventHub" "Open EventHub"
-	click L3 "https://github.com/Shubhankart101/WEB_API_L3" "Open WEB_API_L3"
-	click L1 "https://github.com/Shubhankart101/WEB_API_L1" "Open WEB_API_L1"
-	click L2 "https://github.com/Shubhankart101/WEB_API_L2" "Open WEB_API_L2"
-```
+<p align="center">
+	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
+	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>
+</p>
 
 ## 🎯 Current Direction
 

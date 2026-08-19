@@ -13,7 +13,15 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/github/stars/Shubhankart101/DevTrack?style=for-the-badge&logo=github&label=DevTrack%20stars" alt="DevTrack stars"></a>
 	<a href="https://github.com/Shubhankart101?tab=followers"><img src="https://img.shields.io/github/followers/Shubhankart101?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers"></a>
+	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/github/repos/Shubhankart101?style=for-the-badge&logo=github&label=Public%20repos" alt="Public repositories"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack/commits/main"><img src="https://img.shields.io/github/last-commit/Shubhankart101/DevTrack?style=for-the-badge&logo=github&label=Latest%20DevTrack%20commit" alt="Latest DevTrack commit"></a>
 </p>
+
+<p align="center">
+	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/devtrack-code-loop.gif" width="560" alt="DevTrack pipeline animation"></a>
+</p>
+
+<p align="center"><a href="https://github.com/Shubhankart101/DevTrack/actions">Open the live DevTrack pipeline runs</a> · <a href="https://github.com/Shubhankart101?tab=repositories">Browse all repositories</a></p>
 
 ## Featured Repositories
 
@@ -77,6 +85,21 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 	<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
 	<a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"></a>
 </p>
+
+## Fun Corner
+
+<details open>
+<summary><strong>One small deployment joke</strong></summary>
+
+> Why did the pipeline bring a flashlight to production?
+>
+> Because it wanted better observability.
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/pipeline-success.gif" width="420" alt="Pipeline success celebration">
+</p>
+
+</details>
 
 ## Connect
 

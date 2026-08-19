@@ -23,6 +23,23 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 <p align="center"><a href="https://github.com/Shubhankart101/DevTrack/actions">Open the live DevTrack pipeline runs</a> · <a href="https://github.com/Shubhankart101?tab=repositories">Browse all repositories</a></p>
 
+<p align="center">
+	<a href="mailto:shubhankar.thapliyal@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shubhankar"></a>
+	<a href="tel:+919760624933"><img src="https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white" alt="Call Shubhankar"></a>
+</p>
+
+## DevOps Delivery Cycle
+
+<p align="center">
+	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/office.gif" width="180" alt="Plan and collaborate"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/bounce-dwight.gif" width="180" alt="Build and test"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/great-job.gif" width="180" alt="Deploy successfully"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack/issues"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/eyebrow-raise-dwight.gif" width="180" alt="Monitor and review"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/tired-office.gif" width="180" alt="Improve and repeat"></a>
+</p>
+
+<p align="center"><sub>Plan -> Build -> Test -> Deploy -> Monitor -> Improve</sub></p>
+
 ## Featured Repositories
 
 [![View DevTrack](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)

@@ -40,7 +40,20 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 <p align="center"><sub>Plan -> Build -> Test -> Deploy -> Monitor -> Improve</sub></p>
 
-## Featured Repositories
+<details>
+<summary><strong>🧭 Quick navigation</strong></summary>
+
+- [🚀 Featured Repositories](#-featured-repositories)
+- [🎯 Current Direction](#-current-direction)
+- [📈 Highlights](#-highlights)
+- [🧰 Technology Stack](#-technology-stack)
+- [🎉 Fun Corner](#-fun-corner)
+- [🤝 Connect](#-connect)
+- [📄 ATS Resume](RESUME.md)
+
+</details>
+
+## 🚀 Featured Repositories
 
 [![View DevTrack](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
 
@@ -52,7 +65,7 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 [![View WEB_API_L2](https://img.shields.io/badge/View%20repository-WEB_API_L2-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L2)
 
-## Current Direction
+## 🎯 Current Direction
 
 Moving toward Microsoft Forward Deployment Engineering by combining Azure delivery expertise with customer-focused implementation, production troubleshooting, operational readiness, and practical technical problem solving.
 
@@ -68,7 +81,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 
 </details>
 
-## Highlights
+## 📈 Highlights
 
 - Improved infrastructure deployment speed by **35%** through Terraform and automation.
 - Reduced complex production issue resolution time by **25%** through Level 3 escalation and troubleshooting.
@@ -88,7 +101,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 
 </details>
 
-## Technology Stack
+## 🧰 Technology Stack
 
 <p>
 	<a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure"></a>
@@ -103,7 +116,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 	<a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"></a>
 </p>
 
-## Fun Corner
+## 🎉 Fun Corner
 
 <details open>
 <summary><strong>One small deployment joke</strong></summary>
@@ -118,7 +131,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 
 </details>
 
-## Connect
+## 🤝 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)

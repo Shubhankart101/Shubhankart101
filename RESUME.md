@@ -1,8 +1,15 @@
+<table>
+<tr>
+<td width="28%" align="left" valign="top">
+<img src="profile_image.jpg" width="220" alt="Shubhankar Thapliyal profile photo">
+</td>
+<td width="72%" align="center" valign="middle">
+
 # Shubhankar Thapliyal
 
-<p align="center">
-	<img src="profile_image.jpg" width="220" alt="Shubhankar Thapliyal profile photo">
-</p>
+### Azure DevOps Engineer | Technical Lead
+
+#### Aspiring Microsoft Forward Deployment Engineer
 
 New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 
@@ -11,6 +18,10 @@ New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)
 [![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Shubhankar71721)
+
+</td>
+</tr>
+</table>
 
 <details open>
 <summary><strong>Resume contents</strong></summary>

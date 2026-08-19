@@ -80,6 +80,8 @@ A Python and Django issue-tracking API with automated testing, GitHub Actions pi
 
 [![View DevTrack](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
 
+[![Open DevTrack](https://img.shields.io/badge/Open%20project-DevTrack-78d89a?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
+
 ### EventHub
 
 A recently updated Python repository focused on building and experimenting with event-driven application capabilities.
@@ -110,8 +112,8 @@ I value automation that is understandable, infrastructure that is reproducible, 
 
 ## Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/shubhankarthapliyal)
-- [GitHub](https://github.com/Shubhankart101)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)
 
 ---
 

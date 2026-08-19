@@ -39,7 +39,7 @@ New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 
 ## PROFESSIONAL SUMMARY
 
-Azure DevOps Engineer and Technical Lead with 8+ years of experience designing, automating, and operating cloud infrastructure and software delivery platforms across Microsoft Azure and Amazon Web Services (AWS). Experienced in Azure DevOps, GitHub Actions, GitLab CI/CD, Django, Terraform, Ansible, ARM templates, CloudFormation, Docker, Kubernetes, Python, Bash, and PowerShell. Proven record of improving deployment speed by 35% and production resolution time by 25%. Strong background in infrastructure as code, configuration management, CI/CD, release engineering, cloud security, monitoring, incident management, technical escalation, and cross-functional delivery. Building toward a Microsoft Forward Deployment Engineer career focused on customer-facing implementation, technical problem solving, production readiness, and successful deployment of Microsoft solutions.
+Azure DevOps Engineer and Technical Lead with 8+ years of experience designing, automating, and operating cloud infrastructure and software delivery platforms across Microsoft Azure and Amazon Web Services (AWS). Experienced in Azure DevOps, GitHub Actions, GitLab CI/CD, Django, .NET, Terraform, Ansible, ARM templates, CloudFormation, Docker, Kubernetes, Python, Bash, and PowerShell. Proven record of improving deployment speed by 35% and production resolution time by 25%. Strong background in infrastructure as code, configuration management, CI/CD, release engineering, cloud security, monitoring, incident management, technical escalation, and cross-functional delivery. Building toward a Microsoft Forward Deployment Engineer career focused on customer-facing implementation, technical problem solving, production readiness, and successful deployment of Microsoft solutions.
 
 ## CORE COMPETENCIES
 
@@ -52,9 +52,9 @@ DevOps Engineering | Azure DevOps | GitLab CI/CD | CI/CD Pipelines | Release Eng
 - **CI/CD and DevOps Tools:** Azure DevOps Pipelines, GitHub Actions, GitLab CI/CD, GitLab runners, continuous integration, continuous delivery, release pipelines, automated testing
 - **Infrastructure as Code:** Terraform, ARM templates, AWS CloudFormation, reusable modules, provisioning, environment automation, infrastructure lifecycle management
 - **Configuration Management:** Ansible, enterprise shared roles, playbooks, role generation, standardized configuration
-- **Programming and Web Frameworks:** Python, Django, Bash, PowerShell, Shell scripting
+- **Programming and Web Frameworks:** Python, Django, .NET, C#, Bash, PowerShell, Shell scripting
 - **Containers and Platforms:** Docker, Kubernetes, Linux, Hyper-V, VMware
-- **Monitoring and Reliability:** Azure Monitor, Application Insights, AWS CloudWatch, performance optimization, load balancing, high availability
+- **Monitoring and Reliability:** Azure Monitor, Application Insights, AWS CloudWatch, Grafana, Datadog, performance optimization, load balancing, high availability
 - **Security:** Azure Key Vault, AWS Secrets Manager, secrets management, governance, secure deployment practices
 - **Data and Networking:** SQL, MongoDB, routing, switching, VPC, virtualization, database administration
 - **Delivery and Operations:** Azure Boards, Jira, Agile, ITIL, incident management, change management, SLA management, KPI tracking, technical escalation

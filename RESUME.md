@@ -1,83 +1,103 @@
 # Shubhankar Thapliyal
 
-## Azure DevOps Engineer | Technical Lead | Future Microsoft Forward Deployment Engineer
+New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 
-Technical Lead with 8+ years of experience designing and delivering cloud-agnostic DevOps solutions across Microsoft Azure and AWS. Experienced in cloud infrastructure, CI/CD, automation, configuration management, containers, monitoring, security, and production support.
+[LinkedIn](https://www.linkedin.com/in/shubhankarthapliyal) | [GitHub](https://github.com/Shubhankart101) | [X](https://x.com/Shubhankar71721)
 
-Currently progressing toward becoming a certified Microsoft Forward Deployment Engineer, with a focus on customer-facing technical delivery, production troubleshooting, operational readiness, and translating complex requirements into practical outcomes.
+## PROFESSIONAL SUMMARY
 
-## Core Expertise
+Azure DevOps Engineer and Technical Lead with 8+ years of experience designing, automating, and operating cloud infrastructure and software delivery platforms across Microsoft Azure and Amazon Web Services (AWS). Experienced in Azure DevOps, GitHub Actions, GitLab CI/CD, Terraform, Ansible, ARM templates, CloudFormation, Docker, Kubernetes, Python, Bash, and PowerShell. Proven record of improving deployment speed by 35% and production resolution time by 25%. Strong background in infrastructure as code, configuration management, CI/CD, release engineering, cloud security, monitoring, incident management, technical escalation, and cross-functional delivery. Building toward a Microsoft Forward Deployment Engineer career focused on customer-facing implementation, technical problem solving, production readiness, and successful deployment of Microsoft solutions.
 
-- **Cloud:** Microsoft Azure, AWS
-- **DevOps:** Azure DevOps, GitHub Actions, GitLab CI/CD
-- **Infrastructure as Code:** Terraform, ARM templates, CloudFormation
-- **Automation:** Ansible, Python, Bash, PowerShell
-- **Containers:** Docker, Kubernetes
-- **Reliability:** Azure Monitor, Application Insights, AWS CloudWatch
-- **Security:** Azure Key Vault, AWS Secrets Manager, secure delivery practices
-- **Platforms:** Linux, Hyper-V, VMware, networking, databases, load balancing
-- **Delivery:** Agile, Azure Boards, Jira, ITIL, incident and escalation management
+## CORE COMPETENCIES
 
-## What I Build
+DevOps Engineering | Azure DevOps | CI/CD Pipelines | Release Engineering | Infrastructure as Code | Cloud Infrastructure | Cloud Automation | Configuration Management | Ansible Automation | Terraform | Continuous Integration | Continuous Delivery | Continuous Testing | Deployment Automation | Production Support | Incident Management | Level 3 Escalation | Root Cause Analysis | Monitoring and Observability | Security and Governance | Customer-Facing Technical Delivery | Agile Delivery | ITIL Service Management
 
-- Reusable CI/CD pipelines for secure and repeatable delivery
-- Terraform-based cloud infrastructure and environment automation
-- Enterprise Ansible roles and shared automation standards
-- Hybrid Azure and AWS platforms with operational consistency
-- Deployment workflows with testing, validation, observability, and recovery paths
-- Automation platforms that help teams deliver compliant infrastructure faster
+## TECHNICAL SKILLS
 
-## Professional Experience
+- **Cloud Platforms:** Microsoft Azure, Amazon Web Services (AWS), hybrid cloud, cloud migration, cloud operations
+- **Microsoft Azure:** Azure DevOps, Azure Monitor, Application Insights, Azure Key Vault, Azure infrastructure operations, Azure platform engineering
+- **CI/CD and DevOps Tools:** Azure DevOps Pipelines, GitHub Actions, GitLab CI/CD, continuous integration, continuous delivery, release pipelines, automated testing
+- **Infrastructure as Code:** Terraform, ARM templates, AWS CloudFormation, reusable modules, provisioning, environment automation, infrastructure lifecycle management
+- **Configuration Management:** Ansible, enterprise shared roles, playbooks, role generation, standardized configuration
+- **Programming and Scripting:** Python, Bash, PowerShell, Shell scripting
+- **Containers and Platforms:** Docker, Kubernetes, Linux, Hyper-V, VMware
+- **Monitoring and Reliability:** Azure Monitor, Application Insights, AWS CloudWatch, performance optimization, load balancing, high availability
+- **Security:** Azure Key Vault, AWS Secrets Manager, secrets management, governance, secure deployment practices
+- **Data and Networking:** SQL, MongoDB, routing, switching, VPC, virtualization, database administration
+- **Delivery and Operations:** Azure Boards, Jira, Agile, ITIL, incident management, change management, SLA management, KPI tracking, technical escalation
 
-### Technical Lead | Wipro | Aug 2025 - Present
+## PROFESSIONAL EXPERIENCE
 
-- Designed enterprise Ansible shared roles for consistent configuration management across Azure and AWS.
-- Managed infrastructure lifecycles with Terraform and automation-driven implementations, improving deployment speed by 35%.
-- Delivered GitLab CI/CD pipelines for continuous testing and deployment of automation assets.
-- Maintained a GenAI-powered Ansible Generator platform used to accelerate playbook and role creation.
-- Served as a Level 3 escalation point for complex production issues, reducing resolution time by 25%.
+### Wipro - Technical Lead
 
-### DevOps Engineer | AAPC | May 2021 - Aug 2025
+August 2025 - Present
 
-- Designed and managed Azure DevOps and GitHub-based CI/CD pipelines.
-- Automated infrastructure provisioning with Terraform and configuration management with Ansible.
-- Implemented Docker and Kubernetes delivery patterns for scalable applications.
-- Built secure and cost-aware cloud environments across Azure and AWS.
-- Developed Bash and PowerShell automation to streamline operational workflows.
-- Implemented monitoring, load balancing, and performance optimization for high availability.
+- Designed and engineered enterprise-grade Ansible shared roles to standardize configuration management across Microsoft Azure and AWS environments.
+- Managed the end-to-end infrastructure lifecycle using Terraform and automation-driven implementations, improving deployment speed by 35%.
+- Leveraged GitLab CI/CD pipelines to automate continuous testing and deployment of automation assets across hybrid cloud infrastructures.
+- Maintained and enhanced a GenAI-powered Ansible Generator platform used enterprise-wide by U.S. Bank to automate Ansible playbook and role creation.
+- Improved automation delivery consistency and compliance by supporting organizational Ansible standards and reusable engineering patterns.
+- Acted as a Level 3 escalation point and provided on-call support for complex production incidents, reducing resolution time by 25%.
+- Collaborated with development, QA, cloud, and operations teams to troubleshoot failures and deliver reliable automation solutions.
 
-### Engineer - Networking | Mindtree Limited | Apr 2018 - May 2021
+### AAPC - DevOps Engineer
 
-- Supported Azure and AWS infrastructure operations, networking, virtualization, and load balancing.
-- Contributed to Azure DevOps Engineering Operations and Azure platform maintenance.
-- Automated operational tasks with Python and shell scripting.
-- Worked with SQL, MongoDB, Linux, Hyper-V, and VMware environments.
-- Supported ITIL incident, change, and service-management processes.
+May 2021 - August 2025
 
-## Certifications
+- Designed, implemented, and managed CI/CD pipelines using Azure DevOps and GitHub to improve software release efficiency.
+- Automated infrastructure provisioning with Terraform and configuration management with Ansible across Azure and AWS environments.
+- Implemented Docker containerization and Kubernetes orchestration patterns for scalable application delivery.
+- Built secure, reliable, and cost-effective cloud environments using Microsoft Azure and AWS services.
+- Developed Bash and PowerShell automation scripts to reduce manual operational effort and streamline delivery workflows.
+- Managed Linux systems, virtualization platforms, databases, and cloud infrastructure for performance and operational stability.
+- Implemented monitoring, load balancing, and performance optimization practices to support high availability.
+- Collaborated with cross-functional engineering teams to automate software development lifecycle processes and improve delivery speed.
 
-- Microsoft Certified: DevOps Engineer Expert
-- Microsoft Certified: Azure Solutions Architect Expert
-- Microsoft Certified: Azure Administrator Associate
+### Mindtree Limited - Engineer, Networking
+
+April 2018 - May 2021
+
+- Supported Azure and AWS infrastructure operations, routing, switching, VPC, load balancing, virtualization, and Linux environments.
+- Contributed to Azure DevOps Engineering Operations and platform maintenance activities.
+- Supported ASI Azure projects, including Data Bridge, Data Lab, and FMC environments.
+- Maintained and enhanced Azure-based platforms for Aberdeen Standard Investments.
+- Developed automation scripts using Python and Shell scripting for infrastructure and operations tasks.
+- Worked with SQL and MongoDB for data handling, integration, and database administration activities.
+- Supported ITIL processes for incident management, change management, and service management.
+- Analyzed existing systems and recommended process improvements for efficiency and reliability.
+
+## CERTIFICATIONS
+
+- Microsoft Certified: DevOps Engineer Expert - valid through 2027
+- Microsoft Certified: Azure Solutions Architect Expert - valid through 2027
+- Microsoft Certified: Azure Administrator Associate - valid through 2027
 - Microsoft Certified: Azure Fundamentals
-- Microsoft Certified: Machine Learning Operations Engineer Associate
-- HashiCorp Certified: Terraform Associate (003)
-- Microsoft Certified: Agentic AI Business Solutions Architect
+- Microsoft Certified: Machine Learning Operations Engineer Associate - valid through 2027
+- HashiCorp Certified: Terraform Associate (003) - valid through 2028
+- Microsoft Certified: Agentic AI Business Solutions Architect - valid through 2027
 
-## Featured Repositories
+## EDUCATION
 
-- [DevTrack](https://github.com/Shubhankart101/DevTrack) - Django API, GitHub Actions, Terraform, Azure infrastructure, and a local API console.
-- [EventHub](https://github.com/Shubhankart101/EventHub) - Recently updated Python repository for event-driven application experimentation.
-- [WEB_API_L3](https://github.com/Shubhankart101/WEB_API_L3) - C# Web API project focused on advanced service and API design.
-- [WEB_API_L1](https://github.com/Shubhankart101/WEB_API_L1) - C# Web API project focused on foundational service engineering.
-- [WEB_API_L2](https://github.com/Shubhankart101/WEB_API_L2) - C# Web API project focused on progressing backend implementation skills.
+### Bachelor of Technology / Bachelor of Engineering
 
-## Engineering Approach
+University of Petroleum and Energy Studies, Dehradun | 2017
 
-I value automation that is understandable, infrastructure that is reproducible, delivery pipelines that are observable, and solutions that work for the people operating them. My goal is not only to deploy systems, but to help teams adopt reliable ways of working and deliver measurable outcomes for customers.
+### Senior Secondary Education
 
-## Contact
+CBSE, English | 2013
 
-- [LinkedIn](https://www.linkedin.com/in/shubhankarthapliyal)
-- [GitHub](https://github.com/Shubhankart101)
-- [X](https://x.com/Shubhankar71721)
+### Secondary Education
+
+CBSE, English | 2011
+
+## SELECTED PROJECTS
+
+- **DevTrack:** Python and Django issue-tracking API with REST-style endpoints, JSON persistence, automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console. [Repository](https://github.com/Shubhankart101/DevTrack)
+- **EventHub:** Recently updated Python repository for event-driven application experimentation. [Repository](https://github.com/Shubhankart101/EventHub)
+- **WEB_API_L3:** C# Web API project focused on advanced service and API design. [Repository](https://github.com/Shubhankart101/WEB_API_L3)
+- **WEB_API_L1:** C# Web API project focused on foundational service engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L1)
+- **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L2)
+
+## PROFESSIONAL TARGET
+
+Microsoft Forward Deployment Engineer focused on customer-facing technical delivery, Azure solution implementation, production troubleshooting, deployment readiness, stakeholder collaboration, and translating business requirements into reliable Microsoft cloud solutions.

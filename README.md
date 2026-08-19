@@ -166,5 +166,3 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 </details>
 
 ---
-
-[View the detailed ATS resume](RESUME.md)

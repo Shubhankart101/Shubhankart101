@@ -40,15 +40,9 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 ## DevOps Delivery Cycle
 
-```mermaid
-flowchart LR
-	A[Plan] --> B[Build]
-	B --> C[Test]
-	C --> D[Deploy]
-	D --> E[Monitor]
-	E --> F[Improve]
-	F --> A
-```
+<p align="center">
+	<img src="devops-methodology-loop.gif" width="760" alt="Animated DevOps methodology loop: plan, code, build, test, release, deploy, operate, improve">
+</p>
 
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/office.gif" width="180" alt="Plan and collaborate"></a>

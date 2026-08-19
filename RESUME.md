@@ -33,7 +33,7 @@ DevOps Engineering | Azure DevOps | CI/CD Pipelines | Release Engineering | Infr
 August 2025 - Present
 
 - Designed and engineered enterprise-grade Ansible shared roles to standardize configuration management across Microsoft Azure and AWS environments.
-- Managed the end-to-end infrastructure lifecycle using Terraform and automation-driven implementations, improving deployment speed by 35%.
+- Managed the end-to-end infrastructure lifecycle using Terraform and dconf-driven implementations, improving deployment speed by 35%.
 - Leveraged GitLab CI/CD pipelines to automate continuous testing and deployment of automation assets across hybrid cloud infrastructures.
 - Maintained and enhanced a GenAI-powered Ansible Generator platform used enterprise-wide by U.S. Bank to automate Ansible playbook and role creation.
 - Improved automation delivery consistency and compliance by supporting organizational Ansible standards and reusable engineering patterns.

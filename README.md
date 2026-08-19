@@ -11,10 +11,9 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 </p>
 
 <p align="center">
-	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/github/stars/Shubhankart101/DevTrack?style=for-the-badge&logo=github&label=DevTrack%20stars" alt="DevTrack stars"></a>
-	<a href="https://github.com/Shubhankart101?tab=followers"><img src="https://img.shields.io/github/followers/Shubhankart101?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers"></a>
-	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/github/repos/Shubhankart101?style=for-the-badge&logo=github&label=Public%20repos" alt="Public repositories"></a>
-	<a href="https://github.com/Shubhankart101/DevTrack/commits/main"><img src="https://img.shields.io/github/last-commit/Shubhankart101/DevTrack?style=for-the-badge&logo=github&label=Latest%20DevTrack%20commit" alt="Latest DevTrack commit"></a>
+	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FShubhankart101&query=%24.public_repos&label=Public%20repositories&color=1f6feb&style=for-the-badge&logo=github" alt="Public repositories"></a>
+	<a href="https://github.com/Shubhankart101?tab=followers"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FShubhankart101&query=%24.followers&label=Followers&color=2ea44f&style=for-the-badge&logo=github" alt="GitHub followers"></a>
+	<a href="https://github.com/Shubhankart101?tab=overview"><img src="https://img.shields.io/badge/All%20project%20activity-View-6f42c1?style=for-the-badge&logo=github" alt="View all project activity"></a>
 </p>
 
 <p align="center">

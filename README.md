@@ -78,31 +78,31 @@ These are my five most recently worked-on public repositories, excluding this pr
 
 A Python and Django issue-tracking API with automated testing, GitHub Actions pipelines, Terraform-managed Azure infrastructure, and a local Swagger-style API console.
 
-[Explore DevTrack](https://github.com/Shubhankart101/DevTrack)
+[![View DevTrack](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
 
 ### EventHub
 
 A recently updated Python repository focused on building and experimenting with event-driven application capabilities.
 
-[Explore EventHub](https://github.com/Shubhankart101/EventHub)
+[![View EventHub](https://img.shields.io/badge/View%20repository-EventHub-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/EventHub)
 
 ### WEB_API_L3
 
 A recently updated C# Web API project representing advanced API development and service design work.
 
-[Explore WEB_API_L3](https://github.com/Shubhankart101/WEB_API_L3)
+[![View WEB_API_L3](https://img.shields.io/badge/View%20repository-WEB_API_L3-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L3)
 
 ### WEB_API_L1
 
 A C# Web API project focused on foundational service and API engineering practices.
 
-[Explore WEB_API_L1](https://github.com/Shubhankart101/WEB_API_L1)
+[![View WEB_API_L1](https://img.shields.io/badge/View%20repository-WEB_API_L1-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L1)
 
 ### WEB_API_L2
 
 A C# Web API project focused on progressing API implementation and backend engineering skills.
 
-[Explore WEB_API_L2](https://github.com/Shubhankart101/WEB_API_L2)
+[![View WEB_API_L2](https://img.shields.io/badge/View%20repository-WEB_API_L2-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L2)
 
 ## How I Approach Engineering
 

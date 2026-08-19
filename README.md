@@ -20,12 +20,18 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/devtrack-code-loop.gif" width="560" alt="DevTrack pipeline animation"></a>
 </p>
 
-<p align="center"><a href="https://github.com/Shubhankart101/DevTrack/actions">Open the live DevTrack pipeline runs</a> · <a href="https://github.com/Shubhankart101?tab=repositories">Browse all repositories</a></p>
+<p align="center">
+	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://img.shields.io/badge/Open%20pipeline%20runs-DevTrack-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Open DevTrack pipeline runs"></a>
+	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/badge/Browse%20all%20repositories-Open-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Browse all repositories"></a>
+</p>
 
 <p align="center">
-	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Project-DevTrack-1f6feb?style=for-the-badge&logo=github" alt="DevTrack project"></a>
-	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Project-EventHub-fc6d26?style=for-the-badge&logo=gitlab&logoColor=white" alt="EventHub repository"></a>
-	<a href="https://shubhankart101.github.io/EventHub/"><img src="https://img.shields.io/badge/Live%20EventHub%20Page-Open-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open EventHub live page"></a>
+	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
+	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
+	<a href="https://shubhankart101.github.io/EventHub/"><img src="https://img.shields.io/badge/Open%20EventHub%20live%20page-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open EventHub live page"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
+	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>
 </p>
 
 <p align="center">

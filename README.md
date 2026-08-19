@@ -70,29 +70,39 @@ I am currently progressing toward becoming a certified Microsoft Forward Deploym
 - HashiCorp Certified: Terraform Associate (003)
 - Microsoft Certified: Agentic AI Business Solutions Architect
 
-## Top Projects
+## Featured Projects
 
-### 1. DevTrack - API and Delivery Platform
+These are my five most recently worked-on public repositories, excluding this profile repository.
 
-A Django-based issue-tracking API with automated testing, GitHub Actions pipelines, Terraform-managed Azure infrastructure, and a local Swagger-style API console.
+### DevTrack
+
+A Python and Django issue-tracking API with automated testing, GitHub Actions pipelines, Terraform-managed Azure infrastructure, and a local Swagger-style API console.
 
 [Explore DevTrack](https://github.com/Shubhankart101/DevTrack)
 
-### 2. Enterprise Ansible Automation Platform
+### EventHub
 
-Enterprise-grade shared Ansible roles and automation standards for consistent configuration management across Azure and AWS environments.
+A recently updated Python repository focused on building and experimenting with event-driven application capabilities.
 
-### 3. GenAI-Powered Ansible Generator
+[Explore EventHub](https://github.com/Shubhankart101/EventHub)
 
-An enterprise automation platform that accelerates the creation of compliant Ansible playbooks and roles while supporting organizational standards.
+### WEB_API_L3
 
-### 4. Hybrid Cloud Infrastructure Automation
+A recently updated C# Web API project representing advanced API development and service design work.
 
-Terraform- and Ansible-driven infrastructure lifecycle automation across Microsoft Azure and AWS, focused on repeatable provisioning, governance, and operational consistency.
+[Explore WEB_API_L3](https://github.com/Shubhankart101/WEB_API_L3)
 
-### 5. CI/CD and Release Engineering Platform
+### WEB_API_L1
 
-Azure DevOps, GitHub Actions, and GitLab CI/CD pipelines for continuous testing, secure deployment, automation-asset delivery, and improved release efficiency.
+A C# Web API project focused on foundational service and API engineering practices.
+
+[Explore WEB_API_L1](https://github.com/Shubhankart101/WEB_API_L1)
+
+### WEB_API_L2
+
+A C# Web API project focused on progressing API implementation and backend engineering skills.
+
+[Explore WEB_API_L2](https://github.com/Shubhankart101/WEB_API_L2)
 
 ## How I Approach Engineering
 

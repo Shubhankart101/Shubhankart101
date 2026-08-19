@@ -59,6 +59,8 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 [![View EventHub](https://img.shields.io/badge/View%20repository-EventHub-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/EventHub)
 
+[![Open EventHub](https://img.shields.io/badge/Open%20live%20page-EventHub-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shubhankart101.github.io/EventHub/)
+
 [![View WEB_API_L3](https://img.shields.io/badge/View%20repository-WEB_API_L3-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L3)
 
 [![View WEB_API_L1](https://img.shields.io/badge/View%20repository-WEB_API_L1-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L1)

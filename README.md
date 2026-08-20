@@ -38,6 +38,11 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 	<a href="tel:+919760624933"><img src="https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white" alt="Call Shubhankar"></a>
 </p>
 
+<p align="center">
+	<a href="RESUME.md"><img src="https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>
+	<a href="https://raw.githubusercontent.com/Shubhankart101/Shubhankart101/main/RESUME.md"><img src="https://img.shields.io/badge/Download%20ATS%20resume-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Download ATS resume"></a>
+</p>
+
 ## DevOps Delivery Cycle
 
 <p align="center">

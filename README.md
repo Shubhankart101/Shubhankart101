@@ -204,9 +204,15 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <details>
 <summary><strong>More about me</strong></summary>
 
-- Based in New Delhi, India
-- Languages: English and Hindi
-- Interests: non-fiction, adventure touring, and exploring cuisines
-- Open to conversations about Azure delivery, DevOps automation, and customer-focused engineering
+I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ years of experience turning complex delivery and operations problems into reliable engineering systems.
+
+- **What I build:** cloud-agnostic platforms across Azure and AWS, with Terraform, Ansible, Docker, Kubernetes, Azure DevOps, GitHub Actions, and GitLab CI/CD.
+- **How I work:** make delivery repeatable, keep infrastructure reviewable, design for failure, and leave teams with clear runbooks and ownership.
+- **Where I add value:** platform modernization, shared automation, CI/CD enablement, production troubleshooting, governance, security, and operational readiness.
+- **Recent impact:** improved deployment speed by 35%, reduced production resolution time by 25%, and helped reduce manual automation effort by 60% through reusable tooling.
+- **Current direction:** Microsoft Forward Deployment Engineering, combining technical depth with customer-facing implementation and practical problem solving.
+- **Outside work:** technical blogging, non-fiction, horology, motorcycle restoration, adventure touring, and exploring cuisines.
+- **Languages:** English and Hindi.
+- **Open to:** conversations about Azure delivery, DevOps automation, platform engineering, and thoughtful technical leadership.
 
 </details>

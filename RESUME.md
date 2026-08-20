@@ -125,25 +125,59 @@ CBSE, English | 2011
 
 ## SELECTED PROJECTS
 
-- **DevTrack:** Python and Django issue-tracking API with REST-style endpoints, JSON persistence, automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console.
+### Ansible Playbook Generator | U.S. Bank | 12 months
 
-	[![View repository](https://img.shields.io/badge/View%20repository-DevTrack-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/DevTrack)
+- Led development of an AI-powered Ansible Playbook Generator using Python, LangGraph, Node.js, and generative AI.
+- Designed a dynamic engine to translate system requirements into reusable Ansible playbooks while managing role dependencies, validation, and error handling.
+- Integrated GitLab CI/CD pipelines and enterprise security controls for automated testing, version control, and compliance governance.
+- Reduced manual scripting effort by 60%, improved deployment accuracy by 45%, and accelerated delivery cycles by 35%.
+- Introduced self-service automation through reusable templates and intelligent recommendations.
 
-- **EventHub:** Recently updated Python repository for event-driven application experimentation.
+### Ansible Automation Team | U.S. Bank | 16 months
 
-	[![View repository](https://img.shields.io/badge/View%20repository-EventHub-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/EventHub)
+- Led enterprise automation initiatives to standardize infrastructure and application deployment across engineering teams.
+- Designed and implemented a centralized Ansible shared-role repository to improve reusability, governance, and configuration consistency.
+- Developed modular playbooks and roles for provisioning, patching, configuration management, and deployment automation.
+- Reduced manual effort by 40% and accelerated deployment speed by 35% through reusable automation workflows.
+- Integrated automation workflows into GitLab CI/CD pipelines and collaborated with cross-functional teams on scalable infrastructure operations.
 
-- **WEB_API_L3:** C# Web API project focused on advanced service and API design.
+### Novel Approaches for Data Transmission in Financial Institutions | 24 months
 
-	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L3-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L3)
+- Designed and proposed a scalable cloud-native data transmission framework using Apache Airflow and Azure Data Factory.
+- Developed automated data pipelines for secure ingestion, transformation, validation, and distribution of financial data.
+- Implemented workflow orchestration, dependency management, scheduling, and monitoring to improve data reliability and operational efficiency.
 
-- **WEB_API_L1:** C# Web API project focused on foundational service engineering.
+### ASI-CSP Azure T&M / ASI Data Bridge T&M / Azure Data Lab Support FMC | Aberdeen Standard Investments | 23 months
 
-	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L1-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L1)
+- Provided cloud operations and platform support for the Central Services Platform responsible for enterprise-wide data movement.
+- Managed Azure services, Microsoft SQL Server environments, and Azure DevOps processes to maintain platform stability and performance.
+- Conducted health assessments for 24+ applications, identified operational risks, and implemented proactive reliability improvements.
 
-- **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering.
+### Implementing DevOps Pipelines on Azure DevOps for Java and Python Repositories | 2 months
 
-	[![View repository](https://img.shields.io/badge/View%20repository-WEB_API_L2-1f6feb?style=for-the-badge&logo=github)](https://github.com/Shubhankart101/WEB_API_L2)
+- Designed and implemented end-to-end CI/CD pipelines in Azure DevOps for Java and Python applications.
+- Used Azure Repos for source control and developed deployment workflows with Classic Release Pipelines and YAML.
+- Worked with Azure App Services, deployment slots, Microsoft-hosted agents, and self-hosted agent pools to improve deployment consistency.
+
+### CI/CD Automation for PHP Web Application Using Jenkins and Docker | 1 month
+
+- Developed an automated CI/CD pipeline using Jenkins, GitHub, and Docker.
+- Configured code validation, build execution, unit testing, artifact packaging, deployment automation, and Cobertura code coverage reporting.
+- Automated Docker-based application deployment to support consistent, scalable, and repeatable releases across environments.
+
+### MS VSO Engineering Operations | Microsoft | 10 months
+
+- Delivered 24x7 operational support for Azure DevOps Services (VSTS/VSO), ensuring service availability and timely incident resolution.
+- Coordinated bridge calls during critical incidents and managed incident lifecycle activities, root cause analysis, and problem management.
+- Maintained stakeholder communications, conducted post-incident reviews, and updated service documentation.
+
+### Public GitHub Projects
+
+- **DevTrack:** Python and Django issue-tracking API with automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console. [Repository](https://github.com/Shubhankart101/DevTrack)
+- **EventHub:** Python repository for event-driven application experimentation. [Repository](https://github.com/Shubhankart101/EventHub)
+- **WEB_API_L3:** C# Web API project focused on advanced service and API design. [Repository](https://github.com/Shubhankart101/WEB_API_L3)
+- **WEB_API_L1:** C# Web API project focused on foundational service engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L1)
+- **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L2)
 
 ## PROFESSIONAL TARGET
 

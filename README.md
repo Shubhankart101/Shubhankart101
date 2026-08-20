@@ -59,12 +59,32 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 <summary><strong>🧭 Quick navigation</strong></summary>
 
 - [🚀 Featured Repositories](#-featured-repositories)
+- [🎓 Interview Readiness Tutorials](#-interview-readiness-tutorials)
 - [🎯 Current Direction](#-current-direction)
 - [📈 Highlights](#-highlights)
 - [🧰 Technology Stack](#-technology-stack)
 - [🎉 Fun Corner](#-fun-corner)
 - [🤝 Connect](#-connect)
 - [📄 ATS Resume](RESUME.md)
+
+</details>
+
+## 🎓 Interview Readiness Tutorials
+
+<details>
+<summary><strong>Open the cloud, automation, and platform interview tracks</strong></summary>
+
+### Ansible for DevOps
+
+[Repository](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+
+### Kubernetes and Docker for DevOps
+
+[Repository](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+
+### GitLab for DevOps
+
+[Repository](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
 
 </details>
 

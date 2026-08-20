@@ -1,0 +1,77 @@
+name: Update Fun Corner
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-fun-corner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v4
+
+      - name: Rotate fun corner
+        shell: python
+        run: |
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          readme = Path('README.md')
+          content = readme.read_text(encoding='utf-8')
+          start_marker = '<!-- FUN_CORNER_START -->'
+          end_marker = '<!-- FUN_CORNER_END -->'
+          start = content.index(start_marker) + len(start_marker)
+          end = content.index(end_marker)
+
+          rotations = [
+              (
+                  'Why did the pipeline bring a flashlight to production?',
+                  'Because it wanted better observability.',
+                  'pipeline-success.gif',
+                  'Pipeline success celebration',
+              ),
+              (
+                  'Why was the deployment so calm?',
+                  'It had already checked its environment variables.',
+                  'great-job.gif',
+                  'Great job deployment celebration',
+              ),
+              (
+                  'What does a reliable pipeline do after a failure?',
+                  'It collects the logs, learns, and runs again.',
+                  'bounce-dwight.gif',
+                  'Pipeline running again',
+              ),
+              (
+                  'Why did the infrastructure engineer review the plan twice?',
+                  'Because production deserves a second look.',
+                  'eyebrow-raise-dwight.gif',
+                  'Infrastructure review reaction',
+              ),
+              (
+                  'What is the DevOps release strategy?',
+                  'Small changes, clear signals, and no mystery deploys.',
+                  'tired-office.gif',
+                  'DevOps release reaction',
+              ),
+          ]
+
+          day = datetime.now(timezone.utc).timetuple().tm_yday
+          question, answer, gif, alt = rotations[day % len(rotations)]
+          replacement = f'''\n> {question}\n>\n> {answer}\n\n<p align="center">\n\t<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/{gif}" width="420" alt="{alt}">\n</p>\n'''
+          readme.write_text(content[:start] + replacement + content[end:], encoding='utf-8')
+
+      - name: Commit daily fun corner
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update daily fun corner"
+          git push

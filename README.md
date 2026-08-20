@@ -145,6 +145,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <details open>
 <summary><strong>One small deployment joke</strong></summary>
 
+<!-- FUN_CORNER_START -->
 > Why did the pipeline bring a flashlight to production?
 >
 > Because it wanted better observability.
@@ -152,6 +153,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <p align="center">
 	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/pipeline-success.gif" width="420" alt="Pipeline success celebration">
 </p>
+<!-- FUN_CORNER_END -->
 
 </details>
 

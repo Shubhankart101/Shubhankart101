@@ -39,6 +39,22 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 	<a href="https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf"><img src="https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download ATS resume PDF"></a>
 </p>
 
+<details>
+<summary><strong>More about me</strong></summary>
+
+I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ years of experience turning complex delivery and operations problems into reliable engineering systems.
+
+- **What I build:** cloud-agnostic platforms across Azure and AWS, with Terraform, Ansible, Docker, Kubernetes, Azure DevOps, GitHub Actions, and GitLab CI/CD.
+- **How I work:** make delivery repeatable, keep infrastructure reviewable, design for failure, and leave teams with clear runbooks and ownership.
+- **Where I add value:** platform modernization, shared automation, CI/CD enablement, production troubleshooting, governance, security, and operational readiness.
+- **Recent impact:** improved deployment speed by 35%, reduced production resolution time by 25%, and helped reduce manual automation effort by 60% through reusable tooling.
+- **Current direction:** Microsoft Forward Deployment Engineering, combining technical depth with customer-facing implementation and practical problem solving.
+- **Outside work:** technical blogging, non-fiction, horology, motorcycle restoration, adventure touring, and exploring cuisines.
+- **Languages:** English and Hindi.
+- **Open to:** conversations about Azure delivery, DevOps automation, platform engineering, and thoughtful technical leadership.
+
+</details>
+
 ## DevOps Delivery Cycle
 
 <p align="center">
@@ -201,18 +217,3 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 [![ATS Resume](https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white)](RESUME.md)
 [![Download ATS resume PDF](https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf)
 
-<details>
-<summary><strong>More about me</strong></summary>
-
-I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ years of experience turning complex delivery and operations problems into reliable engineering systems.
-
-- **What I build:** cloud-agnostic platforms across Azure and AWS, with Terraform, Ansible, Docker, Kubernetes, Azure DevOps, GitHub Actions, and GitLab CI/CD.
-- **How I work:** make delivery repeatable, keep infrastructure reviewable, design for failure, and leave teams with clear runbooks and ownership.
-- **Where I add value:** platform modernization, shared automation, CI/CD enablement, production troubleshooting, governance, security, and operational readiness.
-- **Recent impact:** improved deployment speed by 35%, reduced production resolution time by 25%, and helped reduce manual automation effort by 60% through reusable tooling.
-- **Current direction:** Microsoft Forward Deployment Engineering, combining technical depth with customer-facing implementation and practical problem solving.
-- **Outside work:** technical blogging, non-fiction, horology, motorcycle restoration, adventure touring, and exploring cuisines.
-- **Languages:** English and Hindi.
-- **Open to:** conversations about Azure delivery, DevOps automation, platform engineering, and thoughtful technical leadership.
-
-</details>

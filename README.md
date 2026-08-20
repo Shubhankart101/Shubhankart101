@@ -199,6 +199,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)
 [![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Shubhankar71721)
 [![ATS Resume](https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white)](RESUME.md)
+[![Download ATS resume PDF](https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf)
 
 <details>
 <summary><strong>More about me</strong></summary>
@@ -209,9 +210,3 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 - Open to conversations about Azure delivery, DevOps automation, and customer-focused engineering
 
 </details>
-
----
-
-<p align="center">
-	<a href="https://raw.githubusercontent.com/Shubhankart101/Shubhankart101/main/RESUME.md"><img src="https://img.shields.io/badge/Download%20ATS%20resume-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Download ATS resume"></a>
-</p>

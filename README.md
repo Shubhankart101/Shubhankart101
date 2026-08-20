@@ -88,19 +88,19 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 ### Python for DevOps
 
-[Repository](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/blob/main/interview.md)
+[Repository](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/advanced)
 
 ### PowerShell for DevOps
 
-[Repository](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/blob/main/interview.md)
+[Repository](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/advanced)
 
 ### Terraform for DevOps
 
-[Repository](https://github.com/Shubhankart101/TerraformRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/TerraformRepoForNotes/blob/main/interview.md)
+[Repository](https://github.com/Shubhankart101/TerraformRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/TerraformRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/advanced)
 
 ### Shell for DevOps
 
-[Repository](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/blob/main/interview.md)
+[Repository](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/advanced)
 
 </details>
 

@@ -18,7 +18,7 @@ New Delhi, India | +91 9760624933 | shubhankar.thapliyal@gmail.com
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhankarthapliyal)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhankart101)
 [![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Shubhankar71721)
-[![Download ATS resume](https://img.shields.io/badge/Download%20ATS%20resume-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Shubhankart101/Shubhankart101/main/RESUME.md)
+[![Download ATS resume PDF](https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf)
 
 </td>
 </tr>

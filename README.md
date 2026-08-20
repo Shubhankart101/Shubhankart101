@@ -171,3 +171,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 </details>
 
 ---
+
+<p align="center">
+	<a href="https://raw.githubusercontent.com/Shubhankart101/Shubhankart101/main/RESUME.md"><img src="https://img.shields.io/badge/Download%20ATS%20resume-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Download ATS resume"></a>
+</p>

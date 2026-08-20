@@ -60,6 +60,34 @@ DevOps Engineering | Azure DevOps | GitLab CI/CD | CI/CD Pipelines | Release Eng
 - **Data and Networking:** SQL, MongoDB, routing, switching, VPC, virtualization, database administration
 - **Delivery and Operations:** Azure Boards, Jira, Agile, ITIL, incident management, change management, SLA management, KPI tracking, technical escalation
 
+### Technology Buttons
+
+<p>
+	<a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure"></a>
+	<a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS"></a>
+	<a href="https://azure.microsoft.com/products/devops"><img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps"></a>
+	<a href="https://about.gitlab.com/"><img src="https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI/CD"></a>
+	<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
+	<a href="https://www.terraform.io/"><img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"></a>
+	<a href="https://www.ansible.com/"><img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible"></a>
+	<a href="https://www.djangoproject.com/"><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"></a>
+	<a href="https://dotnet.microsoft.com/"><img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET"></a>
+	<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
+	<a href="https://kubernetes.io/"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
+	<a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"></a>
+	<a href="https://www.datadoghq.com/"><img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog"></a>
+</p>
+
+## INDUSTRY EXPERIENCE
+
+Industry experience: BFSI (Banking, Financial Services and Insurance), Healthcare, and Technology.
+
+<p>
+	<a href="https://www.microsoft.com/industry/financial-services"><img src="https://img.shields.io/badge/Industry-BFSI-0A66C2?style=for-the-badge&logo=microsoft&logoColor=white" alt="BFSI"></a>
+	<a href="https://www.microsoft.com/industry/health"><img src="https://img.shields.io/badge/Industry-Healthcare-2ea44f?style=for-the-badge&logo=microsoft&logoColor=white" alt="Healthcare"></a>
+	<a href="https://www.microsoft.com/industry/technology"><img src="https://img.shields.io/badge/Industry-Technology-6f42c1?style=for-the-badge&logo=microsoft&logoColor=white" alt="Technology"></a>
+</p>
+
 ## PROFESSIONAL EXPERIENCE
 
 ### Wipro - Technical Lead

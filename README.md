@@ -138,6 +138,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 	<a href="https://www.datadoghq.com/"><img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog"></a>
 </p>
 
+<p align="center">
+	<a href="https://www.microsoft.com/industry/financial-services"><img src="https://img.shields.io/badge/Industry-BFSI-0A66C2?style=for-the-badge&logo=microsoft&logoColor=white" alt="BFSI"></a>
+	<a href="https://www.microsoft.com/industry/health"><img src="https://img.shields.io/badge/Industry-Healthcare-2ea44f?style=for-the-badge&logo=microsoft&logoColor=white" alt="Healthcare"></a>
+	<a href="https://www.microsoft.com/industry/technology"><img src="https://img.shields.io/badge/Industry-Technology-6f42c1?style=for-the-badge&logo=microsoft&logoColor=white" alt="Technology"></a>
+</p>
+
 ## 🎉 Fun Corner
 
 <details open>

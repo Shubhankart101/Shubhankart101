@@ -76,15 +76,31 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 ### Ansible for DevOps
 
-[Repository](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+[Repository](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
 
 ### Kubernetes and Docker for DevOps
 
-[Repository](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+[Repository](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
 
 ### GitLab for DevOps
 
-[Repository](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes) · [Beginner code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+[Repository](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+
+### Python for DevOps
+
+[Repository](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/blob/main/interview.md)
+
+### PowerShell for DevOps
+
+[Repository](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/blob/main/interview.md)
+
+### Terraform for DevOps
+
+[Repository](https://github.com/Shubhankart101/TerraformRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/TerraformRepoForNotes/blob/main/interview.md)
+
+### Shell for DevOps
+
+[Repository](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/blob/main/interview.md)
 
 </details>
 

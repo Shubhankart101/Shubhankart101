@@ -214,6 +214,7 @@ CBSE, English | 2011
 
 - **DevTrack:** Python and Django issue-tracking API with automated tests, GitHub Actions, Terraform-managed Azure infrastructure, and a Swagger-style local API console. [Repository](https://github.com/Shubhankart101/DevTrack)
 - **EventHub:** Python repository for event-driven application experimentation. [Repository](https://github.com/Shubhankart101/EventHub)
+- **PolityPolicyUpdate:** Independent India public-data dashboard with mixed-frequency indicator charts, official-source links, automated refresh workflows, and endpoint monitoring. [Repository](https://github.com/Shubhankart101/PolityPolicyUpdate) | [Live dashboard](https://shubhankart101.github.io/PolityPolicyUpdate/)
 - **WEB_API_L3:** C# Web API project focused on advanced service and API design. [Repository](https://github.com/Shubhankart101/WEB_API_L3)
 - **WEB_API_L1:** C# Web API project focused on foundational service engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L1)
 - **WEB_API_L2:** C# Web API project focused on backend implementation and API engineering. [Repository](https://github.com/Shubhankart101/WEB_API_L2)

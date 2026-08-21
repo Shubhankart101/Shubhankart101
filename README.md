@@ -38,6 +38,7 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
+	 <a href="https://github.com/Shubhankart101/PolityPolicyUpdate"><img src="https://img.shields.io/badge/Open%20PolityPolicyUpdate-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open PolityPolicyUpdate"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>
@@ -179,6 +180,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
+	<a href="https://github.com/Shubhankart101/PolityPolicyUpdate"><img src="https://img.shields.io/badge/Open%20PolityPolicyUpdate-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open PolityPolicyUpdate"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>

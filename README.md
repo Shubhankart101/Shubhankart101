@@ -1,8 +1,17 @@
-# Shubhankar Thapliyal
+# Hey there! 👋
 
-## Hey there, I'm Shubhankar.
+<p>
+	<a href="https://www.linkedin.com/in/shubhankarthapliyal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+	<a href="https://github.com/Shubhankart101"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"></a>
+	<a href="mailto:shubhankar.thapliyal@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shubhankar"></a>
+	<a href="RESUME.md"><img src="https://img.shields.io/badge/ATS%20resume-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>
+</p>
 
-## Azure DevOps Engineer | Technical Lead | Aspiring Microsoft Forward Deployment Engineer
+---
+
+## Hi, I'm Shubhankar Thapliyal
+
+### Azure DevOps Engineer | Technical Lead | Aspiring Microsoft Forward Deployment Engineer
 
 I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansible, cloud automation, and production-focused engineering.
 

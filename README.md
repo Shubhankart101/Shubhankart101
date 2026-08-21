@@ -1,6 +1,9 @@
 # Hey there! 👋
 
 <p>
+	<a href="https://www.linkedin.com/in/shubhankarthapliyal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+	<a href="https://github.com/Shubhankart101"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"></a>
+	<a href="https://x.com/Shubhankar71721"><img src="https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
 	<a href="mailto:shubhankar.thapliyal@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shubhankar"></a>
 	<a href="tel:+919760624933"><img src="https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white" alt="Call Shubhankar"></a>
 	<a href="RESUME.md"><img src="https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>

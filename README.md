@@ -1,10 +1,10 @@
 # Hey there! 👋
 
 <p>
-	<a href="https://www.linkedin.com/in/shubhankarthapliyal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-	<a href="https://github.com/Shubhankart101"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"></a>
 	<a href="mailto:shubhankar.thapliyal@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shubhankar"></a>
-	<a href="RESUME.md"><img src="https://img.shields.io/badge/ATS%20resume-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>
+	<a href="tel:+919760624933"><img src="https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white" alt="Call Shubhankar"></a>
+	<a href="RESUME.md"><img src="https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>
+	<a href="https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf"><img src="https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download ATS resume PDF"></a>
 </p>
 
 ---
@@ -38,16 +38,6 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>
-</p>
-
-<p align="center">
-	<a href="mailto:shubhankar.thapliyal@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shubhankar"></a>
-	<a href="tel:+919760624933"><img src="https://img.shields.io/badge/Phone-%2B91%209760624933-2ea44f?style=for-the-badge&logo=phone&logoColor=white" alt="Call Shubhankar"></a>
-</p>
-
-<p align="center">
-	<a href="RESUME.md"><img src="https://img.shields.io/badge/Read%20ATS%20resume-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read ATS resume"></a>
-	<a href="https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf"><img src="https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download ATS resume PDF"></a>
 </p>
 
 <details>

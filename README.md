@@ -55,6 +55,14 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 </details>
 
+## 📊 GitHub Activity
+
+<p align="center">
+	<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhankart101&custom_title=Monthly%20GitHub%20Activity&area=true&hide_border=true&radius=8&point=63B3ED&line=2ea44f&color=9da7b3&bg_color=0d1117" alt="Monthly GitHub activity graph">
+</p>
+
+<p align="center"><sub>Activity graph refreshes monthly through the profile maintenance workflow.</sub></p>
+
 ## DevOps Delivery Cycle
 
 <p align="center">
@@ -92,31 +100,59 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 ### Ansible for DevOps
 
-[Repository](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+<a href="https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Ansible repository"></a>
+<a href="https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read Ansible interview bank"></a>
+<a href="https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open Ansible beginner code"></a>
+<a href="https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open Ansible intermediate code"></a>
+<a href="https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes/tree/main/interview-prep/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open Ansible advanced code"></a>
 
 ### Kubernetes and Docker for DevOps
 
-[Repository](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+<a href="https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Kubernetes and Docker repository"></a>
+<a href="https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read Kubernetes and Docker interview bank"></a>
+<a href="https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open Kubernetes beginner code"></a>
+<a href="https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open Kubernetes intermediate code"></a>
+<a href="https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes/tree/main/interview-prep/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open Kubernetes advanced code"></a>
 
 ### GitLab for DevOps
 
-[Repository](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/beginner) · [Intermediate code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/intermediate) · [Advanced code](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/advanced)
+<a href="https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open GitLab repository"></a>
+<a href="https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read GitLab interview bank"></a>
+<a href="https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open GitLab beginner code"></a>
+<a href="https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open GitLab intermediate code"></a>
+<a href="https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes/tree/main/interview-prep/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open GitLab advanced code"></a>
 
 ### Python for DevOps
 
-[Repository](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/advanced)
+<a href="https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Python repository"></a>
+<a href="https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read Python interview bank"></a>
+<a href="https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open Python beginner code"></a>
+<a href="https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open Python intermediate code"></a>
+<a href="https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes/tree/main/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open Python advanced code"></a>
 
 ### PowerShell for DevOps
 
-[Repository](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/advanced)
+<a href="https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open PowerShell repository"></a>
+<a href="https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read PowerShell interview bank"></a>
+<a href="https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open PowerShell beginner code"></a>
+<a href="https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open PowerShell intermediate code"></a>
+<a href="https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes/tree/main/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open PowerShell advanced code"></a>
 
 ### Terraform for DevOps
 
-[Repository](https://github.com/Shubhankart101/TerraformRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/TerraformRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/advanced)
+<a href="https://github.com/Shubhankart101/TerraformRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Terraform repository"></a>
+<a href="https://github.com/Shubhankart101/TerraformRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read Terraform interview bank"></a>
+<a href="https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open Terraform beginner code"></a>
+<a href="https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open Terraform intermediate code"></a>
+<a href="https://github.com/Shubhankart101/TerraformRepoForNotes/tree/main/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open Terraform advanced code"></a>
 
 ### Shell for DevOps
 
-[Repository](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) · [120-question bank](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/blob/main/interview.md) · [Beginner code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/beginner) · [Intermediate code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/intermediate) · [Advanced code](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/advanced)
+<a href="https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes"><img src="https://img.shields.io/badge/Repository-Open-181717?style=for-the-badge&logo=github&logoColor=white" alt="Open Shell repository"></a>
+<a href="https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/blob/main/interview.md"><img src="https://img.shields.io/badge/150--question%20bank-Read-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Read Shell interview bank"></a>
+<a href="https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/beginner"><img src="https://img.shields.io/badge/Beginner-Code-63B3ED?style=for-the-badge" alt="Open Shell beginner code"></a>
+<a href="https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/intermediate"><img src="https://img.shields.io/badge/Intermediate-Code-F6C344?style=for-the-badge" alt="Open Shell intermediate code"></a>
+<a href="https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes/tree/main/advanced"><img src="https://img.shields.io/badge/Advanced-Code-F56C6C?style=for-the-badge" alt="Open Shell advanced code"></a>
 
 </details>
 

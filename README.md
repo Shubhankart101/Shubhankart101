@@ -198,12 +198,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> Why did the pipeline bring a flashlight to production?
+> Why did the infrastructure engineer review the plan twice?
 >
-> Because it wanted better observability.
+> Because production deserves a second look.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/pipeline-success.gif" width="420" alt="Pipeline success celebration">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/eyebrow-raise-dwight.gif" width="420" alt="Infrastructure review reaction">
 </p>
 <!-- FUN_CORNER_END -->
 

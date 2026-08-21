@@ -57,9 +57,23 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 ## 📊 GitHub Activity
 
+<details>
+<summary><strong>Open detailed GitHub graphs</strong></summary>
+
 <p align="center">
 	<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhankart101&custom_title=Monthly%20GitHub%20Activity&area=true&hide_border=true&radius=8&point=63B3ED&line=2ea44f&color=9da7b3&bg_color=0d1117" alt="Monthly GitHub activity graph">
 </p>
+
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api?username=Shubhankart101&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=63B3ED&icon_color=2ea44f&text_color=9da7b3" alt="GitHub contribution statistics">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubhankart101&layout=compact&hide_border=true&theme=transparent&title_color=63B3ED&text_color=9da7b3" alt="Most used programming languages">
+</p>
+
+<p align="center">
+	<img src="https://streak-stats.demolab.com?user=Shubhankart101&hide_border=true&theme=transparent&ring=63B3ED&fire=F6C344&currStreakLabel=63B3ED&sideLabels=9da7b3&dates=9da7b3" alt="GitHub contribution streak">
+</p>
+
+</details>
 
 <p align="center"><sub>Activity graph refreshes monthly through the profile maintenance workflow.</sub></p>
 
@@ -199,6 +213,7 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 - Microsoft Certified: Machine Learning Operations Engineer Associate
 - HashiCorp Certified: Terraform Associate (003)
 - Microsoft Certified: Agentic AI Business Solutions Architect
+- Microsoft Certified: Azure AI Apps and Agents Developer Associate
 
 </details>
 

@@ -46,6 +46,15 @@ Azure DevOps Engineer and Technical Lead with 8+ years of experience designing, 
 
 DevOps Engineering | Azure DevOps | GitLab CI/CD | CI/CD Pipelines | Release Engineering | Infrastructure as Code | Cloud Infrastructure | Cloud Automation | Configuration Management | Ansible Automation | Terraform | Continuous Integration | Continuous Delivery | Continuous Testing | Deployment Automation | Production Support | Incident Management | Level 3 Escalation | Root Cause Analysis | Monitoring and Observability | Security and Governance | Customer-Facing Technical Delivery | Agile Delivery | ITIL Service Management
 
+## TRAINING AND ENABLEMENT
+
+Microsoft Certified Trainer with 5 years of experience designing and delivering technical training for engineers, operations teams, and technology professionals. Delivered practical learning across Azure, Azure DevOps, infrastructure as code, Terraform, Ansible, CI/CD, containers, scripting, monitoring, and cloud operations.
+
+- Created hands-on demonstrations, guided labs, reusable examples, and troubleshooting exercises that connect theory to production delivery.
+- Adapted training for beginner, intermediate, and advanced audiences, including engineers moving into cloud and DevOps roles.
+- Mentored learners through automation design, pipeline implementation, infrastructure provisioning, operational readiness, and incident-focused problem solving.
+- Used learner feedback, delivery outcomes, and real engineering scenarios to improve course material and strengthen technical adoption.
+
 ## TECHNICAL SKILLS
 
 - **Cloud Platforms:** Microsoft Azure, Amazon Web Services (AWS), hybrid cloud, cloud migration, cloud operations
@@ -137,6 +146,7 @@ April 2018 - May 2021
 - Microsoft Certified: Machine Learning Operations Engineer Associate - valid through 2027
 - HashiCorp Certified: Terraform Associate (003) - valid through 2028
 - Microsoft Certified: Agentic AI Business Solutions Architect - valid through 2027
+- Microsoft Certified: Azure AI Apps and Agents Developer Associate
 
 ## EDUCATION
 

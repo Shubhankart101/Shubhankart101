@@ -1,5 +1,7 @@
 # Shubhankar Thapliyal
 
+## Hey there, I'm Shubhankar.
+
 ## Azure DevOps Engineer | Technical Lead | Aspiring Microsoft Forward Deployment Engineer
 
 I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansible, cloud automation, and production-focused engineering.

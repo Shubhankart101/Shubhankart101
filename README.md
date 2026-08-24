@@ -255,12 +255,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> Why did the pipeline bring a flashlight to production?
+> Why was the deployment so calm?
 >
-> Because it wanted better observability.
+> It had already checked its environment variables.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/pipeline-success.gif" width="420" alt="Pipeline success celebration">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/great-job.gif" width="420" alt="Great job deployment celebration">
 </p>
 <!-- FUN_CORNER_END -->
 

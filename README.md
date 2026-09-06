@@ -255,12 +255,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> Why did the infrastructure engineer review the plan twice?
+> What is the DevOps release strategy?
 >
-> Because production deserves a second look.
+> Small changes, clear signals, and no mystery deploys.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/eyebrow-raise-dwight.gif" width="420" alt="Infrastructure review reaction">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/tired-office.gif" width="420" alt="DevOps release reaction">
 </p>
 <!-- FUN_CORNER_END -->
 

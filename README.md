@@ -255,12 +255,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> What is the DevOps release strategy?
+> Why did the pipeline bring a flashlight to production?
 >
-> Small changes, clear signals, and no mystery deploys.
+> Because it wanted better observability.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/tired-office.gif" width="420" alt="DevOps release reaction">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/pipeline-success.gif" width="420" alt="Pipeline success celebration">
 </p>
 <!-- FUN_CORNER_END -->
 

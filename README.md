@@ -255,12 +255,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> Why was the deployment so calm?
+> What does a reliable pipeline do after a failure?
 >
-> It had already checked its environment variables.
+> It collects the logs, learns, and runs again.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/great-job.gif" width="420" alt="Great job deployment celebration">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/bounce-dwight.gif" width="420" alt="Pipeline running again">
 </p>
 <!-- FUN_CORNER_END -->
 

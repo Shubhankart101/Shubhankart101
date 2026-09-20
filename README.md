@@ -255,12 +255,12 @@ Moving toward Microsoft Forward Deployment Engineering by combining Azure delive
 <summary><strong>One small deployment joke</strong></summary>
 
 <!-- FUN_CORNER_START -->
-> What does a reliable pipeline do after a failure?
+> Why did the infrastructure engineer review the plan twice?
 >
-> It collects the logs, learns, and runs again.
+> Because production deserves a second look.
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/bounce-dwight.gif" width="420" alt="Pipeline running again">
+	<img src="https://raw.githubusercontent.com/Shubhankart101/DevTrack/main/docs/assets/eyebrow-raise-dwight.gif" width="420" alt="Infrastructure review reaction">
 </p>
 <!-- FUN_CORNER_END -->
 

@@ -32,6 +32,7 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://img.shields.io/badge/Open%20pipeline%20runs-DevTrack-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Open DevTrack pipeline runs"></a>
+	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/badge/Browse%20all%20repositories-Open-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Browse all repositories"></a>
 </p>
 
@@ -182,7 +183,6 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <p align="center">
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>
-	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>

@@ -32,8 +32,11 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 
 <p align="center">
 	<a href="https://github.com/Shubhankart101/DevTrack/actions"><img src="https://img.shields.io/badge/Open%20pipeline%20runs-DevTrack-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Open DevTrack pipeline runs"></a>
-	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/badge/Browse%20all%20repositories-Open-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Browse all repositories"></a>
+</p>
+
+<p align="center">
+	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 </p>
 
 <p align="center">

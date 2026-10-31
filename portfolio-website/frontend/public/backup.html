@@ -6,6 +6,9 @@
   <meta name="theme-color" content="#09121a">
   <meta name="description" content="Shubhankar Thapliyal: cloud platforms, DevOps delivery, and customer-side engineering.">
   <title>Shubhankar Thapliyal | Portfolio Backup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root{color-scheme:dark;font-family:"DM Sans","Segoe UI",sans-serif;color:#e9f0f3;background:#09121a;--bg:#09121a;--panel:#111d27;--line:#2b3b47;--text:#e9f0f3;--muted:#a4b2bd;--lime:#d7f56a;--blue:#78a8ff;--teal:#58d1c5;--coral:#ff896a;--display:"Space Grotesk","Segoe UI",sans-serif}
     *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;min-width:320px}a{color:inherit}button,input,select{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--blue);outline-offset:3px}::selection{color:var(--bg);background:var(--lime)}
@@ -29,6 +32,32 @@
     @media(max-width:760px){nav a:nth-child(2){display:inline}nav a:nth-child(3){display:none}}
     .repo-type-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:20px}.repo-type-button{display:flex;justify-content:space-between;gap:10px;padding:13px;border:1px solid var(--line);color:var(--text);background:var(--panel);text-align:left;cursor:pointer}.repo-type-button strong{font:600 18px var(--display)}.repo-type-button span{align-self:center;color:var(--muted);font-size:10px}.repo-type-button:hover{border-color:var(--lime)}
     @media(max-width:760px){.repo-type-summary{grid-template-columns:1fr}}
+    .hero{position:relative;isolation:isolate;width:100%;max-width:none;min-height:calc(100svh - 76px);margin:0;display:grid;grid-template-columns:1fr;align-items:center;gap:0;padding:72px max(24px,calc((100vw - 1060px)/2)) 108px;text-align:center;overflow:hidden;background-image:linear-gradient(180deg,rgba(9,18,26,.9),rgba(9,18,26,.94) 58%,#09121a),url("devops-methodology-loop.gif");background-position:center,center 44%;background-size:cover;background-repeat:no-repeat}
+    .hero:before{content:"SHUBHANKAR THAPLIYAL";position:absolute;z-index:-1;top:48%;left:50%;color:rgba(120,168,255,.035);font:700 116px/1 var(--display);white-space:nowrap;transform:translate(-50%,-50%) rotate(-7deg);pointer-events:none}
+    .hero>div:first-child{width:min(1080px,100%);margin-inline:auto}
+    .hero .eyebrow{display:flex;justify-content:center;margin-bottom:25px;font-size:12px}
+    .hero h1{max-width:1080px;margin:0 auto;font:700 88px/1.04 var(--display);letter-spacing:0}
+    .hero h1 span{display:block;width:fit-content;margin-inline:auto;color:var(--teal);background-image:linear-gradient(95deg,var(--teal),var(--blue) 56%,var(--lime));background-clip:text;-webkit-background-clip:text;color:transparent}
+    .hero .intro{max-width:850px;margin:30px auto 34px;color:#c1ccd3;font-size:22px;font-weight:500;line-height:1.65;text-align:center}
+    .hero .actions{justify-content:center;gap:20px}
+    .hero .button{min-height:50px;padding-inline:18px;font-size:14px}
+    .portrait{position:absolute;right:max(28px,calc((100vw - 1180px)/2));bottom:22px;width:112px;padding:0;opacity:.8}
+    .portrait:after{display:none}
+    .portrait:before{top:-8px;right:-8px;width:34px;height:34px;border-top:2px solid var(--lime);border-right:2px solid var(--lime)}
+    .portrait img{height:136px}
+    .facts{width:min(850px,100%);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:68px auto 0;padding:24px 0;border-block:1px solid rgba(164,178,189,.28)}
+    .facts div{min-width:0;justify-items:center;gap:8px;padding:4px 16px;border-right:1px solid rgba(164,178,189,.24)}
+    .facts div:last-child{border-right:0}
+    .facts b{color:var(--text);font:700 42px/1 var(--display)}
+    .facts span{font-size:13px;font-weight:700;letter-spacing:.06em;text-align:center;text-transform:uppercase}
+    nav a,.header-link{font-size:14px;font-weight:700}
+    .section-top h2,.journey h2{font:700 54px/1.02 var(--display)}
+    .section-top p,.journey>div>p{font-size:16px;font-weight:500;line-height:1.6}
+    .project h3{font:700 24px/1.15 var(--display)}
+    .project p{font-size:14px;font-weight:500}
+    @media(max-width:1280px){.hero h1{font-size:72px}}
+    @media(max-width:900px){.hero h1{font-size:58px}}
+    @media(max-width:760px){nav a:nth-child(2){display:none}.hero{min-height:calc(100svh - 68px);padding:58px 18px 48px}.hero .eyebrow{flex-wrap:wrap;gap:6px;font-size:10px}.hero h1{font-size:42px}.hero .intro{margin:20px auto 24px;font-size:17px}.hero .actions{gap:14px}.hero .button{font-size:13px}.portrait{display:none}.facts{margin-top:40px;padding-block:18px}.facts div{padding-inline:5px}.facts b{font-size:27px}.facts span{max-width:110px;font-size:9px;line-height:1.4}.section-top h2,.journey h2{font-size:42px}.project h3{font-size:22px}}
   </style>
 </head>
 <body>
@@ -36,10 +65,10 @@
   <header>
     <a class="brand" href="#top" aria-label="Shubhankar Thapliyal home"><span class="mark">ST</span><span>SHUBHANKAR<br>THAPLIYAL</span></a>
     <nav aria-label="Portfolio navigation"><a href="#projects">Work</a><a href="#github">GitHub Stats</a><a href="#journey">Experience</a><a href="#contact">Contact</a></nav>
-    <a class="header-link" href="https://github.com/Shubhankart101/Shubhankart101#readme">README backup</a>
+    <a class="header-link" href="https://github.com/Shubhankart101/Shubhankart101#readme">README</a>
   </header>
   <main id="main">
-    <div class="wrap hero" id="top">
+    <div class="hero" id="top">
       <div>
         <p class="eyebrow">NEW DELHI / CLOUD + DELIVERY ENGINEERING</p>
         <h1>Complex cloud work.<br><span>Made dependable.</span></h1>

@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { createContact, getGithubRepos, getProfile, getProject, getProjects } from './api.js'
+import { apiBaseUrl, createContact, getGithubRepos, getProfile, getProject, getProjects } from './api.js'
 import { filterRepositories, summarizeRepositories } from './repositoryStats.js'
 
 function jsonResponse(data, status = 200, headers = {}) {
@@ -24,6 +24,23 @@ describe('portfolio API client', () => {
 
   afterEach(() => {
     vi.unstubAllGlobals()
+    vi.unstubAllEnvs()
+  })
+
+  it('uses the configured API base URL for static hosting', async () => {
+    vi.stubEnv('VITE_API_BASE_URL', 'https://api.example.com/api/')
+    vi.resetModules()
+    const { apiBaseUrl: configuredApiBaseUrl, getProfile: getConfiguredProfile } = await import('./api.js')
+    fetch.mockResolvedValue(jsonResponse({ name: 'Shubhankar Thapliyal' }))
+
+    await getConfiguredProfile()
+
+    expect(configuredApiBaseUrl).toBe('https://api.example.com/api')
+    expect(fetch).toHaveBeenCalledWith('https://api.example.com/api/profile/', { signal: undefined, headers: {} })
+  })
+
+  it('keeps the relative API root for local development', () => {
+    expect(apiBaseUrl).toBe('/api')
   })
 
   it('loads the profile JSON from the expected endpoint', async () => {

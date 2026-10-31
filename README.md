@@ -1,4 +1,8 @@
-# Hey there! 👋
+<h1 align="center">Complex cloud work.<br><strong>Made dependable.</strong></h1>
+
+<p align="center"><strong>AZURE DEVOPS ENGINEER · TECHNICAL LEAD · CUSTOMER-FOCUSED CLOUD DELIVERY</strong></p>
+
+<p align="center"><strong>I build reliable cloud platforms, automation, and delivery systems close to the people who depend on them.</strong></p>
 
 <p>
 	<a href="https://www.linkedin.com/in/shubhankarthapliyal"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
@@ -25,7 +29,7 @@ This profile README remains the no-build backup for career details, projects, an
 
 </details>
 
-## Hi, I'm Shubhankar Thapliyal
+## Shubhankar Thapliyal
 
 ### Azure DevOps Engineer | Technical Lead | Aspiring Microsoft Forward Deployment Engineer
 

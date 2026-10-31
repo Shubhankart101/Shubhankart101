@@ -6,6 +6,7 @@ import RecoveryPage from './RecoveryPage.jsx'
 import { createContact, getGithubRepos, getProfile, getProject, getProjects } from './api.js'
 
 vi.mock('./api.js', () => ({
+  apiBaseUrl: '/api',
   createContact: vi.fn(),
   getGithubRepos: vi.fn(),
   getProfile: vi.fn(),

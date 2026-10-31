@@ -12,12 +12,19 @@ import {
   Search,
   X,
 } from 'lucide-react'
-import { createContact, getProfile, getProject, getProjects } from './api.js'
+import { apiBaseUrl, createContact, getProfile, getProject, getProjects } from './api.js'
 import DeliveryStory from './DeliveryStory.jsx'
 import RepositoryStats from './RepositoryStats.jsx'
 import './Portfolio.css'
 
 const categories = ['All', 'API', 'Automation', 'Data', 'DevOps', 'Platform', 'Product']
+const navigation = [
+  { label: 'Work', id: 'work' },
+  { label: 'Approach', id: 'approach' },
+  { label: 'Experience', id: 'experience' },
+  { label: 'GitHub', id: 'github' },
+  { label: 'Contact', id: 'contact' },
+]
 const profileReadmeUrl = 'https://github.com/Shubhankart101/Shubhankart101#readme'
 const staticPortfolioUrl = 'https://shubhankart101.github.io/Shubhankart101/'
 const fallbackProfile = {
@@ -73,6 +80,7 @@ export default function Portfolio() {
   const [projects, setProjects] = useState([])
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
+  const [activeSection, setActiveSection] = useState('')
   const [reloadKey, setReloadKey] = useState(0)
   const [projectsLoading, setProjectsLoading] = useState(true)
   const [projectsError, setProjectsError] = useState('')
@@ -85,6 +93,42 @@ export default function Portfolio() {
     const controller = new AbortController()
     getProfile({ signal: controller.signal }).then(setProfile).catch(() => {})
     return () => controller.abort()
+  }, [])
+
+  useEffect(() => {
+    const updateProgress = () => {
+      const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight
+      const currentScroll = document.documentElement.scrollTop || window.scrollY
+      const progress = scrollableHeight > 0 ? Math.min(currentScroll / scrollableHeight, 1) : 0
+      document.documentElement.style.setProperty('--page-progress', `${progress * 100}%`)
+    }
+
+    updateProgress()
+    window.addEventListener('scroll', updateProgress, { passive: true })
+    window.addEventListener('resize', updateProgress)
+    return () => {
+      window.removeEventListener('scroll', updateProgress)
+      window.removeEventListener('resize', updateProgress)
+    }
+  }, [])
+
+  useEffect(() => {
+    const updateActiveSection = () => {
+      const marker = window.innerHeight * 0.28
+      const currentSection = navigation
+        .map(({ id }) => document.getElementById(id))
+        .filter((section) => section && section.getBoundingClientRect().top <= marker)
+        .at(-1)
+      setActiveSection(currentSection?.id ?? '')
+    }
+
+    updateActiveSection()
+    window.addEventListener('scroll', updateActiveSection, { passive: true })
+    window.addEventListener('resize', updateActiveSection)
+    return () => {
+      window.removeEventListener('scroll', updateActiveSection)
+      window.removeEventListener('resize', updateActiveSection)
+    }
   }, [])
 
   useEffect(() => {
@@ -118,22 +162,25 @@ export default function Portfolio() {
 
   return (
     <div className="site-shell" id="top">
+      <div className="scroll-progress" aria-hidden="true" />
       <a className="skip-link" href="#main">Skip to content</a>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Shubhankar Thapliyal, home">
           <span className="brand-mark">ST</span><span className="brand-name">SHUBHANKAR<br />THAPLIYAL</span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
-          <a href="#work">Work</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#github">GitHub</a><a href="#contact">Contact</a>
+          {navigation.map(({ label, id }) => (
+            <a key={id} href={`#${id}`} aria-current={activeSection === id ? 'location' : undefined}>{label}</a>
+          ))}
         </nav>
-        <a className="resume-link" href="/api/resume/" download>Resume <Download size={15} /></a>
+        <a className="resume-link" href={`${apiBaseUrl}/resume/`} download>Resume <Download size={15} /></a>
       </header>
 
       <main id="main">
         <section className="hero-band" aria-labelledby="hero-title">
           <div className="hero-copy">
             <p className="eyebrow"><MapPin size={14} /> NEW DELHI, INDIA <span className="eyebrow-dot" /> OPEN TO THE RIGHT CHALLENGE</p>
-            <h1 id="hero-title">Complex cloud work.<br /><span>Made dependable.</span></h1>
+            <h1 id="hero-title"><span className="hero-headline-line">Complex cloud work.</span><span className="hero-headline-line hero-headline-accent">Made dependable.</span></h1>
             <p className="hero-summary">I turn delivery friction into reliable platforms, thoughtful automation, and calm production operations.</p>
             <div className="hero-actions">
               <a className="button button-dark" href="#work">Explore selected work <ArrowDownRight size={17} /></a>

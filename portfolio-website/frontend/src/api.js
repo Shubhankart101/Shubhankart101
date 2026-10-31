@@ -1,5 +1,7 @@
+export const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/+$/, '')
+
 async function request(path, { signal, ...options } = {}) {
-  const response = await fetch(`/api/${path}`, {
+  const response = await fetch(`${apiBaseUrl}/${path}`, {
     ...options,
     signal,
     headers: {

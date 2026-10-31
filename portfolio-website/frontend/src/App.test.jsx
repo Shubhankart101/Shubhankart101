@@ -111,6 +111,16 @@ describe('portfolio website', () => {
     await waitFor(() => expect(getProjects).toHaveBeenLastCalledWith(expect.objectContaining({ category: 'API' })))
   })
 
+  it('shows an empty state when no project matches', async () => {
+    const user = userEvent.setup()
+    render(<Portfolio />)
+
+    await user.type(screen.getByRole('searchbox', { name: 'Search projects' }), 'no-such-project')
+
+    expect(await screen.findByText(/no projects match that search/i)).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /view details for/i })).not.toBeInTheDocument()
+  })
+
   it('opens and closes accessible project details', async () => {
     const user = userEvent.setup()
     render(<Portfolio />)
@@ -119,6 +129,21 @@ describe('portfolio website', () => {
     expect(screen.getByRole('link', { name: /view repository/i })).toHaveAttribute('href', projects[1].repo_url)
     await user.click(screen.getByRole('button', { name: 'Close project details' }))
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+  })
+
+  it('offers the README backup when project detail loading fails', async () => {
+    const user = userEvent.setup()
+    getProject.mockRejectedValueOnce(new Error('Project details are unavailable.'))
+    render(<Portfolio />)
+
+    await user.click(await screen.findByRole('button', { name: 'View details for DevTrack' }))
+
+    const detailError = await screen.findByRole('alert')
+    expect(detailError).toHaveTextContent('Project details are unavailable.')
+    expect(within(detailError.parentElement).getByRole('link', { name: /profile readme backup/i })).toHaveAttribute(
+      'href',
+      'https://github.com/Shubhankart101/Shubhankart101#readme',
+    )
   })
 
   it('submits a valid contact form and shows confirmation', async () => {
@@ -130,6 +155,7 @@ describe('portfolio website', () => {
     await user.click(screen.getByRole('button', { name: /send message/i }))
     expect(await screen.findByRole('status')).toHaveTextContent(/message received/i)
     expect(createContact).toHaveBeenCalledWith(expect.objectContaining({ name: 'Alex Example', email: 'alex@example.com' }))
+    expect(screen.getByLabelText('Name')).toHaveValue('')
   })
 
   it('shows contact API errors without losing the form input', async () => {
@@ -141,5 +167,18 @@ describe('portfolio website', () => {
     fireEvent.submit(screen.getByLabelText('What are you working on?').closest('form'))
     expect(await screen.findByRole('alert')).toHaveTextContent('Email is temporarily unavailable.')
     expect(screen.getByLabelText('Name')).toHaveValue('Alex Example')
+    expect(within(screen.getByLabelText('What are you working on?').closest('form')).getByRole('link', { name: /static github pages backup/i })).toHaveAttribute(
+      'href',
+      'https://shubhankart101.github.io/Shubhankart101/',
+    )
+  })
+
+  it('exposes resume download and native contact constraints', () => {
+    render(<Portfolio />)
+
+    expect(screen.getByRole('link', { name: /resume/i })).toHaveAttribute('href', '/api/resume/')
+    expect(screen.getByLabelText('Name')).toBeRequired()
+    expect(screen.getByLabelText('Email')).toHaveAttribute('type', 'email')
+    expect(screen.getByLabelText('What are you working on?')).toHaveAttribute('minLength', '20')
   })
 })

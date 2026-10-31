@@ -16,6 +16,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",
     "rest_framework",
+    "drf_spectacular",
+    "drf_spectacular_sidecar",
     "portfolio_api",
 ]
 
@@ -85,8 +87,20 @@ CORS_ALLOWED_ORIGINS = os.getenv(
 
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_THROTTLE_CLASSES": [
         "rest_framework.throttling.AnonRateThrottle",
     ],
     "DEFAULT_THROTTLE_RATES": {"anon": "120/hour"},
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Shubhankar Thapliyal Portfolio API",
+    "DESCRIPTION": "API for the portfolio profile, project catalog, contact form, and resume download.",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
+    "COMPONENT_SPLIT_REQUEST": True,
+    "SWAGGER_UI_DIST": "SIDECAR",
+    "SWAGGER_UI_FAVICON_HREF": "SIDECAR",
+    "REDOC_DIST": "SIDECAR",
 }

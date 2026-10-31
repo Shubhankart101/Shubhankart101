@@ -6,7 +6,7 @@ from .views import (
     ProfileView,
     ProjectDetailView,
     ProjectListView,
-    resume_download,
+    ResumeDownloadView,
 )
 
 
@@ -16,5 +16,5 @@ urlpatterns = [
     path("projects/", ProjectListView.as_view(), name="project-list"),
     path("projects/<slug:slug>/", ProjectDetailView.as_view(), name="project-detail"),
     path("contact/", ContactCreateView.as_view(), name="contact-create"),
-    path("resume/", resume_download, name="resume-download"),
+    path("resume/", ResumeDownloadView.as_view(), name="resume-download"),
 ]

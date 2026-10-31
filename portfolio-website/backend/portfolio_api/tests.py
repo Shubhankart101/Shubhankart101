@@ -1,7 +1,9 @@
 from django.contrib.auth import get_user_model
-from django.test import TestCase
+from django.core.cache import cache
+from django.test import RequestFactory, override_settings
 from django.urls import reverse
 from rest_framework.test import APITestCase
+from unittest.mock import patch
 
 from .models import ContactMessage, Project
 
@@ -29,6 +31,41 @@ class PortfolioApiTests(APITestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTrue(response.data)
         self.assertTrue(all(project["category"] == "API" for project in response.data))
+
+    def test_project_list_combines_search_and_category_filters(self):
+        response = self.client.get(reverse("project-list"), {"q": "collab", "category": "Product"})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual({project["slug"] for project in response.data}, {"CollabDocs", "LaunchCrew"})
+
+    def test_openapi_schema_documents_api_paths_and_filters(self):
+        response = self.client.get(reverse("schema"))
+
+        self.assertEqual(response.status_code, 200)
+        paths = response.data["paths"]
+        self.assertIn("/api/health/", paths)
+        self.assertIn("/api/profile/", paths)
+        self.assertIn("/api/projects/", paths)
+        self.assertIn("/api/projects/{slug}/", paths)
+        self.assertIn("/api/contact/", paths)
+        self.assertIn("/api/resume/", paths)
+        parameters = paths["/api/projects/"]["get"]["parameters"]
+        self.assertEqual({parameter["name"] for parameter in parameters}, {"q", "category"})
+        self.assertIn("application/pdf", paths["/api/resume/"]["get"]["responses"]["200"]["content"])
+        self.assertIn("404", paths["/api/projects/{slug}/"]["get"]["responses"])
+        self.assertIn("400", paths["/api/contact/"]["post"]["responses"])
+        self.assertIn("429", paths["/api/contact/"]["post"]["responses"])
+
+    def test_swagger_and_redoc_pages_render(self):
+        swagger = self.client.get(reverse("swagger-ui"))
+        redoc = self.client.get(reverse("redoc"))
+
+        self.assertEqual(swagger.status_code, 200)
+        self.assertContains(swagger, 'id="swagger-ui"')
+        self.assertContains(swagger, "drf_spectacular_sidecar")
+        self.assertEqual(redoc.status_code, 200)
+        self.assertContains(redoc, "redoc")
+        self.assertContains(redoc, "drf_spectacular_sidecar")
 
     def test_project_detail_returns_not_found_for_unknown_slug(self):
         response = self.client.get(reverse("project-detail", args=["not-a-project"]))
@@ -68,6 +105,40 @@ class PortfolioApiTests(APITestCase):
         self.assertEqual(response.status_code, 400)
         self.assertEqual(ContactMessage.objects.count(), 0)
 
+    def test_contact_rejects_whitespace_only_name_and_message(self):
+        base_payload = {
+            "name": "Alex Example",
+            "email": "alex@example.com",
+            "message": "A complete message with enough useful characters.",
+        }
+        invalid_payloads = [
+            {**base_payload, "name": "   "},
+            {**base_payload, "message": "                    "},
+        ]
+
+        for payload in invalid_payloads:
+            with self.subTest(payload=payload):
+                response = self.client.post(reverse("contact-create"), payload, format="json")
+                self.assertEqual(response.status_code, 400)
+
+        self.assertEqual(ContactMessage.objects.count(), 0)
+
+    def test_contact_rate_limit_returns_429(self):
+        cache.clear()
+        payload = {
+            "name": "Alex Example",
+            "email": "alex@example.com",
+            "message": "I would like to discuss a cloud delivery project.",
+        }
+
+        with patch("rest_framework.throttling.AnonRateThrottle.THROTTLE_RATES", {"anon": "1/hour"}):
+            first = self.client.post(reverse("contact-create"), payload, format="json")
+            second = self.client.post(reverse("contact-create"), payload, format="json")
+
+        self.assertEqual(first.status_code, 201)
+        self.assertEqual(second.status_code, 429)
+        cache.clear()
+
     def test_resume_download_uses_pdf_response(self):
         response = self.client.get(reverse("resume-download"))
 
@@ -84,8 +155,6 @@ class PortfolioApiTests(APITestCase):
         self.assertContains(response, "Open profile README", status_code=404)
 
     def test_server_error_page_links_to_the_github_readme(self):
-        from django.test import RequestFactory
-
         from .views import server_error
 
         response = server_error(RequestFactory().get("/"))

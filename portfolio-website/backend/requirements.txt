@@ -1,4 +1,5 @@
 Django>=5.2,<6.1
 djangorestframework>=3.16,<4
+drf-spectacular[sidecar]>=0.28,<1
 django-cors-headers>=4.7,<5
 whitenoise>=6.9,<7

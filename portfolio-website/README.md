@@ -24,7 +24,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-The API is available at `http://127.0.0.1:8000/api/`. Admin is at `http://127.0.0.1:8000/admin/`.
+The API is available at `http://127.0.0.1:8000/api/`. Open the [Swagger UI](http://127.0.0.1:8000/api/docs/) to exercise endpoints, use [ReDoc](http://127.0.0.1:8000/api/redoc/) for the reference, or fetch the [OpenAPI schema](http://127.0.0.1:8000/api/schema/). Django admin is at `http://127.0.0.1:8000/admin/`.
 
 ## GitHub Pages backup
 
@@ -47,8 +47,11 @@ Open the URL Vite prints, usually `http://localhost:5173`.
 ```powershell
 cd backend
 python manage.py test
+python manage.py spectacular --validate
 cd ..\frontend
 npm test
+npm run lint
+npm run build
 ```
 
 ## Production notes

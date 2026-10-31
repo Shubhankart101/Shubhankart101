@@ -16,14 +16,14 @@
 This profile README remains the no-build backup for career details, projects, and resume links if the interactive website is unavailable.
 
 - [Featured repositories](#-featured-repositories)
-- [Static GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/)
+- [Static GitHub Pages portfolio backup](https://shubhankart101.github.io/Shubhankart101/)
 - [ATS resume](RESUME.md)
 - [Contact by email](mailto:shubhankar.thapliyal@gmail.com)
-- [Portfolio website source and setup](portfolio-website/README.md)
+- [Portfolio website setup and source](portfolio-website/README.md)
+
+<sub>GitHub Pages needs to be enabled once in this repository's Settings → Pages → Source: GitHub Actions. Until then, this profile README is the live fallback.</sub>
 
 </details>
-
----
 
 ## Hi, I'm Shubhankar Thapliyal
 

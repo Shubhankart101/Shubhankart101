@@ -26,6 +26,10 @@ python manage.py runserver
 
 The API is available at `http://127.0.0.1:8000/api/`. Admin is at `http://127.0.0.1:8000/admin/`.
 
+## GitHub Pages backup
+
+The static, searchable backup is deployed by `.github/workflows/deploy-portfolio-pages.yml` to `https://shubhankart101.github.io/Shubhankart101/`. Enable it once in the repository's **Settings → Pages → Build and deployment → Source → GitHub Actions**, then rerun the `Deploy static portfolio backup` workflow. The root profile [README](../README.md) remains available even before Pages is enabled.
+
 ### React website
 
 In a second terminal:

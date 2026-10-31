@@ -8,7 +8,6 @@ on:
       - "portfolio-website/frontend/public/devops-methodology-loop.gif"
       - "portfolio-website/frontend/public/profile-image.jpg"
       - "RESUME.pdf"
-      - ".github/workflows/deploy-portfolio-pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -29,8 +28,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Assemble static portfolio backup
         run: |
           mkdir -p site

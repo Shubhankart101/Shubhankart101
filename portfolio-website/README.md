@@ -4,20 +4,6 @@ A responsive React portfolio backed by a Django REST API. Project content is sto
 
 The root [GitHub profile README](../README.md) is the interactive static fallback for projects, work history, contact details, and resume links. A separate [GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/) has searchable projects and collapsible experience. App and server error screens link to both.
 
-## Deploy on Koyeb
-
-The repository-root `Dockerfile` builds the React frontend with `/static/` asset paths and serves the React app, Django API, Swagger UI, and admin from one Gunicorn service. In Koyeb, create a GitHub-backed Web Service for this repository, select the Dockerfile builder with `/Dockerfile`, and choose the `free` instance in Frankfurt or Washington, D.C. Expose port `8000` as HTTP on `/`; set the HTTP health-check path to `/api/health/`.
-
-Set these service environment variables in Koyeb:
-
-- `DJANGO_SECRET_KEY`: a unique secret generated for this deployment
-- `DJANGO_DEBUG`: `false`
-- `DJANGO_ALLOWED_HOSTS`: `{{ KOYEB_PUBLIC_DOMAIN }}`
-- `DJANGO_CSRF_TRUSTED_ORIGINS`: `https://{{ KOYEB_PUBLIC_DOMAIN }}`
-- `DATABASE_URL`: optional PostgreSQL URL for contact messages that must persist across instance replacement
-
-Koyeb supplies `PORT` automatically. Its free instance has 512 MB RAM, 0.1 vCPU, and 2 GB SSD and scales to zero after one idle hour, so the first request after sleep may take a few seconds. Without `DATABASE_URL`, the app uses local SQLite; contact messages can be lost when the free instance is replaced. Set `DATABASE_URL` to a persistent PostgreSQL service if submissions must survive instance replacement.
-
 ## Requirements
 
 - Python 3.12 or newer

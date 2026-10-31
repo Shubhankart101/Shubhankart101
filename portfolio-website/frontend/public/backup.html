@@ -20,18 +20,22 @@
     section.content{padding-block:76px}.section-top{display:flex;justify-content:space-between;align-items:end;gap:24px}.section-top h2{margin:0;font:600 42px/1.05 var(--display)}.section-top p{max-width:330px;color:var(--muted);font-size:13px;line-height:1.6}
     .controls{display:flex;flex-wrap:wrap;gap:12px;margin:27px 0 20px}.controls input,.controls select{min-height:40px;padding:0 12px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:12px}.controls input{flex:1 1 260px}.controls select{flex:0 0 160px}
     .projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.project{min-width:0;padding:19px;border:1px solid var(--line);background:var(--panel)}.project:nth-child(4n+2){background:#17251f}.project:nth-child(4n+3){background:#172333}.project-top{display:flex;justify-content:space-between;color:var(--teal);font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.project h3{margin:13px 0 8px;font:600 20px/1.2 var(--display);overflow-wrap:anywhere}.project p{min-height:38px;margin:0 0 15px;color:var(--muted);font-size:12px;line-height:1.6}.project a{display:inline-flex;gap:8px;align-items:center;color:var(--lime);font-size:10px;font-weight:700;text-decoration:none}.empty{grid-column:1/-1;color:var(--muted);padding:24px;border:1px solid var(--line)}
+    .repo-totals{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:28px 0;border-block:1px solid var(--line)}.repo-totals div{display:grid;gap:3px;padding:13px;border-right:1px solid var(--line)}.repo-totals div:first-child{padding-left:0}.repo-totals div:last-child{border:0}.repo-totals b{font:600 24px var(--display)}.repo-totals span,.repo-status{color:var(--muted);font-size:10px}.repo-languages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;padding-bottom:24px;border-bottom:1px solid var(--line)}.repo-language{display:grid;gap:6px;padding:0;border:0;color:var(--text);background:transparent;text-align:left;cursor:pointer}.repo-language:hover strong{color:var(--lime)}.repo-language-line{display:flex;justify-content:space-between;gap:10px;font-size:10px}.repo-language-line span{color:var(--muted)}.repo-track{height:3px;background:#24333e}.repo-track span{height:100%;display:block;background:linear-gradient(90deg,var(--teal),var(--lime))}.repo-status{margin:12px 0}.repo-table-wrap{overflow:auto;border:1px solid var(--line);background:#101b24}.repo-table{width:100%;min-width:850px;border-collapse:collapse;text-align:left}.repo-table th,.repo-table td{padding:10px 12px;border-bottom:1px solid var(--line);font-size:10px;white-space:nowrap}.repo-table thead th{color:var(--muted);font-size:9px;letter-spacing:.06em;text-transform:uppercase}.repo-table tbody th{min-width:220px;white-space:normal}.repo-table tbody th a{color:var(--text);font:600 12px var(--display);overflow-wrap:anywhere}.repo-table tbody th span{display:block;margin-top:3px;color:var(--muted);font-size:9px;font-weight:400}.repo-table tr:hover{background:#15232d}
     .journey{display:grid;grid-template-columns:.75fr 1.25fr;gap:40px;align-items:start}.journey h2{margin:0;font:600 40px/1.05 var(--display)}.journey>div>p{margin-top:16px;color:var(--muted);font-size:13px;line-height:1.7}.history{display:grid;gap:0;border-top:1px solid var(--line)}.history details{border-bottom:1px solid var(--line)}.history summary{display:flex;justify-content:space-between;gap:14px;padding:18px 0;cursor:pointer;list-style:none}.history summary::-webkit-details-marker{display:none}.history summary strong{font:600 16px var(--display)}.history summary span{color:var(--lime);font:600 9px var(--display)}.history details p{padding:0 0 18px;color:var(--muted);font-size:12px;line-height:1.6}
     .contact{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:28px;border:1px solid var(--line);background:var(--panel)}.contact h2{margin:0;font:600 36px/1.05 var(--display)}.contact p{margin:13px 0;color:var(--muted);font-size:12px;line-height:1.6}.contact-links{display:grid;align-content:center;gap:14px}.contact-links a{color:var(--lime);font-size:13px;font-weight:600;text-decoration:none;overflow-wrap:anywhere}
     footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font-size:10px}footer a{color:var(--text);text-decoration:none}
-    @media(max-width:760px){header{min-height:68px;padding-inline:18px}nav{gap:14px;margin-right:12px}nav a:nth-child(2){display:none}.header-link{padding:9px;font-size:10px}.wrap{width:calc(100% - 36px)}.hero{min-height:auto;grid-template-columns:1fr;gap:34px;padding-block:50px}.hero h1{font-size:clamp(43px,11vw,62px)}.intro{font-size:14px}.portrait{width:min(300px,82%);justify-self:center;margin-right:9px}.portrait img{height:350px}.facts{justify-content:space-between;gap:12px}.ticker{gap:10px;font-size:7px}.ticker span{display:none}.section-top{display:block}.section-top h2,.journey h2{font-size:35px}.section-top p{margin-top:12px}.projects{grid-template-columns:1fr}.journey{grid-template-columns:1fr;gap:25px}.contact{grid-template-columns:1fr;padding:20px}.contact h2{font-size:32px}.controls select{flex-basis:130px}footer{font-size:9px}}
+    @media(max-width:760px){header{min-height:68px;padding-inline:18px}nav{gap:14px;margin-right:12px}nav a:nth-child(2){display:none}.header-link{padding:9px;font-size:10px}.wrap{width:calc(100% - 36px)}.hero{min-height:auto;grid-template-columns:1fr;gap:34px;padding-block:50px}.hero h1{font-size:clamp(43px,11vw,62px)}.intro{font-size:14px}.portrait{width:min(300px,82%);justify-self:center;margin-right:9px}.portrait img{height:350px}.facts{justify-content:space-between;gap:12px}.ticker{gap:10px;font-size:7px}.ticker span{display:none}.section-top{display:block}.section-top h2,.journey h2{font-size:35px}.section-top p{margin-top:12px}.projects{grid-template-columns:1fr}.repo-totals{grid-template-columns:repeat(2,minmax(0,1fr))}.repo-totals div{border-bottom:1px solid var(--line)}.repo-totals div:nth-child(2){border-right:0}.repo-totals div:nth-child(3),.repo-totals div:nth-child(4){border-bottom:0}.repo-totals div:first-child{padding-left:13px}.repo-languages{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.journey{grid-template-columns:1fr;gap:25px}.contact{grid-template-columns:1fr;padding:20px}.contact h2{font-size:32px}.controls select{flex-basis:130px}footer{font-size:9px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important}}
+    @media(max-width:760px){nav a:nth-child(2){display:inline}nav a:nth-child(3){display:none}}
+    .repo-type-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:20px}.repo-type-button{display:flex;justify-content:space-between;gap:10px;padding:13px;border:1px solid var(--line);color:var(--text);background:var(--panel);text-align:left;cursor:pointer}.repo-type-button strong{font:600 18px var(--display)}.repo-type-button span{align-self:center;color:var(--muted);font-size:10px}.repo-type-button:hover{border-color:var(--lime)}
+    @media(max-width:760px){.repo-type-summary{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header>
     <a class="brand" href="#top" aria-label="Shubhankar Thapliyal home"><span class="mark">ST</span><span>SHUBHANKAR<br>THAPLIYAL</span></a>
-    <nav aria-label="Portfolio navigation"><a href="#projects">Work</a><a href="#journey">Experience</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Portfolio navigation"><a href="#projects">Work</a><a href="#github">GitHub Stats</a><a href="#journey">Experience</a><a href="#contact">Contact</a></nav>
     <a class="header-link" href="https://github.com/Shubhankart101/Shubhankart101#readme">README backup</a>
   </header>
   <main id="main">
@@ -49,9 +53,23 @@
     <div class="ticker" aria-label="Engineering focus"><span>PLATFORM ENGINEERING</span><span aria-hidden="true">/</span><span>INFRASTRUCTURE AS CODE</span><span aria-hidden="true">/</span><span>CUSTOMER-SIDE DELIVERY</span></div>
 
     <section class="content wrap" id="projects" aria-labelledby="projects-title">
-      <div class="section-top"><div><p class="eyebrow">SELECTED WORK / 16 PROJECTS</p><h2 id="projects-title">Built for the real world.</h2></div><p>Search the project list or narrow it by discipline. Every repository link works without the interactive app.</p></div>
+      <div class="section-top"><div><p class="eyebrow">PROJECT DIRECTORY</p><h2 id="projects-title">Built for the real world.</h2></div><p>Search the project list or narrow it by discipline. Every repository link works without the interactive app.</p></div>
       <div class="controls"><input id="project-search" type="search" aria-label="Search projects" placeholder="Search projects or technologies"><select id="project-category" aria-label="Filter projects by category"><option value="all">All categories</option><option>API</option><option>Automation</option><option>Data</option><option>DevOps</option><option>Platform</option><option>Product</option></select></div>
       <div class="projects" id="project-list" aria-live="polite"></div>
+    </section>
+
+    <section class="content wrap" id="github" aria-labelledby="github-title">
+      <div class="section-top"><div><p class="eyebrow">LIVE SNAPSHOT / ALL PUBLIC REPOSITORIES</p><h2 id="github-title">The wider footprint.</h2></div><p>Stars, forks, watchers, open issues, languages, and update times for each public repository.</p></div>
+      <div id="repo-status" role="status" class="repo-status">Loading repository snapshot...</div>
+      <div id="repo-dashboard" hidden>
+        <div class="repo-totals" aria-label="Grouped repository totals"><div><b id="repo-total-count">0</b><span>repositories</span></div><div><b id="repo-total-stars">0</b><span>stars</span></div><div><b id="repo-total-forks">0</b><span>forks</span></div><div><b id="repo-total-issues">0</b><span>open issues</span></div></div>
+        <div id="repo-language-summary" class="repo-languages"></div>
+        <div id="repo-type-summary" class="repo-type-summary" aria-label="Grouped repository types"></div>
+        <div class="controls"><input id="repo-search" type="search" aria-label="Search GitHub repositories" placeholder="Search repositories"><select id="repo-language" aria-label="Filter by language"><option value="all">All languages</option></select><select id="repo-kind" aria-label="Filter by repository type"><option value="all">All types</option><option value="source">Original</option><option value="fork">Forks</option><option value="archived">Archived</option></select><select id="repo-sort" aria-label="Sort repositories"><option value="stars">Most stars</option><option value="forks">Most forks</option><option value="updated">Recently updated</option><option value="name">Name</option></select></div>
+        <p id="repo-match-count" class="repo-status" aria-live="polite"></p>
+        <div class="repo-table-wrap" role="region" aria-label="Public repository statistics" tabindex="0"><table class="repo-table"><thead><tr><th>Repository</th><th>Language</th><th>Stars</th><th>Forks</th><th>Watchers</th><th>Issues</th><th>Updated</th><th>Type</th></tr></thead><tbody id="repo-table-body"></tbody></table></div>
+        <p class="repo-status">GitHub's public API is the source. Language totals use each repository's primary language.</p>
+      </div>
     </section>
 
     <section class="content wrap journey" id="journey" aria-labelledby="journey-title">
@@ -104,6 +122,105 @@
     search.addEventListener('input', renderProjects);
     category.addEventListener('change', renderProjects);
     renderProjects();
+
+    const repositorySearch = document.querySelector('#repo-search');
+    const repositoryLanguage = document.querySelector('#repo-language');
+    const repositoryKind = document.querySelector('#repo-kind');
+    const repositorySort = document.querySelector('#repo-sort');
+    const repositoryBody = document.querySelector('#repo-table-body');
+    let repositorySnapshot = [];
+    const numberFormat = new Intl.NumberFormat('en-US');
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+
+    function renderRepositorySnapshot() {
+      const languages = new Map();
+      const totals = repositorySnapshot.reduce((sum, repo) => {
+        sum.stars += repo.stars;
+        sum.forks += repo.forks;
+        sum.issues += repo.openIssues;
+        const language = repo.language || 'Other';
+        const group = languages.get(language) || { name: language, count: 0, stars: 0 };
+        group.count += 1;
+        group.stars += repo.stars;
+        languages.set(language, group);
+        return sum;
+      }, { stars: 0, forks: 0, issues: 0 });
+      document.querySelector('#repo-total-count').textContent = numberFormat.format(repositorySnapshot.length);
+      document.querySelector('#repo-total-stars').textContent = numberFormat.format(totals.stars);
+      document.querySelector('#repo-total-forks').textContent = numberFormat.format(totals.forks);
+      document.querySelector('#repo-total-issues').textContent = numberFormat.format(totals.issues);
+      const repositoryKinds = [
+        { label: 'Original repositories', filter: 'source', count: repositorySnapshot.filter((repo) => !repo.isFork).length },
+        { label: 'Forks', filter: 'fork', count: repositorySnapshot.filter((repo) => repo.isFork).length },
+        { label: 'Archived', filter: 'archived', count: repositorySnapshot.filter((repo) => repo.isArchived).length },
+      ];
+      document.querySelector('#repo-type-summary').innerHTML = repositoryKinds.map((group) => `<button class="repo-type-button" type="button" data-kind="${group.filter}" aria-label="Filter ${group.label}"><strong>${numberFormat.format(group.count)}</strong><span>${group.label}</span></button>`).join('');
+      const groups = [...languages.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+      repositoryLanguage.innerHTML = '<option value="all">All languages</option>' + groups.map((group) => `<option value="${escapeHtml(group.name)}">${escapeHtml(group.name)}</option>`).join('');
+      document.querySelector('#repo-language-summary').innerHTML = groups.map((group) => `
+        <button class="repo-language" type="button" data-language="${escapeHtml(group.name)}" aria-label="Filter by ${escapeHtml(group.name)}, ${group.count} repositories">
+          <span class="repo-language-line"><strong>${escapeHtml(group.name)}</strong><span>${group.count} repos · ${numberFormat.format(group.stars)} stars</span></span>
+          <span class="repo-track"><span style="width:${Math.max(3, group.count / Math.max(repositorySnapshot.length, 1) * 100)}%"></span></span>
+        </button>`).join('');
+      document.querySelector('#repo-dashboard').hidden = false;
+      document.querySelector('#repo-status').textContent = '';
+      renderRepositoryRows();
+    }
+
+    function renderRepositoryRows() {
+      const query = repositorySearch.value.trim().toLowerCase();
+      const language = repositoryLanguage.value;
+      const kind = repositoryKind.value;
+      const sort = repositorySort.value;
+      const matches = repositorySnapshot.filter((repo) => {
+        const fields = `${repo.name} ${repo.description} ${repo.language}`.toLowerCase();
+        return (!query || fields.includes(query))
+          && (language === 'all' || (repo.language || 'Other') === language)
+          && (kind === 'all' || (kind === 'source' && !repo.isFork) || (kind === 'fork' && repo.isFork) || (kind === 'archived' && repo.isArchived));
+      }).sort((a, b) => sort === 'name' ? a.name.localeCompare(b.name)
+        : sort === 'forks' ? b.forks - a.forks || a.name.localeCompare(b.name)
+        : sort === 'updated' ? Date.parse(b.updatedAt) - Date.parse(a.updatedAt) || a.name.localeCompare(b.name)
+        : b.stars - a.stars || a.name.localeCompare(b.name));
+      document.querySelector('#repo-match-count').textContent = `${matches.length} of ${repositorySnapshot.length} repositories`;
+      repositoryBody.innerHTML = matches.length ? matches.map((repo) => {
+        const date = new Date(repo.updatedAt);
+        const updated = Number.isNaN(date.valueOf()) ? 'Unknown' : date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        const repoUrl = /^https:\/\/github\.com\//.test(repo.url) ? repo.url : `https://github.com/Shubhankart101/${encodeURIComponent(repo.name)}`;
+        const type = repo.isFork ? 'Fork' : repo.isArchived ? 'Archived' : 'Source';
+        return `<tr><th scope="row"><a href="${escapeHtml(repoUrl)}" target="_blank" rel="noreferrer">${escapeHtml(repo.name)} ↗</a><span>${escapeHtml(repo.description || 'No description provided.')}</span></th><td>${escapeHtml(repo.language || 'Other')}</td><td>${numberFormat.format(repo.stars)}</td><td>${numberFormat.format(repo.forks)}</td><td>${numberFormat.format(repo.watchers)}</td><td>${numberFormat.format(repo.openIssues)}</td><td>${escapeHtml(updated)}</td><td>${type}</td></tr>`;
+      }).join('') : '<tr><td class="empty" colspan="8">No repositories match these filters.</td></tr>';
+    }
+
+    async function loadRepositorySnapshot() {
+      try {
+        let response = await fetch('repos.json');
+        if (!response.ok) response = await fetch('https://api.github.com/users/Shubhankart101/repos?per_page=100&sort=full_name', { headers: { Accept: 'application/vnd.github+json' } });
+        if (!response.ok) throw new Error('GitHub repository statistics are temporarily unavailable.');
+        repositorySnapshot = await response.json();
+        if (!Array.isArray(repositorySnapshot)) throw new Error('GitHub returned an unexpected repository list.');
+        renderRepositorySnapshot();
+      } catch (error) {
+        document.querySelector('#repo-status').textContent = `${error.message} Open the GitHub profile README backup for repository links.`;
+      }
+    }
+
+    document.querySelector('#repo-language-summary').addEventListener('click', (event) => {
+      const button = event.target.closest('.repo-language');
+      if (!button) return;
+      repositoryLanguage.value = button.dataset.language;
+      renderRepositoryRows();
+    });
+    document.querySelector('#repo-type-summary').addEventListener('click', (event) => {
+      const button = event.target.closest('.repo-type-button');
+      if (!button) return;
+      repositoryKind.value = button.dataset.kind;
+      renderRepositoryRows();
+    });
+    repositorySearch.addEventListener('input', renderRepositoryRows);
+    repositoryLanguage.addEventListener('change', renderRepositoryRows);
+    repositoryKind.addEventListener('change', renderRepositoryRows);
+    repositorySort.addEventListener('change', renderRepositoryRows);
+    loadRepositorySnapshot();
   </script>
 </body>
 </html>

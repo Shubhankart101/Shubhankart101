@@ -3,10 +3,11 @@ import { fireEvent, render, screen, waitFor, within } from '@testing-library/rea
 import userEvent from '@testing-library/user-event'
 import Portfolio from './Portfolio.jsx'
 import RecoveryPage from './RecoveryPage.jsx'
-import { createContact, getProfile, getProject, getProjects } from './api.js'
+import { createContact, getGithubRepos, getProfile, getProject, getProjects } from './api.js'
 
 vi.mock('./api.js', () => ({
   createContact: vi.fn(),
+  getGithubRepos: vi.fn(),
   getProfile: vi.fn(),
   getProject: vi.fn(),
   getProjects: vi.fn(),
@@ -23,6 +24,12 @@ const projects = [
     description: 'A delivery-focused issue tracking API.', category: 'API',
     stack: ['Python', 'Django', 'Terraform'], repo_url: 'https://github.com/Shubhankart101/DevTrack', demo_url: '',
   },
+]
+
+const githubRepositories = [
+  { name: 'CloudKit', url: 'https://github.com/Shubhankart101/CloudKit', description: 'Cloud platform tooling', language: 'Python', stars: 5, forks: 2, watchers: 7, openIssues: 1, updatedAt: '2026-10-10T12:00:00Z', isFork: false, isArchived: false },
+  { name: 'PipelineLab', url: 'https://github.com/Shubhankart101/PipelineLab', description: 'Build pipeline examples', language: 'Python', stars: 3, forks: 1, watchers: 4, openIssues: 2, updatedAt: '2026-10-12T12:00:00Z', isFork: true, isArchived: false },
+  { name: 'SiteNotes', url: 'https://github.com/Shubhankart101/SiteNotes', description: 'Static documentation', language: 'HTML', stars: 2, forks: 0, watchers: 2, openIssues: 0, updatedAt: '2026-10-11T12:00:00Z', isFork: false, isArchived: true },
 ]
 
 function filterProjects({ q = '', category = 'All' } = {}) {
@@ -42,6 +49,7 @@ describe('portfolio website', () => {
       github: 'https://github.com/Shubhankart101', years_experience: 8,
       deployment_improvement: 35, incident_resolution_improvement: 25,
     })
+    getGithubRepos.mockResolvedValue(githubRepositories)
     getProjects.mockImplementation(async (params) => filterProjects(params))
     getProject.mockImplementation(async (slug) => projects.find((project) => project.slug === slug))
     createContact.mockResolvedValue({ id: 1 })
@@ -82,6 +90,41 @@ describe('portfolio website', () => {
     expect(deployTab).toHaveAttribute('aria-selected', 'true')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('Bring it into the field.')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('customer and operations teams')
+  })
+
+  it('shows grouped repository totals and filters per-repository stats', async () => {
+    const user = userEvent.setup()
+    render(<Portfolio />)
+
+    expect(await screen.findByRole('heading', { name: 'Every public repository' })).toBeInTheDocument()
+    expect(screen.getByText('public repositories')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /filter by python/i })).toBeInTheDocument()
+    expect(screen.getAllByRole('row')).toHaveLength(4)
+
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Filter by language' }), 'Python')
+    expect(screen.getAllByRole('row')).toHaveLength(3)
+    expect(screen.getByRole('link', { name: 'CloudKit' })).toHaveAttribute('href', githubRepositories[0].url)
+    expect(screen.queryByRole('link', { name: 'SiteNotes' })).not.toBeInTheDocument()
+
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Filter by repository type' }), 'fork')
+    expect(screen.getAllByRole('row')).toHaveLength(2)
+    expect(screen.getByRole('link', { name: 'PipelineLab' })).toBeInTheDocument()
+
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Filter by language' }), 'All')
+    await user.selectOptions(screen.getByRole('combobox', { name: 'Filter by repository type' }), 'archived')
+    expect(screen.getAllByRole('row')).toHaveLength(2)
+    expect(await screen.findByRole('link', { name: 'SiteNotes' })).toBeInTheDocument()
+  })
+
+  it('offers static backups when GitHub statistics cannot load', async () => {
+    getGithubRepos.mockRejectedValueOnce(new Error('GitHub API rate limit exceeded'))
+    render(<Portfolio />)
+
+    expect(await screen.findByRole('alert')).toHaveTextContent('GitHub API rate limit exceeded')
+    expect(screen.getByRole('link', { name: /static github pages backup/i })).toHaveAttribute(
+      'href',
+      'https://shubhankart101.github.io/Shubhankart101/',
+    )
   })
 
   it('offers the GitHub README when project data is unavailable', async () => {

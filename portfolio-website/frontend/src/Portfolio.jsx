@@ -14,6 +14,7 @@ import {
 } from 'lucide-react'
 import { createContact, getProfile, getProject, getProjects } from './api.js'
 import DeliveryStory from './DeliveryStory.jsx'
+import RepositoryStats from './RepositoryStats.jsx'
 import './Portfolio.css'
 
 const categories = ['All', 'API', 'Automation', 'Data', 'DevOps', 'Platform', 'Product']
@@ -123,7 +124,7 @@ export default function Portfolio() {
           <span className="brand-mark">ST</span><span className="brand-name">SHUBHANKAR<br />THAPLIYAL</span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
-          <a href="#work">Work</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+          <a href="#work">Work</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#github">GitHub</a><a href="#contact">Contact</a>
         </nav>
         <a className="resume-link" href="/api/resume/" download>Resume <Download size={15} /></a>
       </header>
@@ -186,6 +187,8 @@ export default function Portfolio() {
             ))}
           </div>
         </section>
+
+        <RepositoryStats />
 
         <section className="experience-band" id="experience" aria-labelledby="experience-title">
           <div className="section-wrap experience-inner">

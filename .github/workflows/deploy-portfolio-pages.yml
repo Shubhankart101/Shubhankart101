@@ -1,10 +1,13 @@
 name: Deploy static portfolio backup
 
 on:
+  schedule:
+    - cron: '0 4 * * *'
   push:
     branches: [main]
     paths:
       - "portfolio-website/frontend/public/backup.html"
+      - "portfolio-website/frontend/public/repos.json"
       - "portfolio-website/frontend/public/devops-methodology-loop.gif"
       - "portfolio-website/frontend/public/profile-image.jpg"
       - "RESUME.pdf"
@@ -32,6 +35,7 @@ jobs:
         run: |
           mkdir -p site
           cp portfolio-website/frontend/public/backup.html site/index.html
+          cp portfolio-website/frontend/public/repos.json site/
           cp portfolio-website/frontend/public/devops-methodology-loop.gif site/
           cp portfolio-website/frontend/public/profile-image.jpg site/
           cp RESUME.pdf site/

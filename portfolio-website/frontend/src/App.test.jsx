@@ -81,6 +81,16 @@ describe('portfolio website', () => {
     expect(getProjects).toHaveBeenCalledWith(expect.objectContaining({ category: 'All' }))
   })
 
+  it('keeps the portfolio visible when the API host returns the Netlify SPA fallback', async () => {
+    const apiError = new Error('The API returned an invalid response. Check VITE_API_BASE_URL.')
+    getProfile.mockRejectedValueOnce(apiError)
+    getProjects.mockRejectedValueOnce(apiError)
+    render(<Portfolio />)
+
+    expect(await screen.findByRole('heading', { name: /complex cloud work/i })).toBeInTheDocument()
+    expect(await screen.findByRole('alert')).toHaveTextContent('Check VITE_API_BASE_URL')
+  })
+
   it('switches the delivery stage narrative with accessible tabs', async () => {
     const user = userEvent.setup()
     render(<Portfolio />)

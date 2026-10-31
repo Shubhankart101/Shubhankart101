@@ -51,6 +51,16 @@ describe('portfolio API client', () => {
     expect(fetch).toHaveBeenCalledWith('/api/profile/', { signal: undefined, headers: {} })
   })
 
+  it('rejects an HTML SPA fallback served as a successful API response', async () => {
+    fetch.mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: vi.fn().mockRejectedValue(new SyntaxError('Unexpected token <')),
+    })
+
+    await expect(getProfile()).rejects.toThrow('The API returned an invalid response. Check VITE_API_BASE_URL.')
+  })
+
   it('encodes project search and category parameters', async () => {
     fetch.mockResolvedValue(jsonResponse([]))
 

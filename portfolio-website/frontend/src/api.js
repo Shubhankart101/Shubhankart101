@@ -1,4 +1,5 @@
 export const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/+$/, '')
+const invalidResponseMessage = 'The API returned an invalid response. Check VITE_API_BASE_URL.'
 
 async function request(path, { signal, ...options } = {}) {
   const response = await fetch(`${apiBaseUrl}/${path}`, {
@@ -10,16 +11,34 @@ async function request(path, { signal, ...options } = {}) {
     },
   })
 
-  const payload = response.status === 204 ? null : await response.json().catch(() => null)
+  let payload = null
+  if (response.status !== 204) {
+    try {
+      payload = await response.json()
+    } catch {
+      if (response.ok) throw new Error(invalidResponseMessage)
+    }
+  }
+
   if (!response.ok) {
     const firstError = payload && Object.values(payload).flat(Infinity)[0]
     throw new Error(typeof firstError === 'string' ? firstError : 'Something went wrong. Please try again.')
+  }
+  if (response.status !== 204 && payload === null) {
+    throw new Error(invalidResponseMessage)
+  }
+  return payload
+}
+
+function requireObject(payload, resource) {
+  if (!payload || typeof payload !== 'object' || Array.isArray(payload)) {
+    throw new Error(`The ${resource} API returned an invalid response.`)
   }
   return payload
 }
 
 export function getProfile({ signal } = {}) {
-  return request('profile/', { signal })
+  return request('profile/', { signal }).then((profile) => requireObject(profile, 'Profile'))
 }
 
 export function getProjects({ q = '', category = 'All', signal } = {}) {
@@ -27,11 +46,15 @@ export function getProjects({ q = '', category = 'All', signal } = {}) {
   if (q.trim()) params.set('q', q.trim())
   if (category !== 'All') params.set('category', category)
   const query = params.size ? `?${params}` : ''
-  return request(`projects/${query}`, { signal })
+  return request(`projects/${query}`, { signal }).then((projects) => {
+    if (!Array.isArray(projects)) throw new Error('The projects API returned an invalid response.')
+    return projects
+  })
 }
 
 export function getProject(slug, { signal } = {}) {
   return request(`projects/${encodeURIComponent(slug)}/`, { signal })
+    .then((project) => requireObject(project, 'Project'))
 }
 
 export function createContact(values) {

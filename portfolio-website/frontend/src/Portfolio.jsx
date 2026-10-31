@@ -13,9 +13,12 @@ import {
   X,
 } from 'lucide-react'
 import { createContact, getProfile, getProject, getProjects } from './api.js'
+import DeliveryStory from './DeliveryStory.jsx'
 import './Portfolio.css'
 
 const categories = ['All', 'API', 'Automation', 'Data', 'DevOps', 'Platform', 'Product']
+const profileReadmeUrl = 'https://github.com/Shubhankart101/Shubhankart101#readme'
+const staticPortfolioUrl = 'https://shubhankart101.github.io/Shubhankart101/'
 const fallbackProfile = {
   email: 'shubhankar.thapliyal@gmail.com',
   linkedin: 'https://www.linkedin.com/in/shubhankarthapliyal',
@@ -58,7 +61,7 @@ function ProjectDialog({ slug, onClose }) {
           <p className="dialog-description">{project.description}</p>
           <ul className="stack-list" aria-label="Technologies">{project.stack.map((item) => <li key={item}>{item}</li>)}</ul>
           <a className="button button-dark" href={project.repo_url} target="_blank" rel="noreferrer">View repository <ArrowUpRight size={17} /></a>
-        </> : error ? <p role="alert" className="form-error">{error}</p> : <p className="dialog-loading" aria-live="polite">Loading project details...</p>}
+        </> : error ? <div className="dialog-error"><p role="alert" className="form-error">{error}</p><a className="text-link" href={staticPortfolioUrl} target="_blank" rel="noreferrer">Open static GitHub Pages backup <ArrowUpRight size={15} /></a><a className="text-link" href={profileReadmeUrl} target="_blank" rel="noreferrer">Open profile README backup <ArrowUpRight size={15} /></a></div> : <p className="dialog-loading" aria-live="polite">Loading project details...</p>}
       </section>
     </div>
   )
@@ -120,7 +123,7 @@ export default function Portfolio() {
           <span className="brand-mark">ST</span><span className="brand-name">SHUBHANKAR<br />THAPLIYAL</span>
         </a>
         <nav className="main-nav" aria-label="Main navigation">
-          <a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+          <a href="#work">Work</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
         </nav>
         <a className="resume-link" href="/api/resume/" download>Resume <Download size={15} /></a>
       </header>
@@ -152,6 +155,8 @@ export default function Portfolio() {
           <p>PLATFORM ENGINEERING</p><span aria-hidden="true">*</span><p>INFRASTRUCTURE AS CODE</p><span aria-hidden="true">*</span><p>DELIVERY THAT HOLDS UP</p>
         </section>
 
+        <DeliveryStory />
+
         <section className="work-section section-wrap" id="work" aria-labelledby="work-title">
           <div className="section-heading">
             <div><p className="eyebrow">A FEW THINGS I'VE BUILT</p><h2 id="work-title">Selected work<span className="accent-period">.</span></h2></div>
@@ -167,7 +172,7 @@ export default function Portfolio() {
           </div>
           <div className="project-grid" aria-live="polite">
             {projectsLoading && <p className="project-message">Loading selected work...</p>}
-            {!projectsLoading && projectsError && <div className="project-message project-error" role="alert"><p>{projectsError}</p><button className="text-link" type="button" onClick={() => { setProjectsLoading(true); setReloadKey((key) => key + 1) }}>Try again <ArrowUpRight size={15} /></button></div>}
+            {!projectsLoading && projectsError && <div className="project-message project-error" role="alert"><div><p>{projectsError}</p><a className="text-link" href={staticPortfolioUrl} target="_blank" rel="noreferrer">Static GitHub Pages backup <ArrowUpRight size={15} /></a><a className="text-link" href={profileReadmeUrl} target="_blank" rel="noreferrer">GitHub README backup <ArrowUpRight size={15} /></a></div><button className="text-link" type="button" onClick={() => { setProjectsLoading(true); setReloadKey((key) => key + 1) }}>Try again <ArrowUpRight size={15} /></button></div>}
             {!projectsLoading && !projectsError && projects.length === 0 && <p className="project-message">No projects match that search. Try another term or category.</p>}
             {!projectsLoading && !projectsError && projects.map((project, index) => (
               <article className={`project-item project-tone-${index % 4}`} key={project.slug}>
@@ -206,7 +211,7 @@ export default function Portfolio() {
             <div className="form-row"><label>Name<input name="name" autoComplete="name" maxLength="100" required /></label><label>Email<input name="email" type="email" autoComplete="email" maxLength="254" required /></label></div>
             <label>Subject <span className="optional-label">OPTIONAL</span><input name="subject" maxLength="150" /></label>
             <label>What are you working on?<textarea name="message" rows="4" minLength="20" maxLength="5000" required /></label>
-            {contactError && <p className="form-error" role="alert">{contactError}</p>}
+            {contactError && <div className="contact-error"><p className="form-error" role="alert">{contactError}</p><a className="text-link" href={staticPortfolioUrl} target="_blank" rel="noreferrer">Open static GitHub Pages backup <ArrowUpRight size={15} /></a><a className="text-link" href={profileReadmeUrl} target="_blank" rel="noreferrer">Open profile README backup <ArrowUpRight size={15} /></a></div>}
             {contactStatus === 'sent' && <p className="form-success" role="status"><Check size={17} /> Message received. I'll be in touch.</p>}
             <button className="button button-dark form-submit" type="submit" disabled={contactStatus === 'submitting'}>{contactStatus === 'submitting' ? 'Sending...' : 'Send message'} <ArrowUpRight size={17} /></button>
           </form>
@@ -215,7 +220,7 @@ export default function Portfolio() {
 
       <footer className="site-footer">
         <a className="brand" href="#top"><span className="brand-mark">ST</span><span className="brand-name">SHUBHANKAR<br />THAPLIYAL</span></a>
-        <p>Cloud platforms, built to hold up.</p><a className="back-top" href="#top">Back to top <ArrowUpRight size={15} /></a>
+        <p>Cloud platforms, built to hold up.</p><div className="footer-links"><a className="back-top" href={staticPortfolioUrl} target="_blank" rel="noreferrer">Static site backup <ArrowUpRight size={15} /></a><a className="back-top" href={profileReadmeUrl} target="_blank" rel="noreferrer">README backup <ArrowUpRight size={15} /></a><a className="back-top" href="#top">Back to top <ArrowUpRight size={15} /></a></div>
       </footer>
       {activeProject && <ProjectDialog slug={activeProject} onClose={() => setActiveProject(null)} />}
     </div>

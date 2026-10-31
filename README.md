@@ -10,6 +10,19 @@
 	<a href="https://github.com/Shubhankart101/Shubhankart101/raw/main/RESUME.pdf"><img src="https://img.shields.io/badge/Download%20ATS%20resume%20PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download ATS resume PDF"></a>
 </p>
 
+<details>
+<summary><strong>Static GitHub portfolio backup</strong></summary>
+
+This profile README remains the no-build backup for career details, projects, and resume links if the interactive website is unavailable.
+
+- [Featured repositories](#-featured-repositories)
+- [Static GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/)
+- [ATS resume](RESUME.md)
+- [Contact by email](mailto:shubhankar.thapliyal@gmail.com)
+- [Portfolio website source and setup](portfolio-website/README.md)
+
+</details>
+
 ---
 
 ## Hi, I'm Shubhankar Thapliyal

@@ -3,6 +3,7 @@ from pathlib import Path
 from django.conf import settings
 from django.db.models import Q
 from django.http import FileResponse, Http404
+from django.shortcuts import render
 from rest_framework import generics
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
@@ -101,3 +102,11 @@ def resume_download(request):
         filename="Shubhankar-Thapliyal-Resume.pdf",
         content_type="application/pdf",
     )
+
+
+def page_not_found(request, exception):
+    return render(request, "errors/404.html", status=404)
+
+
+def server_error(request):
+    return render(request, "errors/500.html", status=500)

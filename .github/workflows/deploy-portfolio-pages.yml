@@ -1,0 +1,45 @@
+name: Deploy static portfolio backup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "portfolio-website/frontend/public/backup.html"
+      - "portfolio-website/frontend/public/devops-methodology-loop.gif"
+      - "portfolio-website/frontend/public/profile-image.jpg"
+      - "RESUME.pdf"
+      - ".github/workflows/deploy-portfolio-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: portfolio-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Assemble static portfolio backup
+        run: |
+          mkdir -p site
+          cp portfolio-website/frontend/public/backup.html site/index.html
+          cp portfolio-website/frontend/public/devops-methodology-loop.gif site/
+          cp portfolio-website/frontend/public/profile-image.jpg site/
+          cp RESUME.pdf site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

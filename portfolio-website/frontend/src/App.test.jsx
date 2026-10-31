@@ -1,7 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import Portfolio from './Portfolio.jsx'
+import RecoveryPage from './RecoveryPage.jsx'
 import { createContact, getProfile, getProject, getProjects } from './api.js'
 
 vi.mock('./api.js', () => ({
@@ -46,12 +47,52 @@ describe('portfolio website', () => {
     createContact.mockResolvedValue({ id: 1 })
   })
 
+  it('keeps the README backup available from app error pages', () => {
+    const { rerender } = render(<RecoveryPage code="404" />)
+
+    expect(screen.getByRole('heading', { name: /route drifted off course/i })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /open profile readme/i })).toHaveAttribute(
+      'href',
+      'https://github.com/Shubhankart101/Shubhankart101#readme',
+    )
+    expect(screen.getByRole('link', { name: /static github pages backup/i })).toHaveAttribute(
+      'href',
+      'https://shubhankart101.github.io/Shubhankart101/',
+    )
+
+    rerender(<RecoveryPage code="500" />)
+    expect(screen.getByRole('heading', { name: /deployment hit a snag/i })).toBeInTheDocument()
+  })
+
   it('loads the profile and project list from the API', async () => {
     render(<Portfolio />)
     expect(await screen.findByRole('heading', { name: /complex cloud work/i })).toBeInTheDocument()
     expect(await screen.findByRole('button', { name: 'View details for CollabDocs' })).toBeInTheDocument()
     expect(getProfile).toHaveBeenCalledOnce()
     expect(getProjects).toHaveBeenCalledWith(expect.objectContaining({ category: 'All' }))
+  })
+
+  it('switches the delivery stage narrative with accessible tabs', async () => {
+    const user = userEvent.setup()
+    render(<Portfolio />)
+
+    const deployTab = screen.getByRole('tab', { name: 'Deploy' })
+    await user.click(deployTab)
+
+    expect(deployTab).toHaveAttribute('aria-selected', 'true')
+    expect(screen.getByRole('tabpanel')).toHaveTextContent('Bring it into the field.')
+    expect(screen.getByRole('tabpanel')).toHaveTextContent('customer and operations teams')
+  })
+
+  it('offers the GitHub README when project data is unavailable', async () => {
+    getProjects.mockRejectedValueOnce(new Error('Projects are temporarily unavailable.'))
+    render(<Portfolio />)
+
+    expect(await screen.findByRole('alert')).toHaveTextContent('Projects are temporarily unavailable.')
+    expect(within(screen.getByRole('alert')).getByRole('link', { name: /github readme backup/i })).toHaveAttribute(
+      'href',
+      'https://github.com/Shubhankart101/Shubhankart101#readme',
+    )
   })
 
   it('searches and filters projects', async () => {

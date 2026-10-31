@@ -2,6 +2,8 @@
 
 A responsive React portfolio backed by a Django REST API. Project content is stored in SQLite and editable through Django admin; contact submissions are validated and saved for follow-up.
 
+The root [GitHub profile README](../README.md) is the interactive static fallback for projects, work history, contact details, and resume links. A separate [GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/) has searchable projects and collapsible experience. App and server error screens link to both.
+
 ## Requirements
 
 - Python 3.12 or newer
@@ -17,6 +19,7 @@ py -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 python manage.py migrate
+python manage.py collectstatic --noinput
 python manage.py createsuperuser
 python manage.py runserver
 ```

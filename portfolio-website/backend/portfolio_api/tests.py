@@ -75,6 +75,25 @@ class PortfolioApiTests(APITestCase):
         self.assertEqual(response["Content-Type"], "application/pdf")
         self.assertIn("attachment", response["Content-Disposition"])
 
+    def test_not_found_page_links_to_the_github_readme(self):
+        with self.settings(DEBUG=False):
+            response = self.client.get("/missing-portfolio-route/")
+
+        self.assertEqual(response.status_code, 404)
+        self.assertContains(response, "Open static GitHub Pages backup", status_code=404)
+        self.assertContains(response, "Open profile README", status_code=404)
+
+    def test_server_error_page_links_to_the_github_readme(self):
+        from django.test import RequestFactory
+
+        from .views import server_error
+
+        response = server_error(RequestFactory().get("/"))
+
+        self.assertEqual(response.status_code, 500)
+        self.assertContains(response, "Open static GitHub Pages backup", status_code=500)
+        self.assertContains(response, "Open profile README", status_code=500)
+
     def test_admin_can_view_seeded_projects(self):
         admin = get_user_model().objects.create_superuser(
             username="portfolio-admin",

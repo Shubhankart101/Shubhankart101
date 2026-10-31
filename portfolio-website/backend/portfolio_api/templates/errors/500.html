@@ -1,0 +1,48 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09121a">
+  <title>Temporary interruption | Shubhankar Thapliyal</title>
+  <style>
+    :root { color-scheme: dark; font-family: "DM Sans", "Segoe UI", sans-serif; color: #e9f0f3; background: #09121a; }
+    * { box-sizing: border-box; }
+    body { min-width: 320px; min-height: 100vh; margin: 0; }
+    main { position: relative; isolation: isolate; min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; padding: 26px max(24px, calc((100vw - 1120px) / 2)); }
+    .brand { display: flex; align-items: center; gap: 10px; color: #f4f7f2; text-decoration: none; font-size: 10px; font-weight: 700; letter-spacing: .08em; }
+    .mark { width: 38px; aspect-ratio: 1; display: grid; place-items: center; color: #f4f7f2; background: #050b10; font-size: 13px; }
+    .copy { width: min(660px, 100%); align-self: center; padding: 80px 0; }
+    .eyebrow { color: #d7f56a; font-size: 10px; font-weight: 700; letter-spacing: .1em; }
+    h1 { margin: 18px 0; font-size: clamp(40px, 6vw, 66px); line-height: 1.03; }
+    p { max-width: 500px; color: #a4b2bd; font-size: 15px; line-height: 1.7; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 26px; }
+    .button { min-height: 46px; display: inline-flex; align-items: center; padding: 0 16px; color: #09121a; background: #d7f56a; font-size: 12px; font-weight: 700; text-decoration: none; }
+    .text-link { color: #e9f0f3; font-size: 12px; font-weight: 600; text-decoration: none; }
+    .button:hover { background: #78a8ff; }
+    .text-link:hover { color: #d7f56a; }
+    .art { position: absolute; z-index: -1; top: 50%; right: max(-80px, calc((100vw - 1440px) / 2)); width: min(64vw, 820px); opacity: .25; transform: translateY(-50%); pointer-events: none; }
+    footer { display: flex; justify-content: space-between; gap: 20px; padding-top: 16px; border-top: 1px solid #2b3b47; color: #a4b2bd; font-size: 10px; }
+    footer a { color: #e9f0f3; text-decoration: none; }
+    @media (max-width: 620px) { main { padding-inline: 20px; } .copy { padding-block: 60px; } .art { right: -210px; width: 780px; opacity: .18; } footer { font-size: 9px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="brand" href="/"><span class="mark">ST</span><span>SHUBHANKAR<br>THAPLIYAL</span></a>
+    <section class="copy">
+      <div class="eyebrow">TEMPORARY INTERRUPTION / 500</div>
+      <h1>The deployment hit a snag.</h1>
+      <p>The interactive portfolio could not complete this request. The searchable GitHub Pages backup and profile README remain available.</p>
+      <div class="actions">
+        <a class="button" href="https://shubhankart101.github.io/Shubhankart101/">Open static GitHub Pages backup</a>
+        <a class="text-link" href="https://github.com/Shubhankart101/Shubhankart101#readme">Open profile README</a>
+        <a class="text-link" href="mailto:shubhankar.thapliyal@gmail.com">Contact Shubhankar</a>
+      </div>
+    </section>
+    <img class="art" src="{% static 'devops-methodology-loop.gif' %}" alt="DevOps delivery cycle: plan, code, build, test, release, deploy, operate, improve">
+    <footer><span>FIELD DELIVERY / SYSTEM STATUS</span><a href="/">Return to portfolio</a></footer>
+  </main>
+</body>
+</html>

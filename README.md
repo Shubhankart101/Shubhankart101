@@ -176,6 +176,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
 	<a href="https://github.com/Shubhankart101/India-s-Journey"><img src="https://img.shields.io/badge/Open%20India%27s%20Journey-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open India's Journey"></a>
+	<a href="https://github.com/Shubhankart101/LaunchCrew"><img src="https://img.shields.io/badge/Open%20LaunchCrew-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Open LaunchCrew"></a>
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
 	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>

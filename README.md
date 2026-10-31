@@ -38,6 +38,10 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 <p align="center">
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
+	<a href="https://github.com/Shubhankart101/AccountCare"><img src="https://img.shields.io/badge/Open%20AccountCare-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Open AccountCare"></a>
+	<a href="https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor"><img src="https://img.shields.io/badge/Open%20BoundedGraphRunner%26TraceExtractor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedGraphRunner and TraceExtractor"></a>
+	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
+	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>
 	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
@@ -184,6 +188,10 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 <p align="center">
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
+	<a href="https://github.com/Shubhankart101/AccountCare"><img src="https://img.shields.io/badge/Open%20AccountCare-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Open AccountCare"></a>
+	<a href="https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor"><img src="https://img.shields.io/badge/Open%20BoundedGraphRunner%26TraceExtractor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedGraphRunner and TraceExtractor"></a>
+	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
+	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>
 	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>

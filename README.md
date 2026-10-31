@@ -35,23 +35,6 @@ I build reliable Azure and AWS delivery platforms through CI/CD, Terraform, Ansi
 	<a href="https://github.com/Shubhankart101?tab=repositories"><img src="https://img.shields.io/badge/Browse%20all%20repositories-Open-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Browse all repositories"></a>
 </p>
 
-<p align="center">
-	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
-	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
-	<a href="https://github.com/Shubhankart101/AccountCare"><img src="https://img.shields.io/badge/Open%20AccountCare-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Open AccountCare"></a>
-	<a href="https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor"><img src="https://img.shields.io/badge/Open%20BoundedGraphRunner%26TraceExtractor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedGraphRunner and TraceExtractor"></a>
-	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
-	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
-	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>
-	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
-	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
-	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
-	<a href="https://github.com/Shubhankart101/India-s-Journey"><img src="https://img.shields.io/badge/Open%20India%27s%20Journey-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open India's Journey"></a>
-	<a href="https://github.com/Shubhankart101/WEB_API_L3"><img src="https://img.shields.io/badge/Open%20WEB_API_L3-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L3"></a>
-	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>
-	<a href="https://github.com/Shubhankart101/WEB_API_L2"><img src="https://img.shields.io/badge/Open%20WEB_API_L2-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L2"></a>
-</p>
-
 <details>
 <summary><strong>More about me</strong></summary>
 

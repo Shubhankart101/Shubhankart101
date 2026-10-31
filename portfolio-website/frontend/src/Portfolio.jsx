@@ -146,7 +146,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="hero-visual">
-            <div className="photo-frame"><img src="/profile-image.jpg" alt="Portrait of Shubhankar Thapliyal" /><span className="photo-caption">PLATFORM ENGINEERING / 01</span></div>
+            <div className="photo-frame"><img src={`${import.meta.env.BASE_URL}profile-image.jpg`} alt="Portrait of Shubhankar Thapliyal" /><span className="photo-caption">PLATFORM ENGINEERING / 01</span></div>
             <div className="visual-note"><span className="note-mark">↗</span><span>Reliable by design.<br />Practical by default.</span></div>
             <span className="visual-index">28 DEG N / 77 DEG E</span>
           </div>

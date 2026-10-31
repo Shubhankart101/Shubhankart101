@@ -1,4 +1,5 @@
 from django.contrib.auth import get_user_model
+from django.conf import settings
 from django.core.cache import cache
 from django.test import RequestFactory, override_settings
 from django.urls import reverse
@@ -9,6 +10,17 @@ from .models import ContactMessage, Project
 
 
 class PortfolioApiTests(APITestCase):
+    def test_root_and_client_routes_serve_the_production_frontend_build(self):
+        frontend_index = settings.FRONTEND_DIST_DIR / "index.html"
+        if not frontend_index.is_file():
+            self.skipTest("Build the frontend before testing Django's SPA routes.")
+
+        for path in ("/", "/approach", "/github"):
+            with self.subTest(path=path):
+                response = self.client.get(path)
+                self.assertEqual(response.status_code, 200)
+                self.assertContains(response, '<div id="root"></div>')
+
     def test_health_and_profile_endpoints(self):
         health = self.client.get(reverse("health"))
         profile = self.client.get(reverse("profile"))
@@ -146,9 +158,9 @@ class PortfolioApiTests(APITestCase):
         self.assertEqual(response["Content-Type"], "application/pdf")
         self.assertIn("attachment", response["Content-Disposition"])
 
-    def test_not_found_page_links_to_the_github_readme(self):
+    def test_unknown_api_route_links_to_the_github_readme(self):
         with self.settings(DEBUG=False):
-            response = self.client.get("/missing-portfolio-route/")
+            response = self.client.get("/api/missing-portfolio-route/")
 
         self.assertEqual(response.status_code, 404)
         self.assertContains(response, "Open static GitHub Pages backup", status_code=404)

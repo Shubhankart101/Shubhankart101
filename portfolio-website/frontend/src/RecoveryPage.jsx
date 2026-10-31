@@ -23,7 +23,7 @@ export default function RecoveryPage({ code = '404' }) {
           {isServerError ? <button className="button recovery-secondary" type="button" onClick={() => window.location.reload()}><RotateCcw size={16} /> Retry page</button> : <a className="text-link" href="/"><ArrowLeft size={16} /> Back to portfolio</a>}
         </div>
       </section>
-      <img className="recovery-art" src="/devops-methodology-loop.gif" alt="DevOps delivery cycle: plan, code, build, test, release, deploy, operate, improve" />
+      <img className="recovery-art" src={`${import.meta.env.BASE_URL}devops-methodology-loop.gif`} alt="DevOps delivery cycle: plan, code, build, test, release, deploy, operate, improve" />
       <footer className="recovery-footer"><span>FIELD DELIVERY / SYSTEM STATUS</span><a href="mailto:shubhankar.thapliyal@gmail.com">Contact Shubhankar</a></footer>
     </main>
   )

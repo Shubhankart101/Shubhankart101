@@ -92,16 +92,16 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>39 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>40 public repositories · 0 stars · 0 forks</strong></summary>
 
-**29 original · 10 forks · 0 watchers · 0 open issues**
+**29 original · 11 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
 | Python | 14 | 0 | 0 | 0 |
-| Other | 11 | 0 | 0 | 0 |
+| Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
 | JavaScript | 2 | 0 | 0 | 0 |
@@ -118,6 +118,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 |:--|:--|--:|--:|--:|--:|:--|:--|
 | [2nd_september](https://github.com/Shubhankart101/2nd_september) | Python | 0 | 0 | 0 | 0 | 2019-09-22 | Source |
 | [AccountCare](https://github.com/Shubhankart101/AccountCare) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
+| [ai_for_naukari](https://github.com/Shubhankart101/ai_for_naukari) | Other | 0 | 0 | 0 | 0 | 2026-10-31 | Fork |
 | [Airflow-RD01](https://github.com/Shubhankart101/Airflow-RD01) | Other | 0 | 0 | 0 | 0 | 2023-11-01 | Source |
 | [AnsibleForDevOpsRepoForNotes](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) | Other | 0 | 0 | 0 | 0 | 2026-10-26 | Source |
 | [BoundedGraphRunner-TraceExtractor](https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
@@ -131,7 +132,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [git-assignment](https://github.com/Shubhankart101/git-assignment) | Other | 0 | 0 | 0 | 0 | 2026-05-21 | Source |
 | [GitlabForDevOpsRepoForNotes](https://github.com/Shubhankart101/GitlabForDevOpsRepoForNotes) | Other | 0 | 0 | 0 | 0 | 2026-10-26 | Source |
 | [hashicorp](https://github.com/Shubhankart101/hashicorp) | Other | 0 | 0 | 0 | 0 | 2025-02-26 | Fork |
-| [India-s-Journey](https://github.com/Shubhankart101/India-s-Journey) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
+| [India-s-Journey](https://github.com/Shubhankart101/India-s-Journey) | Python | 0 | 0 | 0 | 0 | 2026-11-01 | Source |
 | [intro-to-heroku](https://github.com/Shubhankart101/intro-to-heroku) | JavaScript | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [kubernetes](https://github.com/Shubhankart101/kubernetes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [Kubernetes-DockerForDevOpsRepoForNotes](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) | Go Template | 0 | 0 | 0 | 0 | 2026-10-26 | Source |
@@ -143,7 +144,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [Python_DSA](https://github.com/Shubhankart101/Python_DSA) | Python | 0 | 0 | 0 | 0 | 2026-06-01 | Source |
 | [PythonScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) | Python | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
 | [ShellScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
-| [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
+| [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-11-01 | Source |
 | [Shubhankart101.github.io](https://github.com/Shubhankart101/Shubhankart101.github.io) | HTML | 0 | 0 | 0 | 0 | 2019-09-06 | Source |
 | [SmartHotel360-Website](https://github.com/Shubhankart101/SmartHotel360-Website) | Other | 0 | 0 | 0 | 0 | 2021-10-05 | Fork |
 | [spring-petclinic](https://github.com/Shubhankart101/spring-petclinic) | CSS | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |

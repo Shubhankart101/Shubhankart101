@@ -26,6 +26,19 @@
     "isArchived": false
   },
   {
+    "name": "ai_for_naukari",
+    "url": "https://github.com/Shubhankart101/ai_for_naukari",
+    "description": "No repository description provided.",
+    "language": "Other",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-10-31T15:59:02Z",
+    "isFork": true,
+    "isArchived": false
+  },
+  {
     "name": "Airflow-RD01",
     "url": "https://github.com/Shubhankart101/Airflow-RD01",
     "description": "No repository description provided.",
@@ -203,7 +216,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-10-31T12:37:20Z",
+    "updatedAt": "2026-11-01T09:39:43Z",
     "isFork": false,
     "isArchived": false
   },
@@ -359,7 +372,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-10-31T12:41:33Z",
+    "updatedAt": "2026-11-01T09:15:44Z",
     "isFork": false,
     "isArchived": false
   },

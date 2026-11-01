@@ -1,0 +1,162 @@
+[
+  {
+    "title": "AccountCare",
+    "slug": "AccountCare",
+    "category": "API",
+    "summary": "Account workflows and service integration.",
+    "description": "Account workflows and service integration.",
+    "stack": ["Python", "Django", "REST API"],
+    "repo_url": "https://github.com/Shubhankart101/AccountCare",
+    "demo_url": ""
+  },
+  {
+    "title": "BoundedGraphRunner-TraceExtractor",
+    "slug": "BoundedGraphRunner-TraceExtractor",
+    "category": "Automation",
+    "summary": "Bounded graph execution and trace extraction.",
+    "description": "Bounded graph execution and trace extraction.",
+    "stack": ["Python", "Graph workflows", "Testing"],
+    "repo_url": "https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor",
+    "demo_url": ""
+  },
+  {
+    "title": "CollabDocs",
+    "slug": "CollabDocs",
+    "category": "Product",
+    "summary": "A collaborative document platform.",
+    "description": "A collaborative document platform.",
+    "stack": ["Python", "Django", "Collaboration"],
+    "repo_url": "https://github.com/Shubhankart101/CollabDocs",
+    "demo_url": ""
+  },
+  {
+    "title": "DevTrack",
+    "slug": "DevTrack",
+    "category": "DevOps",
+    "summary": "Issue tracking with automated delivery and cloud infrastructure.",
+    "description": "Issue tracking with automated delivery and cloud infrastructure.",
+    "stack": ["Python", "Django", "Terraform"],
+    "repo_url": "https://github.com/Shubhankart101/DevTrack",
+    "demo_url": ""
+  },
+  {
+    "title": "EventHub",
+    "slug": "EventHub",
+    "category": "Product",
+    "summary": "Experiments in event-driven application design.",
+    "description": "Experiments in event-driven application design.",
+    "stack": ["Python", "Events", "APIs"],
+    "repo_url": "https://github.com/Shubhankart101/EventHub",
+    "demo_url": ""
+  },
+  {
+    "title": "FlightPriceMonitorAlertSystem",
+    "slug": "FlightPriceMonitorAlertSystem",
+    "category": "Automation",
+    "summary": "Flight price monitoring with useful alerts.",
+    "description": "Flight price monitoring with useful alerts.",
+    "stack": ["Python", "Automation", "Alerts"],
+    "repo_url": "https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem",
+    "demo_url": ""
+  },
+  {
+    "title": "India-s-Journey",
+    "slug": "India-s-Journey",
+    "category": "Data",
+    "summary": "A public-data dashboard about India's progress.",
+    "description": "A public-data dashboard about India's progress.",
+    "stack": ["Python", "Data visualization", "GitHub Actions"],
+    "repo_url": "https://github.com/Shubhankart101/India-s-Journey",
+    "demo_url": ""
+  },
+  {
+    "title": "LaunchCrew",
+    "slug": "LaunchCrew",
+    "category": "Product",
+    "summary": "A launch-focused collaboration workspace.",
+    "description": "A launch-focused collaboration workspace.",
+    "stack": ["Python", "Django", "Product"],
+    "repo_url": "https://github.com/Shubhankart101/LaunchCrew",
+    "demo_url": ""
+  },
+  {
+    "title": "MeetGuard",
+    "slug": "MeetGuard",
+    "category": "Platform",
+    "summary": "Meeting coordination and safeguards.",
+    "description": "Meeting coordination and safeguards.",
+    "stack": ["Python", "Django", "Web application"],
+    "repo_url": "https://github.com/Shubhankart101/MeetGuard",
+    "demo_url": ""
+  },
+  {
+    "title": "NovaNotebook",
+    "slug": "NovaNotebook",
+    "category": "Product",
+    "summary": "A notebook workspace for capturing and organizing ideas.",
+    "description": "A notebook workspace for capturing and organizing ideas.",
+    "stack": ["Python", "Django", "Product"],
+    "repo_url": "https://github.com/Shubhankart101/NovaNotebook",
+    "demo_url": ""
+  },
+  {
+    "title": "SafeLocalToolDispatcher",
+    "slug": "SafeLocalToolDispatcher",
+    "category": "Automation",
+    "summary": "A controlled dispatcher for local tools.",
+    "description": "A controlled dispatcher for local tools.",
+    "stack": ["Python", "Tooling", "Automation"],
+    "repo_url": "https://github.com/Shubhankart101/SafeLocalToolDispatcher",
+    "demo_url": ""
+  },
+  {
+    "title": "SubLedger",
+    "slug": "SubLedger",
+    "category": "API",
+    "summary": "Subscription and billing system.",
+    "description": "Subscription and billing system.",
+    "stack": ["Python", "FastAPI", "Billing"],
+    "repo_url": "https://github.com/Shubhankart101/SubLedger",
+    "demo_url": ""
+  },
+  {
+    "title": "TeamBoard",
+    "slug": "TeamBoard",
+    "category": "Product",
+    "summary": "A B2B knowledge base API platform.",
+    "description": "A B2B knowledge base API platform.",
+    "stack": ["Python", "Django", "REST API"],
+    "repo_url": "https://github.com/Shubhankart101/TeamBoard",
+    "demo_url": ""
+  },
+  {
+    "title": "WEB_API_L1",
+    "slug": "WEB_API_L1",
+    "category": "API",
+    "summary": "Foundational service and API engineering.",
+    "description": "Foundational service and API engineering.",
+    "stack": ["C#", ".NET", "REST API"],
+    "repo_url": "https://github.com/Shubhankart101/WEB_API_L1",
+    "demo_url": ""
+  },
+  {
+    "title": "WEB_API_L2",
+    "slug": "WEB_API_L2",
+    "category": "API",
+    "summary": "Backend implementation and API engineering.",
+    "description": "Backend implementation and API engineering.",
+    "stack": ["C#", ".NET", "REST API"],
+    "repo_url": "https://github.com/Shubhankart101/WEB_API_L2",
+    "demo_url": ""
+  },
+  {
+    "title": "WEB_API_L3",
+    "slug": "WEB_API_L3",
+    "category": "API",
+    "summary": "Advanced service and API design.",
+    "description": "Advanced service and API design.",
+    "stack": ["C#", ".NET", "REST API"],
+    "repo_url": "https://github.com/Shubhankart101/WEB_API_L3",
+    "demo_url": ""
+  }
+]

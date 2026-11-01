@@ -58,19 +58,20 @@
     @media(max-width:1280px){.hero h1{font-size:72px}}
     @media(max-width:900px){.hero h1{font-size:58px}}
     @media(max-width:760px){nav a:nth-child(2){display:none}.hero{min-height:calc(100svh - 68px);padding:58px 18px 48px}.hero .eyebrow{flex-wrap:wrap;gap:6px;font-size:10px}.hero h1{font-size:42px}.hero .intro{margin:20px auto 24px;font-size:17px}.hero .actions{gap:14px}.hero .button{font-size:13px}.portrait{display:none}.facts{margin-top:40px;padding-block:18px}.facts div{padding-inline:5px}.facts b{font-size:27px}.facts span{max-width:110px;font-size:9px;line-height:1.4}.section-top h2,.journey h2{font-size:42px}.project h3{font-size:22px}}
+    .delivery-stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:26px 0 0;padding:0;list-style:none;counter-reset:stage}.delivery-stages li{min-height:132px;display:grid;align-content:start;gap:10px;padding:17px;border:1px solid var(--line);background:var(--panel);counter-increment:stage}.delivery-stages li:before{content:counter(stage,decimal-leading-zero);color:var(--teal);font:700 11px var(--display)}.delivery-stages strong{font:600 16px/1.2 var(--display)}.delivery-stages span{color:var(--muted);font-size:11px;line-height:1.55}.delivery-content .section-top h2{max-width:560px}@media(max-width:760px){.delivery-stages{grid-template-columns:1fr 1fr}.delivery-stages li{min-height:150px;padding:13px}.delivery-stages strong{font-size:14px}.delivery-stages span{font-size:10px}}
   </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header>
     <a class="brand" href="#top" aria-label="Shubhankar Thapliyal home"><span class="mark">ST</span><span>SHUBHANKAR<br>THAPLIYAL</span></a>
-    <nav aria-label="Portfolio navigation"><a href="#projects">Work</a><a href="#github">GitHub Stats</a><a href="#journey">Experience</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Portfolio navigation"><a href="#projects">Work</a><a href="#approach">Approach</a><a href="#journey">Experience</a><a href="#github">GitHub</a><a href="#contact">Contact</a></nav>
     <a class="header-link" href="https://github.com/Shubhankart101/Shubhankart101#readme">README</a>
   </header>
   <main id="main">
     <div class="hero" id="top">
       <div>
-        <p class="eyebrow">NEW DELHI / CLOUD + DELIVERY ENGINEERING</p>
+        <p class="eyebrow">NEW DELHI, INDIA / OPEN TO THE RIGHT CHALLENGE</p>
         <h1>Complex cloud work.<br><span>Made dependable.</span></h1>
         <p class="intro">I build reliable cloud platforms, automation, and delivery systems, staying close to the people who depend on them.</p>
         <div class="actions"><a class="button" href="#projects">Explore the work</a><a class="button secondary" href="RESUME.pdf">Download resume</a></div>
@@ -79,10 +80,24 @@
       <div class="portrait"><img src="profile-image.jpg" alt="Portrait of Shubhankar Thapliyal"></div>
     </div>
 
-    <div class="ticker" aria-label="Engineering focus"><span>PLATFORM ENGINEERING</span><span aria-hidden="true">/</span><span>INFRASTRUCTURE AS CODE</span><span aria-hidden="true">/</span><span>CUSTOMER-SIDE DELIVERY</span></div>
+      <div class="ticker" aria-label="Engineering focus"><span>PLATFORM ENGINEERING</span><span aria-hidden="true">/</span><span>INFRASTRUCTURE AS CODE</span><span aria-hidden="true">/</span><span>CUSTOMER-SIDE DELIVERY</span></div>
+
+    <section class="content wrap delivery-content" id="approach" aria-labelledby="delivery-title">
+      <div class="section-top"><div><p class="eyebrow">A DELIVERY LOOP, BUILT FOR THE FIELD</p><h2 id="delivery-title">Software only counts when it lands.</h2></div><p>Good platform work meets the people who depend on it. Each stage connects engineering decisions to customer outcomes.</p></div>
+      <ol class="delivery-stages">
+        <li><strong>Start with the outcome.</strong><span>Translate the customer problem into a small, measurable change before choosing the tooling.</span></li>
+        <li><strong>Make the change legible.</strong><span>Keep application and infrastructure changes reviewable, versioned, and easy to hand over.</span></li>
+        <li><strong>Repeat the reliable path.</strong><span>Turn successful local steps into consistent, automated builds that teams can trust.</span></li>
+        <li><strong>Find the edge before launch.</strong><span>Validate behavior, security, and failure handling before a release reaches a customer environment.</span></li>
+        <li><strong>Ship a known artifact.</strong><span>Promote a verified version with traceable approvals, clear ownership, and a recovery plan.</span></li>
+        <li><strong>Bring it into the field.</strong><span>Work with customer and operations teams to fit the rollout to real constraints and production needs.</span></li>
+        <li><strong>Stay close after launch.</strong><span>Use live signals, runbooks, and direct feedback to keep the service understandable and dependable.</span></li>
+        <li><strong>Close the loop.</strong><span>Feed lessons from production back into the platform, the pipeline, and the next customer outcome.</span></li>
+      </ol>
+    </section>
 
     <section class="content wrap" id="projects" aria-labelledby="projects-title">
-      <div class="section-top"><div><p class="eyebrow">PROJECT DIRECTORY</p><h2 id="projects-title">Built for the real world.</h2></div><p>Search the project list or narrow it by discipline. Every repository link works without the interactive app.</p></div>
+      <div class="section-top"><div><p class="eyebrow">A FEW THINGS I'VE BUILT</p><h2 id="projects-title">Built for the real world.</h2></div><p>Search the project list or narrow it by discipline. Every repository link works without the interactive app.</p></div>
       <div class="controls"><input id="project-search" type="search" aria-label="Search projects" placeholder="Search projects or technologies"><select id="project-category" aria-label="Filter projects by category"><option value="all">All categories</option><option>API</option><option>Automation</option><option>Data</option><option>DevOps</option><option>Platform</option><option>Product</option></select></div>
       <div class="projects" id="project-list" aria-live="polite"></div>
     </section>
@@ -104,53 +119,44 @@
     <section class="content wrap journey" id="journey" aria-labelledby="journey-title">
       <div><p class="eyebrow">ENGINEERING IN THE FIELD</p><h2 id="journey-title">Built close to the work.</h2><p>Eight years across engineering, cloud operations, and delivery teams. I stay close to the people using the platform, from first deployment through production readiness.</p></div>
       <div class="history">
-        <details open><summary><strong>Technical Lead / Wipro</strong><span>2025 - NOW</span></summary><p>Enterprise automation, Ansible standards, CI/CD, hybrid cloud, and production escalation.</p></details>
-        <details><summary><strong>DevOps Engineer / AAPC</strong><span>2021 - 2025</span></summary><p>Azure and AWS platforms, Terraform, Ansible, Kubernetes, and software delivery pipelines.</p></details>
-        <details><summary><strong>Engineer, Networking / Mindtree</strong><span>2018 - 2021</span></summary><p>Cloud operations, networking, data platforms, and Azure DevOps service support.</p></details>
+        <details open><summary><strong>Technical Lead / Wipro</strong><span>2025 - NOW</span></summary><p>Enterprise automation and hybrid cloud.</p></details>
+        <details><summary><strong>DevOps Engineer / AAPC</strong><span>2021 - 2025</span></summary><p>Azure, AWS and software delivery.</p></details>
+        <details><summary><strong>Engineer, Networking / Mindtree</strong><span>2018 - 2021</span></summary><p>Cloud operations and platform support.</p></details>
       </div>
     </section>
 
     <section class="content wrap" id="contact" aria-labelledby="contact-title">
-      <div class="contact"><div><p class="eyebrow">A HUMAN BACKUP PATH</p><h2 id="contact-title">Need a hand with a hard problem?</h2><p>The interactive contact form is not available on this static page. Email and LinkedIn remain direct.</p></div><div class="contact-links"><a href="mailto:shubhankar.thapliyal@gmail.com">shubhankar.thapliyal@gmail.com</a><a href="https://www.linkedin.com/in/shubhankarthapliyal">Connect on LinkedIn</a><a href="https://github.com/Shubhankart101">GitHub profile</a></div></div>
+      <div class="contact"><div><p class="eyebrow">HAVE A GOOD PROBLEM?</p><h2 id="contact-title">Let's make it work better.</h2><p>For platform engineering, cloud delivery, automation, or a conversation about the work.</p></div><div class="contact-links"><a href="mailto:shubhankar.thapliyal@gmail.com">shubhankar.thapliyal@gmail.com</a><a href="https://www.linkedin.com/in/shubhankarthapliyal">Connect on LinkedIn</a><a href="https://github.com/Shubhankart101">GitHub profile</a></div></div>
     </section>
   </main>
   <footer class="wrap"><span>STATIC PORTFOLIO / ALWAYS AVAILABLE</span><a href="https://github.com/Shubhankart101/Shubhankart101#readme">Open interactive GitHub README</a></footer>
   <script>
-    const projects = [
-      ['AccountCare','API','Account workflows and service integration.',['Python','Django','REST API']],
-      ['BoundedGraphRunner-TraceExtractor','Automation','Bounded graph execution and trace extraction.',['Python','Graph workflows','Testing']],
-      ['CollabDocs','Product','A collaborative document platform.',['Python','Django','Collaboration']],
-      ['DevTrack','DevOps','Issue tracking with automated delivery and cloud infrastructure.',['Python','Django','Terraform']],
-      ['EventHub','Product','Experiments in event-driven application design.',['Python','Events','APIs']],
-      ['FlightPriceMonitorAlertSystem','Automation','Flight price monitoring with useful alerts.',['Python','Automation','Alerts']],
-      ['India-s-Journey','Data',"A public-data dashboard about India's progress.",['Python','Data visualization','GitHub Actions']],
-      ['LaunchCrew','Product','A launch-focused collaboration workspace.',['Python','Django','Product']],
-      ['MeetGuard','Platform','Meeting coordination and safeguards.',['Python','Django','Web application']],
-      ['NovaNotebook','Product','A notebook workspace for capturing and organizing ideas.',['Python','Django','Product']],
-      ['SafeLocalToolDispatcher','Automation','A controlled dispatcher for local tools.',['Python','Tooling','Automation']],
-      ['SubLedger','API','Subscription and billing system.',['Python','FastAPI','Billing']],
-      ['TeamBoard','Product','A B2B knowledge base API platform.',['Python','Django','REST API']],
-      ['WEB_API_L1','API','Foundational service and API engineering.',['C#','.NET','REST API']],
-      ['WEB_API_L2','API','Backend implementation and API engineering.',['C#','.NET','REST API']],
-      ['WEB_API_L3','API','Advanced service and API design.',['C#','.NET','REST API']],
-    ];
+    let projects = [];
     const search = document.querySelector('#project-search');
     const category = document.querySelector('#project-category');
     const projectList = document.querySelector('#project-list');
     function renderProjects() {
       const query = search.value.trim().toLowerCase();
       const selectedCategory = category.value.toLowerCase();
-      const filtered = projects.filter(([title, group, summary, stack]) =>
-        (selectedCategory === 'all' || group.toLowerCase() === selectedCategory) &&
-        `${title} ${group} ${summary} ${stack.join(' ')}`.toLowerCase().includes(query)
+      const filtered = projects.filter((project) =>
+        (selectedCategory === 'all' || project.category.toLowerCase() === selectedCategory) &&
+        `${project.title} ${project.category} ${project.summary} ${project.stack.join(' ')}`.toLowerCase().includes(query)
       );
-      projectList.innerHTML = filtered.length ? filtered.map(([title, group, summary, stack]) => `
-        <article class="project"><div class="project-top"><span>${group}</span><span>PROJECT</span></div><h3>${title}</h3><p>${summary}<br>${stack.join(' / ')}</p><a href="https://github.com/Shubhankart101/${title}" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a></article>
+      projectList.innerHTML = filtered.length ? filtered.map((project) => `
+        <article class="project"><div class="project-top"><span>${project.category}</span><span>PROJECT</span></div><h3>${project.title}</h3><p>${project.summary}<br>${project.stack.join(' / ')}</p><a href="${project.repo_url}" target="_blank" rel="noreferrer">Open repository <span aria-hidden="true">↗</span></a></article>
       `).join('') : '<p class="empty">No projects match that search. Try another term or category.</p>';
     }
     search.addEventListener('input', renderProjects);
     category.addEventListener('change', renderProjects);
-    renderProjects();
+    fetch('projects.json').then((response) => {
+      if (!response.ok) throw new Error('Project catalog unavailable');
+      return response.json();
+    }).then((catalog) => {
+      projects = catalog;
+      renderProjects();
+    }).catch(() => {
+      projectList.innerHTML = '<p class="empty">The project list is temporarily unavailable.</p>';
+    });
 
     const repositorySearch = document.querySelector('#repo-search');
     const repositoryLanguage = document.querySelector('#repo-language');

@@ -2,12 +2,10 @@
 
 A responsive React portfolio backed by a Django REST API. Project content is stored in SQLite and editable through Django admin; contact submissions are validated and saved for follow-up.
 
-The root [GitHub profile README](../README.md) is the interactive static fallback for projects, work history, contact details, and resume links. A separate [GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/) has searchable projects and collapsible experience. App and server error screens link to both.
+The root [GitHub profile README](../README.md) is a static fallback for projects, work history, contact details, and resume links. The [GitHub Pages backup](https://shubhankart101.github.io/Shubhankart101/) shares its featured project catalog with the React app and offers searchable projects and collapsible experience. App and server error screens link to both.
 
 ## Requirements
 
-- Python 3.12 or newer
-- Node.js 20.19+ or 22.12+
 
 ## Run locally
 
@@ -34,7 +32,7 @@ The static, searchable backup is deployed by `.github/workflows/deploy-portfolio
 
 The repository-root `netlify.toml` configures Netlify to build and publish the React frontend, with a fallback for client-side routes. Connect this repository to Netlify; its build settings are read from that file.
 
-Netlify hosts the static frontend only. The Django API must be deployed separately. Set the Netlify build environment variable `VITE_API_BASE_URL` to the backend API root, including `/api/`, for example `https://your-api-host.example/api/`. This URL is public and is compiled into the frontend; do not put secrets in `VITE_` variables.
+Netlify hosts the static frontend only. Without a separate Django deployment, the site still shows its shared project catalog, bundled resume, and direct email contact. To enable the database-backed project list, contact form, and API resume endpoint, deploy Django separately and set the Netlify build environment variable `VITE_API_BASE_URL` to the backend API root, including `/api/`, for example `https://your-api-host.example/api/`. This URL is public and is compiled into the frontend; do not put secrets in `VITE_` variables.
 
 On the Django backend, set `DJANGO_CORS_ALLOWED_ORIGINS` to the exact Netlify site origin and any custom domain, comma-separated, for example `https://your-site.netlify.app,https://portfolio.example.com`. Configure `DJANGO_ALLOWED_HOSTS` for the Django backend's own hostname.
 

@@ -1,5 +1,23 @@
 export const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/+$/, '')
+export const hasConfiguredApi = Boolean(import.meta.env.VITE_API_BASE_URL?.trim()) || import.meta.env.MODE === 'development'
 const invalidResponseMessage = 'The API returned an invalid response. Check VITE_API_BASE_URL.'
+async function loadStaticProjects(signal) {
+  const response = await fetch(`${import.meta.env.BASE_URL}projects.json`, { signal })
+  if (!response.ok) throw new Error('The static project catalog is unavailable.')
+  const projects = await response.json()
+  if (!Array.isArray(projects)) throw new Error('The static project catalog is invalid.')
+  return projects
+}
+
+function filterStaticProjects(projects, { q, category }) {
+  const query = q.trim().toLowerCase()
+  return projects.filter((project) => {
+    const matchesQuery = `${project.title} ${project.summary} ${project.category} ${project.stack.join(' ')}`
+      .toLowerCase()
+      .includes(query)
+    return matchesQuery && (category === 'All' || project.category === category)
+  })
+}
 
 async function request(path, { signal, ...options } = {}) {
   const response = await fetch(`${apiBaseUrl}/${path}`, {
@@ -46,15 +64,27 @@ export function getProjects({ q = '', category = 'All', signal } = {}) {
   if (q.trim()) params.set('q', q.trim())
   if (category !== 'All') params.set('category', category)
   const query = params.size ? `?${params}` : ''
-  return request(`projects/${query}`, { signal }).then((projects) => {
-    if (!Array.isArray(projects)) throw new Error('The projects API returned an invalid response.')
-    return projects
-  })
+  return request(`projects/${query}`, { signal })
+    .then((projects) => {
+      if (!Array.isArray(projects)) throw new Error('The projects API returned an invalid response.')
+      return projects
+    })
+    .catch((error) => {
+      if (hasConfiguredApi || error.name === 'AbortError') throw error
+      return loadStaticProjects(signal).then((projects) => filterStaticProjects(projects, { q, category }))
+    })
 }
 
 export function getProject(slug, { signal } = {}) {
   return request(`projects/${encodeURIComponent(slug)}/`, { signal })
     .then((project) => requireObject(project, 'Project'))
+    .catch(async (error) => {
+      if (hasConfiguredApi || error.name === 'AbortError') throw error
+      const projects = await loadStaticProjects(signal)
+      const project = projects.find((item) => item.slug === slug)
+      if (!project) throw error
+      return project
+    })
 }
 
 export function createContact(values) {

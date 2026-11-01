@@ -16,6 +16,13 @@ const repositories = [
   { name: 'PipelineLab', description: 'Build pipeline examples', language: 'Python', stars: 3, forks: 1, watchers: 4, openIssues: 2, updatedAt: '2026-10-12T12:00:00Z', isFork: true, isArchived: false },
   { name: 'SiteNotes', description: 'Static documentation', language: 'HTML', stars: 2, forks: 0, watchers: 2, openIssues: 0, updatedAt: '2026-10-11T12:00:00Z', isFork: false, isArchived: true },
 ]
+const staticProjects = [
+  { title: 'AccountCare', slug: 'AccountCare', category: 'API', summary: 'Account workflows.', stack: ['Python', 'REST API'], repo_url: 'https://github.com/Shubhankart101/AccountCare' },
+  { title: 'WEB_API_L1', slug: 'WEB_API_L1', category: 'API', summary: 'Foundational API engineering.', stack: ['C#', 'REST API'], repo_url: 'https://github.com/Shubhankart101/WEB_API_L1' },
+  { title: 'WEB_API_L2', slug: 'WEB_API_L2', category: 'API', summary: 'Backend API engineering.', stack: ['C#', 'REST API'], repo_url: 'https://github.com/Shubhankart101/WEB_API_L2' },
+  { title: 'WEB_API_L3', slug: 'WEB_API_L3', category: 'API', summary: 'Advanced API design.', stack: ['C#', 'REST API'], repo_url: 'https://github.com/Shubhankart101/WEB_API_L3' },
+  { title: 'CollabDocs', slug: 'CollabDocs', category: 'Product', summary: 'A collaborative document platform.', stack: ['Python', 'Django'], repo_url: 'https://github.com/Shubhankart101/CollabDocs' },
+]
 
 describe('portfolio API client', () => {
   beforeEach(() => {
@@ -49,6 +56,27 @@ describe('portfolio API client', () => {
 
     await expect(getProfile()).resolves.toEqual(profile)
     expect(fetch).toHaveBeenCalledWith('/api/profile/', { signal: undefined, headers: {} })
+  })
+
+  it('uses the static project catalog when no API is configured', async () => {
+    fetch.mockResolvedValueOnce(jsonResponse({ detail: 'Not found.' }, 404))
+      .mockResolvedValueOnce(jsonResponse(staticProjects))
+
+    const projects = await getProjects({ q: 'REST', category: 'API' })
+
+    expect(projects.map((project) => project.title)).toEqual([
+      'AccountCare', 'WEB_API_L1', 'WEB_API_L2', 'WEB_API_L3',
+    ])
+  })
+
+  it('opens static project details when no API is configured', async () => {
+    fetch.mockResolvedValueOnce(jsonResponse({ detail: 'Not found.' }, 404))
+      .mockResolvedValueOnce(jsonResponse(staticProjects))
+
+    await expect(getProject('CollabDocs')).resolves.toMatchObject({
+      title: 'CollabDocs',
+      repo_url: 'https://github.com/Shubhankart101/CollabDocs',
+    })
   })
 
   it('rejects an HTML SPA fallback served as a successful API response', async () => {
@@ -106,10 +134,20 @@ describe('portfolio API client', () => {
     await expect(createContact({})).rejects.toThrow('Enter a valid email address.')
   })
 
-  it('uses a safe message when an error response is not JSON', async () => {
-    fetch.mockResolvedValue({ ok: false, status: 503, json: vi.fn().mockRejectedValue(new Error('invalid json')) })
+  it('uses the static project catalog when an API response is not JSON', async () => {
+    fetch.mockResolvedValueOnce({ ok: false, status: 503, json: vi.fn().mockRejectedValue(new Error('invalid json')) })
+      .mockResolvedValueOnce(jsonResponse(staticProjects))
 
-    await expect(getProjects()).rejects.toThrow('Something went wrong. Please try again.')
+    await expect(getProjects()).resolves.toHaveLength(staticProjects.length)
+  })
+
+  it('surfaces failures from an explicitly configured API', async () => {
+    vi.stubEnv('VITE_API_BASE_URL', 'https://api.example.com/api/')
+    vi.resetModules()
+    const { getProjects: getConfiguredProjects } = await import('./api.js')
+    fetch.mockResolvedValue(jsonResponse({ detail: 'Service unavailable.' }, 503))
+
+    await expect(getConfiguredProjects()).rejects.toThrow('Service unavailable.')
   })
 
   it('loads all repository pages and normalizes GitHub stats', async () => {

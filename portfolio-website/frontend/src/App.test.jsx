@@ -7,6 +7,7 @@ import { createContact, getGithubRepos, getProfile, getProject, getProjects } fr
 
 vi.mock('./api.js', () => ({
   apiBaseUrl: '/api',
+  hasConfiguredApi: true,
   createContact: vi.fn(),
   getGithubRepos: vi.fn(),
   getProfile: vi.fn(),

@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "portfolio-website/frontend/public/backup.html"
+      - "portfolio-website/frontend/public/projects.json"
       - "portfolio-website/frontend/public/repos.json"
       - "portfolio-website/frontend/public/devops-methodology-loop.gif"
       - "portfolio-website/frontend/public/profile-image.jpg"
@@ -35,6 +36,7 @@ jobs:
         run: |
           mkdir -p site
           cp portfolio-website/frontend/public/backup.html site/index.html
+          cp portfolio-website/frontend/public/projects.json site/
           cp portfolio-website/frontend/public/repos.json site/
           cp portfolio-website/frontend/public/devops-methodology-loop.gif site/
           cp portfolio-website/frontend/public/profile-image.jpg site/

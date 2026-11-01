@@ -12,7 +12,7 @@ import {
   Search,
   X,
 } from 'lucide-react'
-import { apiBaseUrl, createContact, getProfile, getProject, getProjects } from './api.js'
+import { apiBaseUrl, createContact, getProfile, getProject, getProjects, hasConfiguredApi } from './api.js'
 import DeliveryStory from './DeliveryStory.jsx'
 import RepositoryStats from './RepositoryStats.jsx'
 import './Portfolio.css'
@@ -35,6 +35,7 @@ const fallbackProfile = {
   deployment_improvement: 35,
   incident_resolution_improvement: 25,
 }
+const resumeUrl = hasConfiguredApi ? `${apiBaseUrl}/resume/` : `${import.meta.env.BASE_URL}RESUME.pdf`
 
 function ProjectDialog({ slug, onClose }) {
   const [project, setProject] = useState(null)
@@ -173,7 +174,7 @@ export default function Portfolio() {
             <a key={id} href={`#${id}`} aria-current={activeSection === id ? 'location' : undefined}>{label}</a>
           ))}
         </nav>
-        <a className="resume-link" href={`${apiBaseUrl}/resume/`} download>Resume <Download size={15} /></a>
+        <a className="resume-link" href={resumeUrl} download>Resume <Download size={15} /></a>
       </header>
 
       <main id="main">
@@ -181,7 +182,7 @@ export default function Portfolio() {
           <div className="hero-copy">
             <p className="eyebrow"><MapPin size={14} /> NEW DELHI, INDIA <span className="eyebrow-dot" /> OPEN TO THE RIGHT CHALLENGE</p>
             <h1 id="hero-title"><span className="hero-headline-line">Complex cloud work.</span><span className="hero-headline-line hero-headline-accent">Made dependable.</span></h1>
-            <p className="hero-summary">I turn delivery friction into reliable platforms, thoughtful automation, and calm production operations.</p>
+            <p className="hero-summary">I build reliable cloud platforms, automation, and delivery systems, staying close to the people who depend on them.</p>
             <div className="hero-actions">
               <a className="button button-dark" href="#work">Explore selected work <ArrowDownRight size={17} /></a>
               <a className="text-link" href={`mailto:${profile.email}`}>Let's talk <ArrowUpRight size={16} /></a>
@@ -200,15 +201,15 @@ export default function Portfolio() {
         </section>
 
         <section className="intro-strip" id="about" aria-label="Professional focus">
-          <p>PLATFORM ENGINEERING</p><span aria-hidden="true">*</span><p>INFRASTRUCTURE AS CODE</p><span aria-hidden="true">*</span><p>DELIVERY THAT HOLDS UP</p>
+          <p>PLATFORM ENGINEERING</p><span aria-hidden="true">*</span><p>INFRASTRUCTURE AS CODE</p><span aria-hidden="true">*</span><p>CUSTOMER-SIDE DELIVERY</p>
         </section>
 
         <DeliveryStory />
 
         <section className="work-section section-wrap" id="work" aria-labelledby="work-title">
           <div className="section-heading">
-            <div><p className="eyebrow">A FEW THINGS I'VE BUILT</p><h2 id="work-title">Selected work<span className="accent-period">.</span></h2></div>
-            <p className="section-aside">From internal platforms to public experiments, each project starts with a real operational need.</p>
+            <div><p className="eyebrow">A FEW THINGS I'VE BUILT</p><h2 id="work-title">Built for the real world<span className="accent-period">.</span></h2></div>
+            <p className="section-aside">Search the project list or narrow it by discipline. Every repository link works without the interactive app.</p>
           </div>
           <div className="project-controls">
             <label className="search-control"><Search size={18} aria-hidden="true" /><span className="sr-only">Search projects</span>
@@ -257,14 +258,14 @@ export default function Portfolio() {
             <a className="contact-email" href={`mailto:${profile.email}`}><Mail size={18} /> {profile.email}</a>
             <div className="social-links"><a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><CodeXml size={19} /></a><a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><BriefcaseBusiness size={19} /></a></div>
           </div>
-          <form className="contact-form" onSubmit={handleContactSubmit}>
+          {hasConfiguredApi ? <form className="contact-form" onSubmit={handleContactSubmit}>
             <div className="form-row"><label>Name<input name="name" autoComplete="name" maxLength="100" required /></label><label>Email<input name="email" type="email" autoComplete="email" maxLength="254" required /></label></div>
             <label>Subject <span className="optional-label">OPTIONAL</span><input name="subject" maxLength="150" /></label>
             <label>What are you working on?<textarea name="message" rows="4" minLength="20" maxLength="5000" required /></label>
             {contactError && <div className="contact-error"><p className="form-error" role="alert">{contactError}</p><a className="text-link" href={staticPortfolioUrl} target="_blank" rel="noreferrer">Open static GitHub Pages backup <ArrowUpRight size={15} /></a><a className="text-link" href={profileReadmeUrl} target="_blank" rel="noreferrer">Open profile README backup <ArrowUpRight size={15} /></a></div>}
             {contactStatus === 'sent' && <p className="form-success" role="status"><Check size={17} /> Message received. I'll be in touch.</p>}
             <button className="button button-dark form-submit" type="submit" disabled={contactStatus === 'submitting'}>{contactStatus === 'submitting' ? 'Sending...' : 'Send message'} <ArrowUpRight size={17} /></button>
-          </form>
+          </form> : <div className="contact-form contact-static"><p>The contact form is available when the Django API is configured. Email and LinkedIn remain direct.</p><a className="button button-dark form-submit" href={`mailto:${profile.email}`}>Email me <ArrowUpRight size={17} /></a></div>}
         </section>
       </main>
 

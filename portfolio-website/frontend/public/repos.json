@@ -143,6 +143,19 @@
     "isArchived": false
   },
   {
+    "name": "DSAlgo",
+    "url": "https://github.com/Shubhankart101/DSAlgo",
+    "description": "📚A repository that contains all the Data Structures and Algorithms concepts and solutions to various problems in Python3 stored in a structured manner.👨‍💻🎯",
+    "language": "Other",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-03T04:42:44Z",
+    "isFork": true,
+    "isArchived": false
+  },
+  {
     "name": "EventHub",
     "url": "https://github.com/Shubhankart101/EventHub",
     "description": "No repository description provided.",
@@ -216,7 +229,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-11-02T09:58:11Z",
+    "updatedAt": "2026-11-03T10:13:05Z",
     "isFork": false,
     "isArchived": false
   },
@@ -372,7 +385,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-11-02T06:29:01Z",
+    "updatedAt": "2026-11-03T07:00:25Z",
     "isFork": false,
     "isArchived": false
   },

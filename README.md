@@ -272,6 +272,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/LaunchCrew"><img src="https://img.shields.io/badge/Open%20LaunchCrew-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Open LaunchCrew"></a>
 	<a href="https://github.com/Shubhankart101/MeetGuard"><img src="https://img.shields.io/badge/Open%20MeetGuard-008C95?style=for-the-badge&logo=github&logoColor=white" alt="Open MeetGuard"></a>
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
+	<a href="https://github.com/Shubhankart101/RetrievalAsAToolLoop"><img src="https://img.shields.io/badge/Open%20RetrievalAsAToolLoop-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Open RetrievalAsAToolLoop"></a>
 	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>

@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>42 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>44 public repositories · 0 stars · 0 forks</strong></summary>
 
-**30 original · 12 forks · 0 watchers · 0 open issues**
+**32 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 15 | 0 | 0 | 0 |
+| Python | 17 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -137,6 +137,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [hashicorp](https://github.com/Shubhankart101/hashicorp) | Other | 0 | 0 | 0 | 0 | 2025-02-26 | Fork |
 | [India-s-Journey](https://github.com/Shubhankart101/India-s-Journey) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [intro-to-heroku](https://github.com/Shubhankart101/intro-to-heroku) | JavaScript | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
+| [IsolatedThreadMemory](https://github.com/Shubhankart101/IsolatedThreadMemory) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [kubernetes](https://github.com/Shubhankart101/kubernetes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [Kubernetes-DockerForDevOpsRepoForNotes](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) | Go Template | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
 | [MeetGuard](https://github.com/Shubhankart101/MeetGuard) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
@@ -146,6 +147,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [PowershellScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/PowershellScriptingForDevOpsRepoForNotes) | PowerShell | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
 | [Python_DSA](https://github.com/Shubhankart101/Python_DSA) | Python | 0 | 0 | 0 | 0 | 2026-06-01 | Source |
 | [PythonScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) | Python | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
+| [RetrievalAsAToolLoop](https://github.com/Shubhankart101/RetrievalAsAToolLoop) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [ShellScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
 | [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [Shubhankart101.github.io](https://github.com/Shubhankart101/Shubhankart101.github.io) | HTML | 0 | 0 | 0 | 0 | 2019-09-06 | Source |

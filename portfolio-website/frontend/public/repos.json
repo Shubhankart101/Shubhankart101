@@ -260,6 +260,19 @@
     "isArchived": false
   },
   {
+    "name": "IsolatedThreadMemory",
+    "url": "https://github.com/Shubhankart101/IsolatedThreadMemory",
+    "description": "No repository description provided.",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-10T14:11:46Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "kubernetes",
     "url": "https://github.com/Shubhankart101/kubernetes",
     "description": "Additional learning material on kubernetes",
@@ -377,6 +390,19 @@
     "isArchived": false
   },
   {
+    "name": "RetrievalAsAToolLoop",
+    "url": "https://github.com/Shubhankart101/RetrievalAsAToolLoop",
+    "description": "No repository description provided.",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-10T14:08:24Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "ShellScriptingForDevOpsRepoForNotes",
     "url": "https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes",
     "description": "No repository description provided.",
@@ -398,7 +424,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-11-10T13:11:33Z",
+    "updatedAt": "2026-11-10T14:13:18Z",
     "isFork": false,
     "isArchived": false
   },

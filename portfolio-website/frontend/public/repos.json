@@ -91,6 +91,19 @@
     "isArchived": false
   },
   {
+    "name": "ConditionalResearchGraph",
+    "url": "https://github.com/Shubhankart101/ConditionalResearchGraph",
+    "description": "No repository description provided.",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-10T13:05:15Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "DatadagLogTraceAgent",
     "url": "https://github.com/Shubhankart101/DatadagLogTraceAgent",
     "description": "No repository description provided.",
@@ -229,7 +242,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-11-10T10:27:15Z",
+    "updatedAt": "2026-11-10T13:05:32Z",
     "isFork": false,
     "isArchived": false
   },
@@ -385,7 +398,7 @@
     "forks": 0,
     "watchers": 0,
     "openIssues": 0,
-    "updatedAt": "2026-11-10T07:31:32Z",
+    "updatedAt": "2026-11-10T13:11:33Z",
     "isFork": false,
     "isArchived": false
   },

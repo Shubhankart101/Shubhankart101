@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>41 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>42 public repositories · 0 stars · 0 forks</strong></summary>
 
-**29 original · 12 forks · 0 watchers · 0 open issues**
+**30 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 14 | 0 | 0 | 0 |
+| Python | 15 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -124,6 +124,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [AnsibleForDevOpsRepoForNotes](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) | Other | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
 | [BoundedGraphRunner-TraceExtractor](https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
 | [CollabDocs](https://github.com/Shubhankart101/CollabDocs) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
+| [ConditionalResearchGraph](https://github.com/Shubhankart101/ConditionalResearchGraph) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [DatadagLogTraceAgent](https://github.com/Shubhankart101/DatadagLogTraceAgent) | TypeScript | 0 | 0 | 0 | 0 | 2026-10-25 | Source |
 | [devops](https://github.com/Shubhankart101/devops) | Other | 0 | 0 | 0 | 0 | 2019-09-18 | Fork |
 | [devops301-mindtree-27-Jan-2021](https://github.com/Shubhankart101/devops301-mindtree-27-Jan-2021) | Other | 0 | 0 | 0 | 0 | 2021-03-05 | Fork |

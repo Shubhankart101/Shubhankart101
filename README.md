@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>44 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>45 public repositories · 0 stars · 0 forks</strong></summary>
 
-**32 original · 12 forks · 0 watchers · 0 open issues**
+**33 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 17 | 0 | 0 | 0 |
+| Python | 18 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -124,6 +124,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [AnsibleForDevOpsRepoForNotes](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) | Other | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
 | [BoundedGraphRunner-TraceExtractor](https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
 | [CollabDocs](https://github.com/Shubhankart101/CollabDocs) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
+| [CompactLongConversationState](https://github.com/Shubhankart101/CompactLongConversationState) | Python | 0 | 0 | 0 | 0 | 2026-11-16 | Source |
 | [ConditionalResearchGraph](https://github.com/Shubhankart101/ConditionalResearchGraph) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [DatadagLogTraceAgent](https://github.com/Shubhankart101/DatadagLogTraceAgent) | TypeScript | 0 | 0 | 0 | 0 | 2026-10-25 | Source |
 | [devops](https://github.com/Shubhankart101/devops) | Other | 0 | 0 | 0 | 0 | 2019-09-18 | Fork |
@@ -266,6 +267,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/AccountCare"><img src="https://img.shields.io/badge/Open%20AccountCare-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Open AccountCare"></a>
 	<a href="https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor"><img src="https://img.shields.io/badge/Open%20BoundedGraphRunner%26TraceExtractor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedGraphRunner and TraceExtractor"></a>
 	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
+	<a href="https://github.com/Shubhankart101/CompactLongConversationState"><img src="https://img.shields.io/badge/Open%20CompactLongConversationState-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Open CompactLongConversationState"></a>
 	<a href="https://github.com/Shubhankart101/ConditionalResearchGraph"><img src="https://img.shields.io/badge/Open%20ConditionalResearchGraph-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Open ConditionalResearchGraph"></a>
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>

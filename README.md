@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>47 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>48 public repositories · 0 stars · 0 forks</strong></summary>
 
-**35 original · 12 forks · 0 watchers · 0 open issues**
+**36 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 20 | 0 | 0 | 0 |
+| Python | 21 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -150,6 +150,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [Python_DSA](https://github.com/Shubhankart101/Python_DSA) | Python | 0 | 0 | 0 | 0 | 2026-06-01 | Source |
 | [PythonScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/PythonScriptingForDevOpsRepoForNotes) | Python | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
 | [RetrievalAsAToolLoop](https://github.com/Shubhankart101/RetrievalAsAToolLoop) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
+| [SharedStateReleaseCrew](https://github.com/Shubhankart101/SharedStateReleaseCrew) | Python | 0 | 0 | 0 | 0 | 2026-11-16 | Source |
 | [ShellScriptingForDevOpsRepoForNotes](https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Source |
 | [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-11-12 | Source |
 | [Shubhankart101.github.io](https://github.com/Shubhankart101/Shubhankart101.github.io) | HTML | 0 | 0 | 0 | 0 | 2019-09-06 | Source |
@@ -282,6 +283,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
 	<a href="https://github.com/Shubhankart101/RetrievalAsAToolLoop"><img src="https://img.shields.io/badge/Open%20RetrievalAsAToolLoop-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Open RetrievalAsAToolLoop"></a>
 	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
+	<a href="https://github.com/Shubhankart101/SharedStateReleaseCrew"><img src="https://img.shields.io/badge/Open%20SharedStateReleaseCrew-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Open SharedStateReleaseCrew"></a>
 	<a href="https://github.com/Shubhankart101/SpecialistReviewer"><img src="https://img.shields.io/badge/Open%20SpecialistReviewer-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="Open SpecialistReviewer"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>

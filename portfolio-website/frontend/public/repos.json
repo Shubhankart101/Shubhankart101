@@ -429,6 +429,19 @@
     "isArchived": false
   },
   {
+    "name": "SharedStateReleaseCrew",
+    "url": "https://github.com/Shubhankart101/SharedStateReleaseCrew",
+    "description": "Software-release review crew with role-safe inputs, bounded public handoffs, and resilient sequence execution",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-16T21:20:02Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "ShellScriptingForDevOpsRepoForNotes",
     "url": "https://github.com/Shubhankart101/ShellScriptingForDevOpsRepoForNotes",
     "description": "No repository description provided.",

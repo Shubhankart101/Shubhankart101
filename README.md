@@ -154,7 +154,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-11-12 | Source |
 | [Shubhankart101.github.io](https://github.com/Shubhankart101/Shubhankart101.github.io) | HTML | 0 | 0 | 0 | 0 | 2019-09-06 | Source |
 | [SmartHotel360-Website](https://github.com/Shubhankart101/SmartHotel360-Website) | Other | 0 | 0 | 0 | 0 | 2021-10-05 | Fork |
-| [SpecialistReviewer](https://github.com/Shubhankart101/SpecialistReviewer) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
+| [SpecialistReviewer](https://github.com/Shubhankart101/SpecialistReviewer) | Python | 0 | 0 | 0 | 0 | 2026-11-16 | Source |
 | [spring-petclinic](https://github.com/Shubhankart101/spring-petclinic) | CSS | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [SubLedger](https://github.com/Shubhankart101/SubLedger) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
 | [TeamBoard](https://github.com/Shubhankart101/TeamBoard) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |

@@ -141,6 +141,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [IsolatedThreadMemory](https://github.com/Shubhankart101/IsolatedThreadMemory) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [kubernetes](https://github.com/Shubhankart101/kubernetes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [Kubernetes-DockerForDevOpsRepoForNotes](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) | Go Template | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
+| [LocalTop-KRetriever](https://github.com/Shubhankart101/LocalTop-KRetriever) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [MeetGuard](https://github.com/Shubhankart101/MeetGuard) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
 | [msfde-uc004-healthcare-lab](https://github.com/Shubhankart101/msfde-uc004-healthcare-lab) | Other | 0 | 0 | 0 | 0 | 2026-10-26 | Fork |
 | [msfde-uc007-fs-lab](https://github.com/Shubhankart101/msfde-uc007-fs-lab) | Other | 0 | 0 | 0 | 0 | 2026-10-26 | Fork |
@@ -275,6 +276,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
 	<a href="https://github.com/Shubhankart101/India-s-Journey"><img src="https://img.shields.io/badge/Open%20India%27s%20Journey-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open India's Journey"></a>
 	<a href="https://github.com/Shubhankart101/LaunchCrew"><img src="https://img.shields.io/badge/Open%20LaunchCrew-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Open LaunchCrew"></a>
+	<a href="https://github.com/Shubhankart101/LocalTop-KRetriever"><img src="https://img.shields.io/badge/Open%20LocalTop--KRetriever-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="Open LocalTop-KRetriever"></a>
 	<a href="https://github.com/Shubhankart101/MeetGuard"><img src="https://img.shields.io/badge/Open%20MeetGuard-008C95?style=for-the-badge&logo=github&logoColor=white" alt="Open MeetGuard"></a>
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
 	<a href="https://github.com/Shubhankart101/RetrievalAsAToolLoop"><img src="https://img.shields.io/badge/Open%20RetrievalAsAToolLoop-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Open RetrievalAsAToolLoop"></a>

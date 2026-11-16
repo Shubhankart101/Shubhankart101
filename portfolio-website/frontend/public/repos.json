@@ -312,6 +312,19 @@
     "isArchived": false
   },
   {
+    "name": "LocalTop-KRetriever",
+    "url": "https://github.com/Shubhankart101/LocalTop-KRetriever",
+    "description": "Deterministic overlapping chunking and local top-k vector retrieval pipeline for maintenance assistants.",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-17T01:15:00Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "MeetGuard",
     "url": "https://github.com/Shubhankart101/MeetGuard",
     "description": "No repository description provided.",

@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>46 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>47 public repositories · 0 stars · 0 forks</strong></summary>
 
-**34 original · 12 forks · 0 watchers · 0 open issues**
+**35 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 19 | 0 | 0 | 0 |
+| Python | 20 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -154,6 +154,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [Shubhankart101](https://github.com/Shubhankart101/Shubhankart101) | JavaScript | 0 | 0 | 0 | 0 | 2026-11-12 | Source |
 | [Shubhankart101.github.io](https://github.com/Shubhankart101/Shubhankart101.github.io) | HTML | 0 | 0 | 0 | 0 | 2019-09-06 | Source |
 | [SmartHotel360-Website](https://github.com/Shubhankart101/SmartHotel360-Website) | Other | 0 | 0 | 0 | 0 | 2021-10-05 | Fork |
+| [SpecialistReviewer](https://github.com/Shubhankart101/SpecialistReviewer) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [spring-petclinic](https://github.com/Shubhankart101/spring-petclinic) | CSS | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [SubLedger](https://github.com/Shubhankart101/SubLedger) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
 | [TeamBoard](https://github.com/Shubhankart101/TeamBoard) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |
@@ -281,6 +282,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
 	<a href="https://github.com/Shubhankart101/RetrievalAsAToolLoop"><img src="https://img.shields.io/badge/Open%20RetrievalAsAToolLoop-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Open RetrievalAsAToolLoop"></a>
 	<a href="https://github.com/Shubhankart101/SafeLocalToolDispatcher"><img src="https://img.shields.io/badge/Open%20SafeLocalToolDispatcher-008272?style=for-the-badge&logo=github&logoColor=white" alt="Open SafeLocalToolDispatcher"></a>
+	<a href="https://github.com/Shubhankart101/SpecialistReviewer"><img src="https://img.shields.io/badge/Open%20SpecialistReviewer-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="Open SpecialistReviewer"></a>
 	<a href="https://github.com/Shubhankart101/SubLedger"><img src="https://img.shields.io/badge/Open%20SubLedger-0A66C2?style=for-the-badge&logo=fastapi&logoColor=white" alt="Open SubLedger"></a>
 	<a href="https://github.com/Shubhankart101/TeamBoard"><img src="https://img.shields.io/badge/Open%20TeamBoard-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Open TeamBoard"></a>
 	<a href="https://github.com/Shubhankart101/WEB_API_L1"><img src="https://img.shields.io/badge/Open%20WEB_API_L1-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Open WEB_API_L1"></a>

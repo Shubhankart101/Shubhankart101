@@ -481,6 +481,19 @@
     "isArchived": false
   },
   {
+    "name": "SpecialistReviewer",
+    "url": "https://github.com/Shubhankart101/SpecialistReviewer",
+    "description": "Specialist release-review workflow with LangGraph shell execution, Pydantic v2 validation, and trusted identity enforcement",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-17T02:17:00Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "spring-petclinic",
     "url": "https://github.com/Shubhankart101/spring-petclinic",
     "description": "A sample Spring-based application",

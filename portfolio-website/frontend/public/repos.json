@@ -221,6 +221,19 @@
     "isArchived": false
   },
   {
+    "name": "ExposeThreeMCPPrimitives",
+    "url": "https://github.com/Shubhankart101/ExposeThreeMCPPrimitives",
+    "description": "Local equipment workshop server exposing MCP Resource, Tool, and Prompt primitives with FastMCP",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-17T19:19:18Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "FlightPriceMonitorAlertSystem",
     "url": "https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem",
     "description": "No repository description provided.",

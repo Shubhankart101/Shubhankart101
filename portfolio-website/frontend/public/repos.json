@@ -182,6 +182,19 @@
     "isArchived": false
   },
   {
+    "name": "DiscoverAndUseLocalMCP",
+    "url": "https://github.com/Shubhankart101/DiscoverAndUseLocalMCP",
+    "description": "Local Model Context Protocol (MCP) host with stdio server configuration, capability discovery, and safe typed execution",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-17T19:23:25Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "DSAlgo",
     "url": "https://github.com/Shubhankart101/DSAlgo",
     "description": "📚A repository that contains all the Data Structures and Algorithms concepts and solutions to various problems in Python3 stored in a structured manner.👨‍💻🎯",

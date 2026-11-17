@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>48 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>49 public repositories · 0 stars · 0 forks</strong></summary>
 
-**36 original · 12 forks · 0 watchers · 0 open issues**
+**37 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 21 | 0 | 0 | 0 |
+| Python | 22 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -123,6 +123,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [Airflow-RD01](https://github.com/Shubhankart101/Airflow-RD01) | Other | 0 | 0 | 0 | 0 | 2023-11-01 | Source |
 | [AnsibleForDevOpsRepoForNotes](https://github.com/Shubhankart101/AnsibleForDevOpsRepoForNotes) | Other | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
 | [BoundedGraphRunner-TraceExtractor](https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
+| [BoundedParallelReviewRunner](https://github.com/Shubhankart101/BoundedParallelReviewRunner) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [CollabDocs](https://github.com/Shubhankart101/CollabDocs) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
 | [CompactLongConversationState](https://github.com/Shubhankart101/CompactLongConversationState) | Python | 0 | 0 | 0 | 0 | 2026-11-16 | Source |
 | [ConditionalResearchGraph](https://github.com/Shubhankart101/ConditionalResearchGraph) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
@@ -269,6 +270,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 <p align="center">
 	<a href="https://github.com/Shubhankart101/AccountCare"><img src="https://img.shields.io/badge/Open%20AccountCare-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Open AccountCare"></a>
 	<a href="https://github.com/Shubhankart101/BoundedGraphRunner-TraceExtractor"><img src="https://img.shields.io/badge/Open%20BoundedGraphRunner%26TraceExtractor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedGraphRunner and TraceExtractor"></a>
+	<a href="https://github.com/Shubhankart101/BoundedParallelReviewRunner"><img src="https://img.shields.io/badge/Open%20BoundedParallelReviewRunner-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open BoundedParallelReviewRunner"></a>
 	<a href="https://github.com/Shubhankart101/CollabDocs"><img src="https://img.shields.io/badge/Open%20CollabDocs-6f42c1?style=for-the-badge&logo=github&logoColor=white" alt="Open CollabDocs"></a>
 	<a href="https://github.com/Shubhankart101/CompactLongConversationState"><img src="https://img.shields.io/badge/Open%20CompactLongConversationState-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Open CompactLongConversationState"></a>
 	<a href="https://github.com/Shubhankart101/ConditionalResearchGraph"><img src="https://img.shields.io/badge/Open%20ConditionalResearchGraph-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Open ConditionalResearchGraph"></a>

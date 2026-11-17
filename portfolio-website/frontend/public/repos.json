@@ -78,6 +78,19 @@
     "isArchived": false
   },
   {
+    "name": "BoundedParallelReviewRunner",
+    "url": "https://github.com/Shubhankart101/BoundedParallelReviewRunner",
+    "description": "Asynchronous release-review runner with bounded concurrency, timeout isolation, and input-order preservation",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-17T08:14:10Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "CollabDocs",
     "url": "https://github.com/Shubhankart101/CollabDocs",
     "description": "Collaborative Document Platform",

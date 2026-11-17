@@ -131,8 +131,8 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [devops](https://github.com/Shubhankart101/devops) | Other | 0 | 0 | 0 | 0 | 2019-09-18 | Fork |
 | [devops301-mindtree-27-Jan-2021](https://github.com/Shubhankart101/devops301-mindtree-27-Jan-2021) | Other | 0 | 0 | 0 | 0 | 2021-03-05 | Fork |
 | [DevTrack](https://github.com/Shubhankart101/DevTrack) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |
-| [DynamicClaimsTriageSupervisor](https://github.com/Shubhankart101/DynamicClaimsTriageSupervisor) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [DSAlgo](https://github.com/Shubhankart101/DSAlgo) | Other | 0 | 0 | 0 | 0 | 2026-11-03 | Fork |
+| [DynamicClaimsTriageSupervisor](https://github.com/Shubhankart101/DynamicClaimsTriageSupervisor) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [EventHub](https://github.com/Shubhankart101/EventHub) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |
 | [FlightPriceMonitorAlertSystem](https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
 | [git-assignment](https://github.com/Shubhankart101/git-assignment) | Other | 0 | 0 | 0 | 0 | 2026-05-21 | Source |

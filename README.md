@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>49 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>50 public repositories · 0 stars · 0 forks</strong></summary>
 
-**37 original · 12 forks · 0 watchers · 0 open issues**
+**38 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 22 | 0 | 0 | 0 |
+| Python | 23 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -131,6 +131,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [devops](https://github.com/Shubhankart101/devops) | Other | 0 | 0 | 0 | 0 | 2019-09-18 | Fork |
 | [devops301-mindtree-27-Jan-2021](https://github.com/Shubhankart101/devops301-mindtree-27-Jan-2021) | Other | 0 | 0 | 0 | 0 | 2021-03-05 | Fork |
 | [DevTrack](https://github.com/Shubhankart101/DevTrack) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |
+| [DynamicClaimsTriageSupervisor](https://github.com/Shubhankart101/DynamicClaimsTriageSupervisor) | Python | 0 | 0 | 0 | 0 | 2026-11-17 | Source |
 | [DSAlgo](https://github.com/Shubhankart101/DSAlgo) | Other | 0 | 0 | 0 | 0 | 2026-11-03 | Fork |
 | [EventHub](https://github.com/Shubhankart101/EventHub) | Python | 0 | 0 | 0 | 0 | 2026-10-05 | Source |
 | [FlightPriceMonitorAlertSystem](https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem) | Python | 0 | 0 | 0 | 0 | 2026-10-23 | Source |
@@ -275,6 +276,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/CompactLongConversationState"><img src="https://img.shields.io/badge/Open%20CompactLongConversationState-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Open CompactLongConversationState"></a>
 	<a href="https://github.com/Shubhankart101/ConditionalResearchGraph"><img src="https://img.shields.io/badge/Open%20ConditionalResearchGraph-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Open ConditionalResearchGraph"></a>
 	<a href="https://github.com/Shubhankart101/DevTrack"><img src="https://img.shields.io/badge/Open%20DevTrack-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open DevTrack"></a>
+	<a href="https://github.com/Shubhankart101/DynamicClaimsTriageSupervisor"><img src="https://img.shields.io/badge/Open%20DynamicClaimsTriageSupervisor-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open DynamicClaimsTriageSupervisor"></a>
 	<a href="https://github.com/Shubhankart101/EventHub"><img src="https://img.shields.io/badge/Open%20EventHub-fc6d26?style=for-the-badge&logo=github&logoColor=white" alt="Open EventHub"></a>
 	<a href="https://github.com/Shubhankart101/IsolatedThreadMemory"><img src="https://img.shields.io/badge/Open%20IsolatedThreadMemory-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Open IsolatedThreadMemory"></a>
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>

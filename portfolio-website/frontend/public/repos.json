@@ -364,6 +364,19 @@
     "isArchived": false
   },
   {
+    "name": "LLM-PoweredFileSystemAssistant",
+    "url": "https://github.com/Shubhankart101/LLM-PoweredFileSystemAssistant",
+    "description": "Autonomous LLM-Powered File System Assistant with function calling, document parsing (PDF, DOCX, TXT), search with context, and structured report generation.",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-11-24T18:40:56Z",
+    "isFork": false,
+    "isArchived": false
+  },
+  {
     "name": "LocalTop-KRetriever",
     "url": "https://github.com/Shubhankart101/LocalTop-KRetriever",
     "description": "No repository description provided.",

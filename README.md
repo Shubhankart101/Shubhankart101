@@ -92,15 +92,15 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 
 <!-- GITHUB_REPO_STATS_START -->
 <details>
-<summary><strong>52 public repositories · 0 stars · 0 forks</strong></summary>
+<summary><strong>53 public repositories · 0 stars · 0 forks</strong></summary>
 
-**40 original · 12 forks · 0 watchers · 0 open issues**
+**41 original · 12 forks · 0 watchers · 0 open issues**
 
 ### Grouped by primary language
 
 | Language | Repositories | Stars | Forks | Watchers |
 |:--|--:|--:|--:|--:|
-| Python | 25 | 0 | 0 | 0 |
+| Python | 26 | 0 | 0 | 0 |
 | Other | 12 | 0 | 0 | 0 |
 | C# | 3 | 0 | 0 | 0 |
 | HCL | 2 | 0 | 0 | 0 |
@@ -145,6 +145,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 | [IsolatedThreadMemory](https://github.com/Shubhankart101/IsolatedThreadMemory) | Python | 0 | 0 | 0 | 0 | 2026-11-10 | Source |
 | [kubernetes](https://github.com/Shubhankart101/kubernetes) | Shell | 0 | 0 | 0 | 0 | 2026-08-21 | Fork |
 | [Kubernetes-DockerForDevOpsRepoForNotes](https://github.com/Shubhankart101/Kubernetes-DockerForDevOpsRepoForNotes) | Go Template | 0 | 0 | 0 | 0 | 2026-11-09 | Source |
+| [LLM-PoweredFileSystemAssistant](https://github.com/Shubhankart101/LLM-PoweredFileSystemAssistant) | Python | 0 | 0 | 0 | 0 | 2026-11-24 | Source |
 | [LocalTop-KRetriever](https://github.com/Shubhankart101/LocalTop-KRetriever) | Python | 0 | 0 | 0 | 0 | 2026-11-16 | Source |
 | [MeetGuard](https://github.com/Shubhankart101/MeetGuard) | Python | 0 | 0 | 0 | 0 | 2026-10-31 | Source |
 | [msfde-uc004-healthcare-lab](https://github.com/Shubhankart101/msfde-uc004-healthcare-lab) | Other | 0 | 0 | 0 | 0 | 2026-10-26 | Fork |
@@ -286,6 +287,7 @@ I am a Technical Lead and DevOps Engineer based in New Delhi, India, with 8+ yea
 	<a href="https://github.com/Shubhankart101/FlightPriceMonitorAlertSystem"><img src="https://img.shields.io/badge/Open%20FlightPriceMonitorAlertSystem-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Open FlightPriceMonitorAlertSystem"></a>
 	<a href="https://github.com/Shubhankart101/India-s-Journey"><img src="https://img.shields.io/badge/Open%20India%27s%20Journey-0f766e?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Open India's Journey"></a>
 	<a href="https://github.com/Shubhankart101/LaunchCrew"><img src="https://img.shields.io/badge/Open%20LaunchCrew-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Open LaunchCrew"></a>
+	<a href="https://github.com/Shubhankart101/LLM-PoweredFileSystemAssistant"><img src="https://img.shields.io/badge/Open%20LLM--PoweredFileSystemAssistant-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open LLM-PoweredFileSystemAssistant"></a>
 	<a href="https://github.com/Shubhankart101/LocalTop-KRetriever"><img src="https://img.shields.io/badge/Open%20LocalTop--KRetriever-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="Open LocalTop-KRetriever"></a>
 	<a href="https://github.com/Shubhankart101/MeetGuard"><img src="https://img.shields.io/badge/Open%20MeetGuard-008C95?style=for-the-badge&logo=github&logoColor=white" alt="Open MeetGuard"></a>
 	<a href="https://github.com/Shubhankart101/NovaNotebook"><img src="https://img.shields.io/badge/Open%20NovaNotebook-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Open NovaNotebook"></a>
